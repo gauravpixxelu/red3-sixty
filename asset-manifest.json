@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/red3-sixty/static/css/main.6b3b28a7.css",
+    "main.js": "/red3-sixty/static/js/main.e57aa650.js",
+    "static/js/787.f4b1b909.chunk.js": "/red3-sixty/static/js/787.f4b1b909.chunk.js",
+    "static/media/home-banner.jpg": "/red3-sixty/static/media/home-banner.0d8deadb2cdb5374491b.jpg",
+    "static/media/revicons.eot": "/red3-sixty/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/red3-sixty/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/red3-sixty/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/check-simple.svg": "/red3-sixty/static/media/check-simple.f6d5f6af124fc29da92e.svg",
+    "static/media/top-shape.svg": "/red3-sixty/static/media/top-shape.fb1d51547034b2cac621.svg",
+    "index.html": "/red3-sixty/index.html",
+    "static/media/bg-curve.svg": "/red3-sixty/static/media/bg-curve.5c5e53a3566c773a5140.svg",
+    "main.6b3b28a7.css.map": "/red3-sixty/static/css/main.6b3b28a7.css.map",
+    "main.e57aa650.js.map": "/red3-sixty/static/js/main.e57aa650.js.map",
+    "787.f4b1b909.chunk.js.map": "/red3-sixty/static/js/787.f4b1b909.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b3b28a7.css",
+    "static/js/main.e57aa650.js"
+  ]
+}
