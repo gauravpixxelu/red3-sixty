@@ -1,5 +1,4 @@
 import React from 'react';
-
 import Logo from '../assets/images/logo.svg';
 import Help_Center from '../assets/icons/help-center.png';
 import Business from '../assets/icons/business.png';

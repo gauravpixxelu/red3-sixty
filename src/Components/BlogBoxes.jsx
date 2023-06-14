@@ -2,6 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 const BlogBoxes = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
