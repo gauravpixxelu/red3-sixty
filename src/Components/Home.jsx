@@ -70,7 +70,7 @@ function Home() {
                     <div className="row">
                         <div className="col-md-6" data-aos="fade-left">
                             <div className="banner-content">
-                                <h4>Rapid Enterprise Development</h4>
+                                <h4>Rapid Enterprise Development Test</h4>
                                 <h1>Consulting Business Growth Platform</h1>
                                 <p>Start or Grow your professional services business</p>
                                 <NavLink to="/benefits" className="custom-btn"><span>Platform Benefits</span></NavLink>
