@@ -17,6 +17,7 @@ import Circle_Shape from '../assets/images/circle-shape.png';
 import Benfits_Img2 from '../assets/images/benfits-img-2.png';
 import Benfits_Img1 from '../assets/images/benfits-img-1.png';
 import Benfits_Img3 from '../assets/images/benfits-img-3.png';
+import Benfits_Img4 from '../assets/images/benfits-img-4.png'; 
 import Module_Overview from '../assets/images/module-overview.jpg';
 import Diagonstic_Overview from '../assets/images/diagonstic-overview.jpg';
 import Business_Performance from '../assets/images/business-performance.jpg';
@@ -136,6 +137,24 @@ function Benefits() {
 
       <section className="platform-block">
         <div className="container">
+        <div className="row platform-4" data-aos="fade-right"> 
+            <div className="col-md-6">
+              <div className="banner-image">
+                <img className="abxo" src={Benfits_Img4} alt="Benfits_Img1" />
+                <img className="gdxo" src={Circle_Shape} alt="Circle_Shape" />
+              </div>
+            </div>
+            <div className="col-md-6" data-aos="fade-left">
+              <div className="platform-txt">
+                <h2 className="hdng">Pre-Qualified Leads and customer creation!</h2>
+                <p className="hdng-16">Discover more leads, get more customers! Close more deals! All Leads are pre-qualified! No need for cold calls! Use Pre-populated emails to ensure high conversions. Generate high ROI linked to your business plan.</p>
+                <NavLink to="https://youtu.be/qKywLbJRfx8" className="custom-btn" target="_blank"><span>Watch Demo</span></NavLink>
+                <NavLink to="/pricing" className="custom-btn-2"><span>Prices</span></NavLink>
+              </div>
+            </div>
+            <img className="vector dg" src={Left_Arrow} alt="Left_Arrow" data-aos="fade-up" />
+          </div>
+
           <div className="row platform-1">
             <div className="col-md-6" data-aos="fade-right">
               <div className="platform-txt">
