@@ -50,8 +50,8 @@ function Footer() {
               </div>
               <div className="parallel-websites">
                 <ul>
-                  <li><img src={Help_Center} alt="Help_Center" /><NavLink to="http://help-center.pixxeluclients.com" target="_blank">Help Center</NavLink></li>
-                  <li><img src={Business} alt="Business" /><NavLink to="http://business-owner.pixxeluclients.com" target="_blank">Business Owner</NavLink></li>
+                  <li><img src={Help_Center} alt="Help_Center" /><NavLink to="https://help.red3-sixty.com" target="_blank">Help Center</NavLink></li>
+                  <li><img src={Business} alt="Business" /><NavLink to="https://business.red3-sixty.com" target="_blank">Business Owner</NavLink></li>
                 </ul>
               </div>
             </div>

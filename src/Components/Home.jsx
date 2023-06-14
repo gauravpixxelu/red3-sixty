@@ -31,7 +31,6 @@ import Counslt_Img from '../assets/images/counslt-img.png';
 import Dreamstime from '../assets/video/dreamstime.mp4';
 import BookForm from './BookForm';
 import Carousel from 'react-multi-carousel';
-import ExitPopup from './ExitPopup';
 import 'react-multi-carousel/lib/styles.css';
 const responsive = {
     superLargeDesktop: {
