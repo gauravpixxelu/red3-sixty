@@ -12,4 +12,4 @@ jobs:
         env:
           ENVIRONMENT: red3sixty
         run: |
-          echo "Secret Value: ${{ secrets.${{ env.ENVIRONMENT }}_SSH_PRIVATE_KEY }}"
+          echo "Secret Value: ${{ secrets[env.ENVIRONMENT + '_SSH_PRIVATE_KEY'] }}"
