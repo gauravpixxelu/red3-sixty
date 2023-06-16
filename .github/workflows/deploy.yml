@@ -1,22 +1,15 @@
-name: Deploy to Server
+name: Check Secret in Environment
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
-  deploy:
+  check_secret:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Display SSH Key Information
+      - name: Check Secret
+        env:
+          ENVIRONMENT: red3sixty
         run: |
-          echo "SSH Key: ${{ secrets.SSH_PRIVATE_KEY }}"
-          echo "SSH Key Length: ${#SSH_PRIVATE_KEY}"
-          echo "SSH Key MD5: $(echo -n $SSH_PRIVATE_KEY | md5sum)"
-      
-      # Rest of the deployment steps...
+          echo "Secret Value: ${{ secrets.${{ env.ENVIRONMENT }}_SSH_PRIVATE_KEY }}"
