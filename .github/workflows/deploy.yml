@@ -10,8 +10,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Test
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Build and Deploy
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          echo "Secret Value: ${{ secrets.SSH_PRIVATE_KEY }}"
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          npm i
+          npm run build
+          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa" ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
