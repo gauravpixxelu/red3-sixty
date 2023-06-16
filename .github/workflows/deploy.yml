@@ -24,6 +24,6 @@ jobs:
         run: |
           echo "$SSH_PRIVATE_KEY" > key.pem
           chmod 600 key.pem
-          npm ci
+          npm i --force
           npm run build
           rsync -avz --delete -e "ssh -i key.pem" ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
