@@ -8,8 +8,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set Secret Name
+        id: secret_name
+        run: echo "::set-output name=SECRET_NAME::${{ env.ENVIRONMENT }}_SSH_PRIVATE_KEY"
+
       - name: Check Secret
         env:
-          ENVIRONMENT: red3sixty
+          SECRET_NAME: ${{ steps.secret_name.outputs.SECRET_NAME }}
         run: |
-          echo "Secret Value: ${{ secrets[env.ENVIRONMENT + '_SSH_PRIVATE_KEY'] }}"
+          echo "Secret Value: ${{ secrets[env.SECRET_NAME] }}"
