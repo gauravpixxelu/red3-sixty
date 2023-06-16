@@ -84,7 +84,7 @@ const BusinessPlanForm = () => {
 
                 <div className="col-md-12">
                     <div className="form-feild">
-                        <input type="text" value={contact_number} onChange={e => setPhone(e.target.value)} placeholder="Phone" required />
+                        <input type="text" value={contact_number} onChange={e => setPhone(e.target.value)} placeholder="Phone" />
                     </div>
                 </div>
 

@@ -74,19 +74,19 @@ const ContactForm = () => {
 
                 <div className="col-md-6">
                     <div className="form-feild">
-                        <input type="text" value={subject} onChange={e => setSubject(e.target.value)} placeholder="Subject" required />
+                        <input type="text" value={subject} onChange={e => setSubject(e.target.value)} placeholder="Subject" />
                     </div>
                 </div>
 
                 <div className="col-md-6">
                     <div className="form-feild">
-                        <input type="text" value={phone} onChange={e => setPhone(e.target.value)} placeholder="Phone" required />
+                        <input type="text" value={phone} onChange={e => setPhone(e.target.value)} placeholder="Phone" />
                     </div>
                 </div>
 
                 <div className="col-md-12">
                     <div className="form-feild">
-                        <input type="text" value={address} onChange={e => setAddress(e.target.value)} placeholder="Address" required />
+                        <input type="text" value={address} onChange={e => setAddress(e.target.value)} placeholder="Address" />
                     </div>
                 </div>
 

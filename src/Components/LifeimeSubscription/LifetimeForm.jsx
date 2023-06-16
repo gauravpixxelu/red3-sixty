@@ -100,7 +100,6 @@ const LifetimeForm = () => {
               value={phone}
               onChange={e => setPhone(e.target.value)}
               placeholder="Phone"
-              required
             />
           </div>
         </div>

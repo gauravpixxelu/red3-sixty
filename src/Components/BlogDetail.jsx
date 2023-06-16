@@ -14,15 +14,18 @@ const BlogDetail = () => {
   const url = window.location.href;
 
   const shareOnFacebook = () => {
-    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`);
+    const shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}&title=${encodeURIComponent(blogs[0].title)}&picture=${encodeURIComponent(blogs[0].image)}`;
+    window.open(shareUrl);
   };
 
   const shareOnTwitter = () => {
-    window.open(`https://twitter.com/share?url=${url}`);
+    const shareUrl = `https://twitter.com/share?url=${url}&text=${encodeURIComponent(blogs[0].title)}&hashtags=blog`;
+    window.open(shareUrl);
   };
 
   const shareOnLinkedIn = () => {
-    window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`);
+    const shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}&title=${encodeURIComponent(blogs[0].title)}&summary=${encodeURIComponent(blogs[0].description)}&source=YourWebsiteName`;
+    window.open(shareUrl);
   };
 
   const { slug } = useParams();

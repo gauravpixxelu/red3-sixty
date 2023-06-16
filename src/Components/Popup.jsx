@@ -27,7 +27,7 @@ const Popup = () => {
           <LazyLoadComponent>
             <LazyYouTube
               videoId="SHwP2HB3JPM"
-              opts={{ width: '100%', height: '700' }}
+              opts={{ width: '100%', height: '425' }}
             />
           </LazyLoadComponent>
         </Suspense>

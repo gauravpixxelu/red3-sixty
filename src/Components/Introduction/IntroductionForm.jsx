@@ -100,7 +100,6 @@ const IntroductionForm = () => {
                             value={contact_number}
                             onChange={e => setPhone(e.target.value)}
                             placeholder="Phone"
-                            required
                         />
                     </div>
                 </div>
