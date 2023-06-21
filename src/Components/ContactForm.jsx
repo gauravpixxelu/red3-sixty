@@ -8,16 +8,16 @@ const ContactForm = () => {
     const [address, setAddress] = useState('');
     const [message, setMessage] = useState('');
     const [thankmessage, setThank] = useState('');
-    const [page_type, setPageType] = useState('');
+    // const [page_type, setPageType] = useState('');
 
     useEffect(() => {
-        setPageType(getPageType());
+        // setPageType(getPageType());
     }, []);
 
-    const getPageType = () => {
-        // Function to determine the page type based on the URL or any other logic
-        // Return the determined page type
-    };
+    // const getPageType = () => {
+    //     // Function to determine the page type based on the URL or any other logic
+    //     // Return the determined page type
+    // };
 
 
     const handleSubmit = async e => {

@@ -159,13 +159,13 @@ function Contact() {
 
                         <div className="col-md-6"  data-aos="fade-right">
                             <div className="map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12456.612288185082!2d-9.364376!3d38.691328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec8b1fdf106b5%3A0xde4917e8b3937ad7!2sPra%C3%A7a%205%20de%20Outubro%2C%202775-275%20Parede%2C%20Portugal!5e0!3m2!1sen!2sus!4v1676539415039!5m2!1sen!2sus" width="100%" height="350"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12456.612288185082!2d-9.364376!3d38.691328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec8b1fdf106b5%3A0xde4917e8b3937ad7!2sPra%C3%A7a%205%20de%20Outubro%2C%202775-275%20Parede%2C%20Portugal!5e0!3m2!1sen!2sus!4v1676539415039!5m2!1sen!2sus" width="100%" height="350" title="one"></iframe>
                             </div>
                         </div>
 
                         <div className="col-md-6"  data-aos="fade-left">
                             <div className="map">
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14334.610594845668!2d27.914135!3d-26.077606!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9575a6071a6a59%3A0x57ab8ac799410836!2sWild%20Fig%20Business%20Park!5e0!3m2!1sen!2sus!4v1676539430397!5m2!1sen!2sus" width="100%" height="350"></iframe>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14334.610594845668!2d27.914135!3d-26.077606!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9575a6071a6a59%3A0x57ab8ac799410836!2sWild%20Fig%20Business%20Park!5e0!3m2!1sen!2sus!4v1676539430397!5m2!1sen!2sus" width="100%" height="350" title="two"></iframe>
                             </div>
                         </div>
                     </div>

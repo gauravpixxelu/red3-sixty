@@ -1,6 +1,5 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { NavLink } from "react-router-dom";
 import Right_Arrow from '../assets/images/right-arrow.png';
 import Left_Arrow from '../assets/images/left-arrow.png';
 import Circle_Shape from '../assets/images/circle-shape.png';

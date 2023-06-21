@@ -6,30 +6,30 @@ const LifetimeForm = () => {
   const [phone, setPhone] = useState('');
   const [message, setMessage] = useState('');
   const [thankMessage, setThankMessage] = useState('');
-  const [form_type, setFormType] = useState('');
-  const [site_type, setSiteType] = useState('');
-  const [page_type, setPageType] = useState('');
+  // const [form_type, setFormType] = useState('');
+  // const [site_type, setSiteType] = useState('');
+  // const [page_type, setPageType] = useState('');
 
   useEffect(() => {
-      setFormType(getFormType()); // Function to get the page type
-      setSiteType(getSiteType()); // Function to get the site type
-      setPageType(getPageType());
+      // setFormType(getFormType()); // Function to get the page type
+      // setSiteType(getSiteType()); // Function to get the site type
+      // setPageType(getPageType());
   }, []);
 
-  const getFormType = () => {
-      // Function to determine the page type based on the URL or any other logic
-      // Return the determined page type
-  };
+//   const getFormType = () => {
+//       // Function to determine the page type based on the URL or any other logic
+//       // Return the determined page type
+//   };
 
-  const getSiteType = () => {
-      // Function to determine the site type based on the URL or any other logic
-      // Return the determined site type
-  };
+//   const getSiteType = () => {
+//       // Function to determine the site type based on the URL or any other logic
+//       // Return the determined site type
+//   };
 
-  const getPageType = () => {
-    // Function to determine the page type based on the URL or any other logic
-    // Return the determined page type
-};
+//   const getPageType = () => {
+//     // Function to determine the page type based on the URL or any other logic
+//     // Return the determined page type
+// };
 
   const handleSubmit = async e => {
     e.preventDefault();

@@ -41,10 +41,10 @@ const BlogDetail = () => {
     fetchBlog();
   }, [slug]);
 
-  const shareBlog = () => {
-    const url = window.location.href;
-    navigator.clipboard.writeText(url);
-  };
+  // const shareBlog = () => {
+  //   const url = window.location.href;
+  //   navigator.clipboard.writeText(url);
+  // };
 
   return (
     <section className="blog-detail">      

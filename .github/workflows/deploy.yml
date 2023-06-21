@@ -1,0 +1,22 @@
+name : Red3Sixty CI
+on:
+  push:
+    branches : 
+      - "main"
+    
+jobs:
+  build:
+    runs-on: self-hosted
+
+    strategy:
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - uses: actions/checkout@v1
+      - run : npm install
+      - run : npm run build
+      - run : sudo rm -r /var/www/html/red3-sixty/build
+      - run : sudo mv /home/aakash/actions-runner/_work/red3-sixty/red3-sixty/build /var/www/html/red3-sixty/
+      - run : sudo cp /var/www/.htaccess /var/www/html/red3-sixty/build
+
