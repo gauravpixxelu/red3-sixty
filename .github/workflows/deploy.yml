@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Checkout code
@@ -18,18 +18,9 @@ jobs:
         with:
           node-version: 16
 
-      - name: Set up SSH key
-        run: |
-          echo "${{ secrets.DEPLOY_KEY }}" > key.pem
-          chmod 600 key.pem
-          mkdir -p ~/.ssh
-          mv key.pem ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -H 104.197.158.151 >> ~/.ssh/known_hosts
-
       - name: Build and Deploy
         run: |
           npm ci
           npm run build
-          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa" --exclude='.htaccess' ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
-          rsync -avz -e "ssh -i ~/.ssh/id_rsa" ./build/.htaccess aakash@104.197.158.151:/var/www/html/red3-sixty/
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" --exclude='.htaccess' ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
+          rsync -avz -e "ssh -o StrictHostKeyChecking=no" ./build/.htaccess aakash@104.197.158.151:/var/www/html/red3-sixty/
