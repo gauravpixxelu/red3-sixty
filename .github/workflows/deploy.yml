@@ -18,3 +18,5 @@ jobs:
       - run : npm run build
       - run : sudo find /var/www/html/red3-sixty/build -type f ! -name '.htaccess' -exec rm -f {} + && sudo rm -r /var/www/html/red3-sixty/build
       - run : sudo mv /home/aakash/actions-runner/_work/red3-sixty/red3-sixty/build /var/www/html/red3-sixty/
+      - run : sudo cp /var/www/.htaccess /var/www/html/red3-sixty/build
+
