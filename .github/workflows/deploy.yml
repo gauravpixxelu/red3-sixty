@@ -18,12 +18,14 @@ jobs:
         with:
           node-version: 16
 
-      - name: Set up SSH
+      - name: Set up SSH key
         run: |
+          echo "${{ secrets.DEPLOY_KEY }}" > key.pem
+          chmod 600 key.pem
           mkdir -p ~/.ssh
-          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
+          mv key.pem ~/.ssh/id_rsa
           chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan -t rsa 104.197.158.151 >> ~/.ssh/known_hosts
+          ssh-keyscan -H 104.197.158.151 >> ~/.ssh/known_hosts
 
       - name: Build and Deploy
         run: |
