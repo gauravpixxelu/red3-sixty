@@ -28,7 +28,7 @@ function About() {
                         </div>
                         <div className="col-md-6" data-aos="fade-right">
                             <div className="about-sec-content ">
-                                <h4 className="small-hdn">About Us</h4>
+                                <h4 className="small-hdn">About Us Test</h4>
                                 <h1>About Red3Sixty</h1>
                                 <p className="hdng-16">RED3SIXTY and its Strategic Partner, Business Doctors, have over the last 15 years focused on developing solutions and analysis capabilities delivered through the Business Doctors Franchise network of experienced professionals.</p>
                                 <p className="hdng-16">RED3SIXTY develops business growth methodologies and analytics through benchmarking and automation solutions focused on helping consultants and their customers (SME’s) succeed. RED3SIXTY is well established and operates internationally and locally with a national network able to support business development initiatives down to provincial and local area levels.</p>
