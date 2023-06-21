@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - run : sudo npm install
-      - run : sudo npm run build
+      - run : npm install
+      - run : npm run build
       - run : sudo find /var/www/html/red3-sixty/build ! -name '.htaccess' -type f -exec rm -f {} + sudo rm -r /var/www/html/red3-sixty/build
       - run : sudo mv /home/aakash/actions-runner/_work/red3-sixty/red3-sixty/build /var/www/suaveCreators/
