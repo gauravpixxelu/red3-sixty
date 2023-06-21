@@ -22,9 +22,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
         run: |
-          echo "$SSH_PRIVATE_KEY" > key.pem
-          chmod 600 key.pem
           npm ci
           npm run build
-          rsync -avz --delete -e "ssh -i key.pem" --exclude='.htaccess' ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
-          rsync -avz -e "ssh -i key.pem" ./build/.htaccess aakash@104.197.158.151:/var/www/html/red3-sixty/
+          rsync -avz --delete -e "ssh -i $SSH_PRIVATE_KEY" --exclude='.htaccess' ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
+          rsync -avz -e "ssh -i $SSH_PRIVATE_KEY" ./build/.htaccess aakash@104.197.158.151:/var/www/html/red3-sixty/
