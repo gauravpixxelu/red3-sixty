@@ -18,13 +18,16 @@ jobs:
         with:
           node-version: 16
 
-      - name: Build and Deploy
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Set up SSH
         run: |
-          sudo echo "$SSH_PRIVATE_KEY" > key.pem
-          sudo chmod 600 key.pem
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -t rsa 104.197.158.151 >> ~/.ssh/known_hosts
+
+      - name: Build and Deploy
+        run: |
           npm ci
           npm run build
-          sudo rsync -avz --delete -e "ssh -i key.pem" --exclude='.htaccess' ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
-          sudo rsync -avz -e "ssh -i key.pem" ./build/.htaccess aakash@104.197.158.151:/var/www/html/red3-sixty/
+          rsync -avz --delete -e "ssh -i ~/.ssh/id_rsa" --exclude='.htaccess' ./build/ aakash@104.197.158.151:/var/www/html/red3-sixty/
+          rsync -avz -e "ssh -i ~/.ssh/id_rsa" ./build/.htaccess aakash@104.197.158.151:/var/www/html/red3-sixty/
