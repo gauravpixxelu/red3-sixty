@@ -719,4 +719,32 @@ p.error-msg {
 }
 
 
+/*-- Accountant Css --*/ 
+
+
+.accontant-data {
+    padding: 30px 0;
+}
+.acc-graph {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-column-gap: 0;
+    margin-top: 20px;
+    grid-row-gap: 10px;
+}
+.acc-box {
+    padding: 20px;
+}
+.acc-box h4 {
+    margin: 0;
+    font-size: 18px;
+}
+.accontant-block {
+    padding: 30px 0;
+    background: #F8F9FC;
+}
+.acc-graph img {
+    display: none;
+}
+
 }

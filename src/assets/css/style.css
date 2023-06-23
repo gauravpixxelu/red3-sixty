@@ -2171,5 +2171,19 @@ form.from-bottom .post-comment  .form-button {
     text-align: center;
     color: #ffffff;
 }
+.potential-data {
+    padding: 50px 0;
+}
+.potential-data.potential-bg {
+    background: #F8F9FC;
+}
+.potential-data a.custom-btn {
+    margin-top: 10px;
+}
+.potential-data .site-ul li {
+    font-size: 16px;
+    margin: 0 0 5px;
+    color: #6a6a6a;
+}
 
 /*-- Accountant Css --*/ 
