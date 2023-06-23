@@ -69,6 +69,12 @@ const Header = () => {
                 <NavLink className="nav-link dropdown-toggle active" to="/" aria-current="page"> Home </NavLink>
                 <ul className="dropdown-menu">
                   <li><NavLink className="dropdown-item" to="/about">About</NavLink></li>
+                  <li className="nav-item dropend">
+                    <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">I am..</NavLink>
+                    <ul className="dropdown-menu">
+                      <li><NavLink className="dropdown-item" to="/an-accountant">An Accountant</NavLink></li>
+                    </ul>
+                  </li>
                 </ul>
               </li>
               <li className="nav-item">

@@ -277,6 +277,7 @@ p.hdng-18 {
     margin: 0;
     box-shadow: 0px 0px 5px 0px #0000003b;
     left: 20px;
+    min-width: 180px;
 }
 .site-header .navbar-collapse .navbar-nav li.nav-item ul.dropdown-menu li a {
     color: #000;
@@ -289,7 +290,7 @@ p.hdng-18 {
     padding: 10px 15px;
 }
 .site-header .navbar-collapse .navbar-nav li.nav-item.dropend ul.dropdown-menu {
-    left: 175px;
+    left: 180px;
     top: 0;
 }
 .site-header .navbar-collapse .navbar-nav li.nav-item.dropend {
@@ -354,6 +355,7 @@ p.hdng-18 {
     font-size: 16px;
     margin-bottom: 0;
     color: rgb(255 255 255 / 70%);
+    margin-top: 15px;
 }
 .site-footer .footer-content a.footer-logo {
     display: block;
@@ -2107,3 +2109,67 @@ form.from-bottom .post-comment  .form-button {
 }
 
 /*-- Lifetime Popup Css --*/ 
+
+
+
+
+
+
+
+/*-- Accountant Css --*/ 
+
+.acc-hndg {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+.accontant-block {
+    padding: 60px 0;
+    background: #F8F9FC;
+}
+.acc-graph {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 100px;
+    margin-top: 40px;
+}
+.acc-box {
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 10px 23px 0 rgb(0 0 0/5%);
+    padding: 45px;
+    text-align: center;
+    position: relative;
+    background: #fff;
+}
+.acc-box h4 {
+    margin: 0;
+}
+.acc-graph img {
+    position: absolute;
+    width: 90px;
+    right: -90px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.accontant-data {
+    padding: 60px 0;
+}
+.accont-blocks {
+    margin-bottom: 30px;
+}
+.accont-blocks h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+.gd-hdng {
+    background: #ed1b24;
+    padding: 20px 0;
+}
+.gd-hdng h2.sec-hdng {
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*-- Accountant Css --*/ 

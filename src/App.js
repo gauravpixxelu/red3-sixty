@@ -24,6 +24,8 @@ import AccessToMarket from './Components/AccessToMarket';
 import Download from './Components/Download';
 import Blogs from './Components/Blogs';
 import BlogDetail from './Components/BlogDetail';
+import AnAccountant from './Components/AnAccountant';
+import UnlockYourPotential from './Components/UnlockYourPotential';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -72,6 +74,8 @@ function App() {
           <Route path="/access-to-market" element={<AccessToMarket />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/blogs/:slug" element={<BlogDetail />} /> 
+          <Route path="/an-accountant" element={<AnAccountant />} />
+          <Route path="/potential" element={<UnlockYourPotential />} />
         </Routes>
         <Footer />
         <ExitPopup />     
