@@ -86,7 +86,7 @@ function UnlockYourPotential() {
             <section className="potential-data potential-bg">
                 <div className="container" data-aos="fade-up">
                     <h2 className="hdng">Our Vision</h2>
-                    <p className="hdng-16">At RED3SIXTY, our vision is to revolutionize the consulting industry by empowering consultants, accountants, and coaches with cutting-edge technology and comprehensive solutions. We strive to be the premier platform that drives business growth, transforms client outcomes, and inspires excellence in the consulting profession. Through our innovative tools, unlimited capabilities, and unwavering commitment to value, we envision a future where every consultant has the power to unlock their full potential, deliver exceptional results, and make a lasting impact on businesses worldwide..</p>
+                    <p className="hdng-16">At RED3SIXTY, our vision is to revolutionize the consulting industry by empowering consultants, accountants, and coaches with cutting-edge technology and comprehensive solutions. We strive to be the premier platform that drives business growth, transforms client outcomes, and inspires excellence in the consulting profession. Through our innovative tools, unlimited capabilities, and unwavering commitment to value, we envision a future where every consultant has the power to unlock their full potential, deliver exceptional results, and make a lasting impact on businesses worldwide.</p>
                     <NavLink to="/contact" className="custom-btn"><span>Book an online demo Now!</span></NavLink>
                 </div>
             </section>

@@ -2,6 +2,8 @@ import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import RightArrow from '../assets/icons/arrow-right.svg';
+import Accounting from '../assets/video/accounting-solution.mp4';
+import TabFrame from '../assets/images/tab-frame.svg';
 
 function AnAccountant() {
     useEffect(() => {
@@ -14,6 +16,15 @@ function AnAccountant() {
 
             <section className="accontant-block">
                 <div className="container">
+
+                <div className="video-potential">
+                <img src={TabFrame} alt="Benefits_Img" />
+                <video autoplay="autoplay" className="myVideo" muted="muted">
+                                    <source src={Accounting} type="video/mp4" />
+                                </video>
+                                </div>
+
+
                     <div className="acc-hndg" data-aos="fade-up">
                         <h2 className="sec-hdng">Unlock Success with RED3SIXTY: Empowering Accountants for Remarkable Results!</h2>
                         <p className="hdng-16">Are you ready to take your accounting practice to the next level? Say goodbye to average results and embrace the power of RED3SIXTY – the game-changing platform that delivers extraordinary outcomes for accountants like you!</p>

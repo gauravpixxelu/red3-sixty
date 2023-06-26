@@ -26,6 +26,11 @@ import Blogs from './Components/Blogs';
 import BlogDetail from './Components/BlogDetail';
 import AnAccountant from './Components/AnAccountant';
 import UnlockYourPotential from './Components/UnlockYourPotential';
+import AConsultant from './Components/AConsultant';
+import UnlockYourConsultingSuccess from './Components/UnlockYourConsultingSuccess';
+import ACoach from './Components/ACoach';
+import UnlockYourCoachingSuccess from './Components/UnlockYourCoachingSuccess';
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -76,6 +81,10 @@ function App() {
           <Route path="/blogs/:slug" element={<BlogDetail />} /> 
           <Route path="/an-accountant" element={<AnAccountant />} />
           <Route path="/potential" element={<UnlockYourPotential />} />
+          <Route path="/a-consultant" element={<AConsultant />} />
+          <Route path="/consulting-success" element={<UnlockYourConsultingSuccess />} />          
+          <Route path="/a-coach" element={<ACoach />} />
+          <Route path="/coaching-success" element={<UnlockYourCoachingSuccess />} />          
         </Routes>
         <Footer />
         <ExitPopup />     
