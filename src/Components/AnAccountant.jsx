@@ -19,7 +19,7 @@ function AnAccountant() {
 
                 <div className="video-potential">
                 <img src={TabFrame} alt="Benefits_Img" />
-                <video autoplay="autoplay" className="myVideo" muted="muted">
+                <video autoplay="autoplay" className="myVideo" muted="muted" controls>
                                     <source src={Accounting} type="video/mp4" />
                                 </video>
                                 </div>
