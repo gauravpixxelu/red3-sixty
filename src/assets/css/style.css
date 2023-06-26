@@ -2194,7 +2194,7 @@ form.from-bottom .post-comment  .form-button {
     width: 100%;
 }
 .accontant-block video.myVideo {
-    width: 93%;
+    width: 92%;
     position: absolute;
     top: -40px;
     left: 0;
@@ -2209,9 +2209,6 @@ form.from-bottom .post-comment  .form-button {
     max-width: 75%;
     margin: 0 auto 40px;
 }
-.video-potential img {
-    position: relative;
-    z-index: 99;
-}
+
 
 /*-- Accountant Css --*/ 
