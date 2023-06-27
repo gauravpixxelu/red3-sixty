@@ -2,8 +2,13 @@ import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import RightArrow from '../assets/icons/arrow-right.svg';
-import Accounting from '../assets/video/accounting-solution.mp4';
 import TabFrame from '../assets/images/tab-frame.svg';
+import { lazy, Suspense } from 'react';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
+
+
+const LazyYouTube = lazy(() => import('react-youtube'));
+
 
 function AnAccountant() {
     useEffect(() => {
@@ -19,9 +24,23 @@ function AnAccountant() {
 
                 <div className="video-potential">
                 <img src={TabFrame} alt="Benefits_Img" />
-                <video autoplay="autoplay" className="myVideo" muted="muted" controls>
-                                    <source src={Accounting} type="video/mp4" />
-                                </video>
+                <Suspense fallback={<div>Loading...</div>}>
+                  <LazyLoadComponent>
+                    <LazyYouTube
+                      className="video-gd"
+                      videoId="4JaObzQQ2nw"
+                      muted
+                      opts={{
+                        width: '100%',
+                        height: '515',
+                        playerVars: {
+                          autoplay: 0,
+                          mute: 1,
+                        },
+                      }}
+                    />
+                  </LazyLoadComponent>
+                </Suspense>
                                 </div>
 
 

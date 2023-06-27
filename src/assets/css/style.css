@@ -2211,4 +2211,14 @@ form.from-bottom .post-comment  .form-button {
 }
 
 
+.video-gd {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 30px auto 0;
+    width: 92.5%;
+}
+
 /*-- Accountant Css --*/ 
