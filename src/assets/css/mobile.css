@@ -746,13 +746,15 @@ p.error-msg {
 .acc-graph img {
     display: none;
 }
-.accontant-block video.myVideo {
-    width: 92%;
-    top: 0;
-    min-height: 0 !important;
-}
 .video-potential {
     max-width: 100%;
 }
+.video-gd iframe {
+    height: 200px;
+}
+.video-gd {
+    margin: 10px auto 0;
+}
+
 
 }
