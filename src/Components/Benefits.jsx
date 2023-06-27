@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import BookForm from './BookForm';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -17,7 +18,7 @@ import Circle_Shape from '../assets/images/circle-shape.png';
 import Benfits_Img2 from '../assets/images/benfits-img-2.png';
 import Benfits_Img1 from '../assets/images/benfits-img-1.png';
 import Benfits_Img3 from '../assets/images/benfits-img-3.png';
-import Benfits_Img4 from '../assets/images/benfits-img-4.png'; 
+import Benfits_Img4 from '../assets/images/benfits-img-4.png';
 import Module_Overview from '../assets/images/module-overview.jpg';
 import Diagonstic_Overview from '../assets/images/diagonstic-overview.jpg';
 import Business_Performance from '../assets/images/business-performance.jpg';
@@ -65,6 +66,11 @@ function Benefits() {
   return (
     <div className="benefits-page">
 
+      <Helmet>
+        <title>Business Consulting Solutions | Diagnostic Platform Certification | RED3SIXTY</title>
+        <meta name="description" content="Looking for an opportunity to start and grow your own consulting practice? RED3SIXTY is an international business support platform dedicated to helping small and medium sized consulting and coaching businesses." />
+      </Helmet>
+
 
       {/* Benefits Section Starts */}
 
@@ -79,9 +85,9 @@ function Benefits() {
                 <p className="hdng-16">Average earnings between R348k and R1,2m per year.</p>
                 <p className="hdng-16">Full training is provided to successful applicants and all RED3SIXTY consultants are fully supported.</p>
                 <div className="buttons-benfi">
-                <NavLink to="https://youtu.be/qKywLbJRfx8" className="custom-btn" target="_blank"><span>Watch <br/>Demo</span></NavLink>
-                <BusinessPlanPopup />
-                <IntroductionPopup />
+                  <NavLink to="https://youtu.be/qKywLbJRfx8" className="custom-btn" target="_blank"><span>Watch <br />Demo</span></NavLink>
+                  <BusinessPlanPopup />
+                  <IntroductionPopup />
                 </div>
               </div>
             </div>
@@ -137,7 +143,7 @@ function Benefits() {
 
       <section className="platform-block">
         <div className="container">
-        <div className="row platform-4" data-aos="fade-right"> 
+          <div className="row platform-4" data-aos="fade-right">
             <div className="col-md-6">
               <div className="banner-image">
                 <img className="abxo" src={Benfits_Img4} alt="Benfits_Img1" />

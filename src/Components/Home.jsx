@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import Popup from './Popup';
 import Banner_Img_Bg from '../assets/images/banner-img-bg.png';
 import About_Sec from '../assets/images/about-sec.png';
@@ -56,15 +57,20 @@ const responsive = {
 function Home() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
     return (
-        
+
 
         <div className="home-page">
 
+            <Helmet>
+                <title>Business Consulting Services | Business Diagnostic Platform | RED3SIXTY</title>
+                <meta name="description" content="RED3SIXTY is the largest business consulting platform. Our experts help you address your business challenges, optimize processes, and implement growth strategies." />
+            </Helmet>
+
             {/* Banner Section Starts */}
-            
+
             <section className="banner">
                 <div className="container">
                     <div className="row">

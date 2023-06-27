@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import BookForm from './BookForm';
 import About_Img from '../assets/images/about-img.jpg';
 import About1 from '../assets/images/about-1.jpg';
@@ -9,12 +10,19 @@ import About3 from '../assets/images/about-3.jpg';
 import About4 from '../assets/images/about-4.jpg';
 import About5 from '../assets/images/about-5.jpg';
 
+
 function About() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <div className="about-page">
+
+            <Helmet>
+                <title>Business Development Consulting | Business Growth Consultant | RED3SIXTY</title>
+                <meta name="description" content="RED3SIXTY has over the last 14 years focused on developing supplier solutions and analysis capabilities delivered through our network of experienced professionals." />
+            </Helmet>
+
 
             {/* About Banner Starts */}
 
@@ -114,31 +122,31 @@ function About() {
                         </div>
                         <div className="col-md-6" data-aos="fade-right">
                             <div className="about-box">
-                            <img className="abxo" src={About2} alt="About2" />
+                                <img className="abxo" src={About2} alt="About2" />
                                 <p className="hdng-16">The National Small Business Chamber (NSBC), in association with World Famous Events, has announced South Africa’s 2019 small business and entrepreneur champions. A big thank you to this year’s event partners Google, Absa, Discovery and Oracle.</p>
                             </div>
                         </div>
                         <div className="col-md-4" data-aos="fade-left">
                             <div className="about-box">
-                            <img className="abxo" src={About3} alt="About3" />
+                                <img className="abxo" src={About3} alt="About3" />
                                 <p className="hdng-16">Awarded Best Business Consulting Management Platform – In recognition for the business development methodology and systems. Management Consulting platform assisting consultants to scale their businesses. <NavLink className="read-about" to="https://www.mea-markets.com/issues/business-awards-2022/54/" target="_blank">Read More</NavLink></p>
                                 <NavLink to="https://www.mea-markets.com/about-us/" className="custom-btn" target="_blank"><span>About MEA Markets</span></NavLink>
                             </div>
                         </div>
                         <div className="col-md-4" data-aos="fade-up">
                             <div className="about-box">
-                            <img className="abxo" src={About5} alt="About5" />
+                                <img className="abxo" src={About5} alt="About5" />
                                 <p className="hdng-16">Best Business Consulting Management Platform Internationally for 2022 – Africa & Transformation Leader. In recognition for the business development methodology and systems internationally… <NavLink className="read-about" to="https://www.mea-markets.com/issues/business-awards-2022/54/" target="_blank">Read More</NavLink></p>
                                 <NavLink to="https://www.mea-markets.com/about-us/" className="custom-btn" target="_blank"><span>About MEA Markets</span></NavLink>
                             </div>
                         </div>
                         <div className="col-md-4" data-aos="fade-right">
                             <div className="about-box">
-                            <img className="abxo" src={About4} alt="About4" />
+                                <img className="abxo" src={About4} alt="About4" />
                                 <p className="hdng-16">Awarded Best Consultants and Coaches Support Platform – Based on innovative technology enabling AI supported business performance analysis. The nomination is in recognition of the revenue generation support that the platform provides to consultants and coaches. <NavLink className="read-about" to="https://www.innovationinbusiness.com/issues/technology-innovator-awards-2022/24/" target="_blank">Read More</NavLink></p>
                                 <NavLink to="https://www.innovationinbusiness.com/innovation-in-business-announces-the-winners-of-the-technology-innovator-awards-2022/" className="custom-btn" target="_blank"><span>About Innovation in Business</span></NavLink>
                             </div>
-                        </div>                        
+                        </div>
                     </div>
                 </div>
             </section>

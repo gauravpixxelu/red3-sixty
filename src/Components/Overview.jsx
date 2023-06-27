@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Overview_img1 from '../assets/images/overview-img-1.jpg';
@@ -46,6 +47,11 @@ function Overview() {
       
     return (
         <div className="overview-page">
+
+<Helmet>
+                <title>Business Diagnostic Report | Business Diagnostic Platform | RED3SIXTY</title>
+                <meta name="description" content="Get an expert assessment of your organization's biggest obstacles and opportunities. Your client is given a login to develop himself and track the objectives of the program." />
+            </Helmet>
 
             {/* Overview Section Starts */}
 
