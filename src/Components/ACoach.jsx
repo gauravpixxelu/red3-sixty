@@ -2,8 +2,14 @@ import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
 import RightArrow from '../assets/icons/arrow-right.svg';
-import Coaching from '../assets/video/coaching-solution.mp4';
+import { lazy, Suspense } from 'react';
+import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import TabFrame from '../assets/images/tab-frame.svg';
+
+
+
+const LazyYouTube = lazy(() => import('react-youtube'));
+
 
 function ACoach() {
     useEffect(() => {
@@ -18,9 +24,24 @@ function ACoach() {
                 <div className="container">
                     <div className="video-potential">
                         <img src={TabFrame} alt="Benefits_Img" />
-                        <video autoplay="autoplay" className="myVideo" muted="muted" controls>
-                            <source src={Coaching} type="video/mp4" />
-                        </video>
+                        <Suspense fallback={<div>Loading...</div>}>
+                  <LazyLoadComponent>
+                    <LazyYouTube
+                      className="video-gd"
+                      videoId="Fovfj3zILeQ"
+                      muted
+                      opts={{
+                        width: '100%',
+                        height: '515',
+                        playerVars: {
+                          autoplay: 0,
+                          mute: 1,
+                        },
+                      }}
+                    />
+                  </LazyLoadComponent>
+                </Suspense>
+                        
                     </div>
 
                     <div className="acc-hndg" data-aos="fade-up">
