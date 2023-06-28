@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 function UnlockYourConsultingSuccess() {
     useEffect(() => {
@@ -8,6 +9,11 @@ function UnlockYourConsultingSuccess() {
     }, []);
     return (
         <div className="consulting-page">
+
+            <Helmet>
+                <title>Business Development Consulting | RED3SIXTY</title>
+                <meta name="description" content="Discover the proven strategies and secrets to achieve consulting success. Visit RED3SIXTY and start your journey today!" />
+            </Helmet>
 
 
             {/* Consulting Data Starts */}

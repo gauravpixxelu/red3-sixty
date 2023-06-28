@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Access_Market from '../assets/images/access-market.jpg';
 import Access_Img1 from '../assets/images/access-img-1.jpg';
 import Access_Img2 from '../assets/images/access-img-2.jpg';
@@ -17,10 +18,14 @@ import Access_Img12 from '../assets/images/access-img-12.jpg';
 function AccessToMarket() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <div className="access-to-market-page">
 
+            <Helmet>
+                <title>Access to Market | Business Diagnostic Platform | RED3SIXTY</title>
+                <meta name="description" content="Discover how RED3SIXTY business diagnostic platform can help you gain access to untapped markets and propel your growth." />
+            </Helmet>
 
 
             {/* Banner Section Ends */}
@@ -116,7 +121,7 @@ function AccessToMarket() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>Sales Productivity</li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -124,23 +129,23 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
-                                            
- 	                                    <li>Improving sales productivity </li>
- 	                                    <li>Capture more profit t</li>
- 	                                    <li>Reduce costs to increase profit </li>
- 	                                    <li>Strategic control points</li>
+
+                                            <li>Improving sales productivity </li>
+                                            <li>Capture more profit t</li>
+                                            <li>Reduce costs to increase profit </li>
+                                            <li>Strategic control points</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img2} alt="Access_Img2" />
+                                        <img src={Access_Img2} alt="Access_Img2" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module3" role="tabpanel" aria-labelledby="module3-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Improving proposal success</h4>
@@ -148,7 +153,7 @@ function AccessToMarket() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>Proposal success assessment</li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -156,22 +161,22 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                   <li>The Stall Zone </li>
- 	                                   <li>Corporate procurement roles</li>
- 	
+                                            <li>The Stall Zone </li>
+                                            <li>Corporate procurement roles</li>
+
 
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img3} alt="Access_Img3" />
+                                        <img src={Access_Img3} alt="Access_Img3" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module4" role="tabpanel" aria-labelledby="module4-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Analysing an Integrated Report</h4>
@@ -179,7 +184,7 @@ function AccessToMarket() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>Proposal Success Assessment</li>
-                                            
+
                                         </ul>
                                     </div>
                                 </div>
@@ -187,20 +192,20 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                   <li>Using an Integrated Report </li>
- 	                                  
+                                            <li>Using an Integrated Report </li>
+
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img4} alt="Access_Img4" />
+                                        <img src={Access_Img4} alt="Access_Img4" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module5" role="tabpanel" aria-labelledby="module5-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Developing a Value Proposition</h4>
@@ -208,8 +213,8 @@ function AccessToMarket() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>The Value Proposition Canvas</li>
-											<li>Customer Value mapping</li>
-                                            
+                                            <li>Customer Value mapping</li>
+
                                         </ul>
                                     </div>
                                 </div>
@@ -217,23 +222,23 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                   <li>Customer value </li>
-									   <li>Market segmentation </li>
-									   <li>The Value Proposition Canvas </li>
-									   <li>Customer fit </li>
- 	                                  
+                                            <li>Customer value </li>
+                                            <li>Market segmentation </li>
+                                            <li>The Value Proposition Canvas </li>
+                                            <li>Customer fit </li>
+
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img5} alt="Access_Img5" />
+                                        <img src={Access_Img5} alt="Access_Img5" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module6" role="tabpanel" aria-labelledby="module6-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Branding and Design</h4>
@@ -248,22 +253,22 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                  <li>The purpose and value of a brand,</li>
- 	                                  <li>Implementing a branding strategy Naming a brand</li>
- 	                                  <li>Developing the visual identity of the brand</li>
- 	                                  <li>Building brand visibility, authority and presence</li>	                  
+                                            <li>The purpose and value of a brand,</li>
+                                            <li>Implementing a branding strategy Naming a brand</li>
+                                            <li>Developing the visual identity of the brand</li>
+                                            <li>Building brand visibility, authority and presence</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img6} alt="Access_Img6" />
+                                        <img src={Access_Img6} alt="Access_Img6" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module7" role="tabpanel" aria-labelledby="module7-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Pricing Power</h4>
@@ -278,21 +283,21 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                  <li>Pricing is a strategic activity</li>
- 	                                  <li>Pricing strategies</li>
- 	                                  <li>Value based pricing</li>                  
+                                            <li>Pricing is a strategic activity</li>
+                                            <li>Pricing strategies</li>
+                                            <li>Value based pricing</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img7} alt="Access_Img7" />
+                                        <img src={Access_Img7} alt="Access_Img7" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module8" role="tabpanel" aria-labelledby="module8-tab">
-                             <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Access to Market</h4>
@@ -307,14 +312,14 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                  <li>Translating deep understanding about the customer value proposition</li>
-                                      <li> Building traction and leaping the chasm     </li>         
+                                            <li>Translating deep understanding about the customer value proposition</li>
+                                            <li> Building traction and leaping the chasm     </li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img8} alt="Access_Img8" />
+                                        <img src={Access_Img8} alt="Access_Img8" />
                                     </div>
                                 </div>
                             </div>
@@ -328,7 +333,7 @@ function AccessToMarket() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>OODA </li>
-                                               <li>Design thinking </li>
+                                            <li>Design thinking </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -336,14 +341,14 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                  <li>Defining innovation</li>
-                                      <li> FIT – Framework for Innovative Thinking</li>         
+                                            <li>Defining innovation</li>
+                                            <li> FIT – Framework for Innovative Thinking</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img9} alt="Access_Img9" />
+                                        <img src={Access_Img9} alt="Access_Img9" />
                                     </div>
                                 </div>
                             </div>
@@ -364,20 +369,20 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                  <li>The characteristics of an irresistible offer</li>
-                                      <li>The brand builder model</li>         
+                                            <li>The characteristics of an irresistible offer</li>
+                                            <li>The brand builder model</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img10} alt="Access_Img10" />
+                                        <img src={Access_Img10} alt="Access_Img10" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module11" role="tabpanel" aria-labelledby="module11-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Build a purpose driven brand</h4>
@@ -392,21 +397,21 @@ function AccessToMarket() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
- 	                                  <li>What are the benefits to having a purpose driven company</li>
-                                      <li>What are the characteristics of a purpose driven brand</li>  
-                                      <li>How to build a purpose driven brand</li>									  
+                                            <li>What are the benefits to having a purpose driven company</li>
+                                            <li>What are the characteristics of a purpose driven brand</li>
+                                            <li>How to build a purpose driven brand</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img11} alt="Access_Img11" />
+                                        <img src={Access_Img11} alt="Access_Img11" />
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="module12" role="tabpanel" aria-labelledby="module12-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Reinvent yourself</h4>
@@ -420,17 +425,17 @@ function AccessToMarket() {
                                 <div className="col-md-4">
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
-                                        <ul className="tools"> 	                                
- 	                                     <li>Call to action, habits, discipline, acquiring expertise and other tools for improving personal performance</li>
- 	                                     <li>Thinking about your current earning power and skills and how future changes could increase or decrease those</li>
-                                         <li>the cashflow quadrant</li>
-                                         <li>Applying the FIT innovation tool to yourself</li>							  
+                                        <ul className="tools">
+                                            <li>Call to action, habits, discipline, acquiring expertise and other tools for improving personal performance</li>
+                                            <li>Thinking about your current earning power and skills and how future changes could increase or decrease those</li>
+                                            <li>the cashflow quadrant</li>
+                                            <li>Applying the FIT innovation tool to yourself</li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div className="col-md-4">
                                     <div className="tab-img">
-                                    <img src={Access_Img12} alt="Access_Img12" />
+                                        <img src={Access_Img12} alt="Access_Img12" />
                                     </div>
                                 </div>
                             </div>

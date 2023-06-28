@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import RightArrow from '../assets/icons/arrow-right.svg';
 import { lazy, Suspense } from 'react';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
@@ -18,6 +19,12 @@ function ACoach() {
     return (
         <div className="coach-page">
 
+            <Helmet>
+                <title>Business Coach | Diagnostic Platform | RED3SIXTY</title>
+                <meta name="description" content="Experience life-changing transformations through tailored coaching. Discover the power of RED3SIXTY to create a remarkable future." />
+            </Helmet>
+
+
             {/* Coach Banner Starts */}
 
             <section className="accontant-block">
@@ -25,23 +32,23 @@ function ACoach() {
                     <div className="video-potential">
                         <img src={TabFrame} alt="Benefits_Img" />
                         <Suspense fallback={<div>Loading...</div>}>
-                  <LazyLoadComponent>
-                    <LazyYouTube
-                      className="video-gd"
-                      videoId="Fovfj3zILeQ"
-                      muted
-                      opts={{
-                        width: '100%',
-                        height: '515',
-                        playerVars: {
-                          autoplay: 0,
-                          mute: 1,
-                        },
-                      }}
-                    />
-                  </LazyLoadComponent>
-                </Suspense>
-                        
+                            <LazyLoadComponent>
+                                <LazyYouTube
+                                    className="video-gd"
+                                    videoId="Fovfj3zILeQ"
+                                    muted
+                                    opts={{
+                                        width: '100%',
+                                        height: '515',
+                                        playerVars: {
+                                            autoplay: 0,
+                                            mute: 1,
+                                        },
+                                    }}
+                                />
+                            </LazyLoadComponent>
+                        </Suspense>
+
                     </div>
 
                     <div className="acc-hndg" data-aos="fade-up">

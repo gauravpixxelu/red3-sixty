@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 function UnlockYourCoachingSuccess() {
     useEffect(() => {
@@ -9,6 +10,10 @@ function UnlockYourCoachingSuccess() {
     return (
         <div className="coaching-page">
 
+            <Helmet>
+                <title>Coaching Success | Diagnostic Software | RED3SIXTY</title>
+                <meta name="description" content="Discover the powerful secrets to success through expert coaching. Visit RED3SIXTY and empower yourself for a life of achievement." />
+            </Helmet>
 
             {/* Coaching Data Starts */}
 

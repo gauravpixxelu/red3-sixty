@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 import RightArrow from '../assets/icons/arrow-right.svg';
 import TabFrame from '../assets/images/tab-frame.svg';
 import { lazy, Suspense } from 'react';
@@ -17,31 +18,36 @@ function AnAccountant() {
     return (
         <div className="accountant-page">
 
+            <Helmet>
+                <title>Customer Relationship Diagnostic | Accountants | RED3SIXTY</title>
+                <meta name="description" content="Stay ahead of the curve in the accounting world with RED3SIXTY cutting-edge platform, empowering accountants with advanced tools and insights." />
+            </Helmet>
+
             {/* Accountant Banner Starts */}
 
             <section className="accontant-block">
                 <div className="container">
 
-                <div className="video-potential">
-                <img src={TabFrame} alt="Benefits_Img" />
-                <Suspense fallback={<div>Loading...</div>}>
-                  <LazyLoadComponent>
-                    <LazyYouTube
-                      className="video-gd"
-                      videoId="4JaObzQQ2nw"
-                      muted
-                      opts={{
-                        width: '100%',
-                        height: '515',
-                        playerVars: {
-                          autoplay: 0,
-                          mute: 1,
-                        },
-                      }}
-                    />
-                  </LazyLoadComponent>
-                </Suspense>
-                                </div>
+                    <div className="video-potential">
+                        <img src={TabFrame} alt="Benefits_Img" />
+                        <Suspense fallback={<div>Loading...</div>}>
+                            <LazyLoadComponent>
+                                <LazyYouTube
+                                    className="video-gd"
+                                    videoId="4JaObzQQ2nw"
+                                    muted
+                                    opts={{
+                                        width: '100%',
+                                        height: '515',
+                                        playerVars: {
+                                            autoplay: 0,
+                                            mute: 1,
+                                        },
+                                    }}
+                                />
+                            </LazyLoadComponent>
+                        </Suspense>
+                    </div>
 
 
                     <div className="acc-hndg" data-aos="fade-up">

@@ -10,7 +10,7 @@ const BlogBoxes = () => {
 
   useEffect(() => {
     const fetchBlogs = async () => {
-      const response = await fetch('https://pixxelu.com/dev/red3sixty/api/all-blogs-list');
+      const response = await fetch('https://red3sixtyonlinechatgpt.mbeadmin.com/api/all-blogs-list');
       const data = await response.json();
       setBlogs(data.data);
     };

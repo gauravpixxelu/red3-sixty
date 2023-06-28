@@ -13,7 +13,7 @@ const BookForm = () => {
     const data = { name, contact_email, contact_date, contact_time, party_size };
 
     try {
-      const response = await fetch('https://pixxelu.com/dev/red3sixty/api/send-mail', {
+      const response = await fetch('https://red3sixtyonlinechatgpt.mbeadmin.com/api/send-mail', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)

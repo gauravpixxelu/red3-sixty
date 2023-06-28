@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 function UnlockYourPotential() {
     useEffect(() => {
@@ -9,6 +10,10 @@ function UnlockYourPotential() {
     return (
         <div className="potential-page">
 
+            <Helmet>
+                <title>Accounting and Consulting Services | RED3SIXTY</title>
+                <meta name="description" content="Accelerate your business's success and achieve excellence using RED3SIXTY potential diagnostic platform, tailored to unleash your true potential." />
+            </Helmet>
 
             {/* Potential Data Starts */}
 
@@ -67,12 +72,12 @@ function UnlockYourPotential() {
                     <h2 className="hdng">What do you get?</h2>
                     <p className="hdng-16">We have developed business growth platforms aimed at helping you run diagnostics and determine where your customer needs to focus in order to grow their business. You get:</p>
                     <ul className="site-ul">
-                     <li><b>1.</b>A lead generating system guaranteed to provide you unlimited qualified leads</li>   
-                     <li><b>2.</b>Business diagnostics proven to convert leads into paying customers</li>  
-                     <li><b>3.</b>Unlimited diagnostics and auto completed reports ready to sell to your clients</li>  
-                     <li><b>4.</b>Automated development platform with more the 40 tools and 100’s hours of training content and videos</li>  
-                     <li><b>5.</b>Training and delivery manuals making delivery of any business solution easy</li>  
-                     <li><b>6.</b>Online certification ensuring you are certified and ready to start delivering </li>  
+                        <li><b>1.</b>A lead generating system guaranteed to provide you unlimited qualified leads</li>
+                        <li><b>2.</b>Business diagnostics proven to convert leads into paying customers</li>
+                        <li><b>3.</b>Unlimited diagnostics and auto completed reports ready to sell to your clients</li>
+                        <li><b>4.</b>Automated development platform with more the 40 tools and 100’s hours of training content and videos</li>
+                        <li><b>5.</b>Training and delivery manuals making delivery of any business solution easy</li>
+                        <li><b>6.</b>Online certification ensuring you are certified and ready to start delivering </li>
                     </ul>
                     <NavLink to="/contact" className="custom-btn"><span>Book an online demo Now!</span></NavLink>
                 </div>

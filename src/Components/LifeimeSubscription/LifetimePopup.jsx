@@ -3,7 +3,7 @@ import Modal from 'react-modal';
 import LifetimeForm from './LifetimeForm';
 
 
-const LifeimePopup = () => {
+const LifetimePopup = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const openPopup = () => {
@@ -28,4 +28,4 @@ const LifeimePopup = () => {
   );
 };
 
-export default LifeimePopup
+export default LifetimePopup

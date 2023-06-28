@@ -33,7 +33,7 @@ const BlogDetail = () => {
 
   useEffect(() => {
     const fetchBlog = async () => {
-      const response = await fetch(`https://pixxelu.com/dev/red3sixty/api/single-post/${slug}`);
+      const response = await fetch(`https://red3sixtyonlinechatgpt.mbeadmin.com/api/single-post/${slug}`);
       const data = await response.json();
       setBlog(data.data);
     };
