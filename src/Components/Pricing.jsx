@@ -11,7 +11,7 @@ import Price_Img6 from '../assets/icons/price-img6.svg';
 import BookForm from './BookForm';
 import { lazy, Suspense } from 'react';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
-import LifeimePopup from './LifeimeSubscription/LifeimePopup';
+import LifetimePopup from './LifeimeSubscription/LifetimePopup';
 const LazyYouTube = lazy(() => import('react-youtube'));
 
 function Pricing() {
@@ -248,7 +248,7 @@ function Pricing() {
                                     <li>Online Certification</li>
                                     <li>Monthly Consultants Round Table</li>
                                 </ul>
-                                <LifeimePopup />
+                                <LifetimePopup />
                             </div>
                         </div>
                     </div>
