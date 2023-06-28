@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Small_Business from '../assets/images/small-business.jpg';
 import Small_Tab from '../assets/images/small-tab-1.jpg';
 import Product_Innovation from '../assets/images/product-innovation.jpg';
@@ -15,11 +16,15 @@ import Compliance_Req from '../assets/images/compliance-req.jpg';
 function SmallBusiness() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-      
+    }, []);
+
     return (
         <div className="small-business-page">
 
+            <Helmet>
+                <title>Business Builder Diagnostic Tool | Best Business Planning Software | RED3SIXTY</title>
+                <meta name="description" content="If you run a small business with a small number of people, you should seriously consider the benefits a business builder can provide you and how it can help you cut costs." />
+            </Helmet>
 
             {/* Banner Section Ends */}
 
@@ -119,9 +124,9 @@ function SmallBusiness() {
                                 </div>
                             </div>
                         </div>
-						
+
                         <div class="tab-pane fade" id="module2" role="tabpanel" aria-labelledby="module2-tab">
-                          <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Product/Service Innovation</h4>
@@ -159,7 +164,7 @@ function SmallBusiness() {
                                         <img src={Product_Innovation} alt="Product_Innovation" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module3" role="tabpanel" aria-labelledby="module3-tab">
                             <div className="row">
@@ -193,10 +198,10 @@ function SmallBusiness() {
                                         <img src={Market_Defination} alt="Market_Defination" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module4" role="tabpanel" aria-labelledby="module4-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Finding and Growing Customers</h4>
@@ -227,7 +232,7 @@ function SmallBusiness() {
                                         <img src={Growing_Customer} alt="Growing_Customer" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module5" role="tabpanel" aria-labelledby="module5-tab">
                             <div className="row">
@@ -255,7 +260,7 @@ function SmallBusiness() {
                                         <img src={Capability_Deliver} alt="Capability_Deliver" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module6" role="tabpanel" aria-labelledby="module6-tab">
                             <div className="row">
@@ -266,9 +271,9 @@ function SmallBusiness() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>Break Even Analysis</li>
-											<li>Income Statement Worksheet</li>
-											<li>Cash Flow Forecast</li>
-											<li>Balance Sheet Template</li>
+                                            <li>Income Statement Worksheet</li>
+                                            <li>Cash Flow Forecast</li>
+                                            <li>Balance Sheet Template</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -276,17 +281,17 @@ function SmallBusiness() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
-                                           
-                                        <li>Primary – Increase Finance Benchmark (Monthly)</li>
-                                       <li>Primary – Update Income Statement Analysis</li>
-                                       <li>Financial Management (Monthly) </li>
-                                       <li>Secondary – Update Break Even Analysis</li>
-                                       <li>Financial Management (Monthly) </li>
-                                       <li>Primary – Update Cash Flow Forecast</li>
-                                       <li>Financial Management (Monthly) </li>
-                                       <li>Primary – Update Balance Sheet template</li>
-                                       </ul>
-                                        
+
+                                            <li>Primary – Increase Finance Benchmark (Monthly)</li>
+                                            <li>Primary – Update Income Statement Analysis</li>
+                                            <li>Financial Management (Monthly) </li>
+                                            <li>Secondary – Update Break Even Analysis</li>
+                                            <li>Financial Management (Monthly) </li>
+                                            <li>Primary – Update Cash Flow Forecast</li>
+                                            <li>Financial Management (Monthly) </li>
+                                            <li>Primary – Update Balance Sheet template</li>
+                                        </ul>
+
                                     </div>
                                 </div>
                                 <div className="col-md-4">
@@ -294,7 +299,7 @@ function SmallBusiness() {
                                         <img src={Finance_Profitable} alt="Finance_Profitable" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module7" role="tabpanel" aria-labelledby="module7-tab">
                             <div className="row">
@@ -305,10 +310,10 @@ function SmallBusiness() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>Marketing Funnel Calculator</li>
-											<li>Lead Acquisition Model</li>
-											<li>Lead Generation Prioritisation Tool</li>
-											<li>Lead Scoring Template</li>
-											<li>Lead Generation Objectives Scorecard</li>
+                                            <li>Lead Acquisition Model</li>
+                                            <li>Lead Generation Prioritisation Tool</li>
+                                            <li>Lead Scoring Template</li>
+                                            <li>Lead Generation Objectives Scorecard</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -317,15 +322,15 @@ function SmallBusiness() {
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
                                             <li>Primary – Increase Market Strategy Benchmark (Monthly)</li>
-											<li>Primary – Marketing Funnel Calculator</li>
-											<li>Marketing Lead Generation (Monthly)</li>
-											<li>Primary – Lead Acquisition Model</li>
-											<li>Marketing Lead Generation (Monthly)</li>
-											<li>Secondary – Lead Generation Prioritisation Tool</li>
-											<li>Marketing Lead Generation (Monthly)</li>
-											<li>Secondary – Update Lead Scoring Template</li>
-											<li>Marketing Lead Generation (Monthly)</li>
-											<li>Primary – Update the Lead Generation Objectives Scorecard</li>
+                                            <li>Primary – Marketing Funnel Calculator</li>
+                                            <li>Marketing Lead Generation (Monthly)</li>
+                                            <li>Primary – Lead Acquisition Model</li>
+                                            <li>Marketing Lead Generation (Monthly)</li>
+                                            <li>Secondary – Lead Generation Prioritisation Tool</li>
+                                            <li>Marketing Lead Generation (Monthly)</li>
+                                            <li>Secondary – Update Lead Scoring Template</li>
+                                            <li>Marketing Lead Generation (Monthly)</li>
+                                            <li>Primary – Update the Lead Generation Objectives Scorecard</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -334,10 +339,10 @@ function SmallBusiness() {
                                         <img src={Marketing_Strategy} alt="Marketing_Strategy" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module8" role="tabpanel" aria-labelledby="module8-tab">
-                           <div className="row">
+                            <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
                                         <h4>Sales Plan Delivery</h4>
@@ -354,15 +359,15 @@ function SmallBusiness() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
-                                            
-                                        <li>Primary – Increase Sales Plan Benchmark (Monthly)</li>
-                                        <li>Primary – Complete the Sales Skills Assessment</li>
-                                        <li>Sales Management (Monthly)</li>
-                                        <li>Primary – Sales Forecasting Tool</li>
-                                        <li>Sales Management (Monthly) </li>
-                                       <li>Primary – Update Sales Productivity Metrics</li>
-</ul>
-                                       
+
+                                            <li>Primary – Increase Sales Plan Benchmark (Monthly)</li>
+                                            <li>Primary – Complete the Sales Skills Assessment</li>
+                                            <li>Sales Management (Monthly)</li>
+                                            <li>Primary – Sales Forecasting Tool</li>
+                                            <li>Sales Management (Monthly) </li>
+                                            <li>Primary – Update Sales Productivity Metrics</li>
+                                        </ul>
+
                                     </div>
                                 </div>
                                 <div className="col-md-4">
@@ -370,7 +375,7 @@ function SmallBusiness() {
                                         <img src={Sales_Deliver} alt="Sales_Deliver" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module9" role="tabpanel" aria-labelledby="module9-tab">
                             <div className="row">
@@ -380,11 +385,11 @@ function SmallBusiness() {
                                         <p className="hdng-16">The most important aspect of helping your customer execute their strategy is ensuring all their resources in the business is aligned to achieving its goals. If the people in their business are not 100% aligned to the business vision they will not be able to deliver effectively.</p>
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
-                                          <li> Organisational Chart</li>
-                                           <li>Management and Leadership Maturity Assessment</li>
-                                           <li>Succession Management Matrix</li>
-                                           <li>Employee Satisfaction Survey</li>
-                                           <li>Performance Review Template</li>
+                                            <li> Organisational Chart</li>
+                                            <li>Management and Leadership Maturity Assessment</li>
+                                            <li>Succession Management Matrix</li>
+                                            <li>Employee Satisfaction Survey</li>
+                                            <li>Performance Review Template</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -392,19 +397,19 @@ function SmallBusiness() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
-                                            
-                                        <li>Primary – Increase Team Management Benchmark (Monthly)</li>
-										<li>Advanced – Leadership and Management Assessment</li>
-										<li>People Management (Monthly)</li>
-										<li>Primary – Update Employee Succession Plan Metrics</li>
-										<li>People Management (Monthly)</li>
-										<li>Primary – Complete Employee Satisfaction Surveys</li>
-										<li>People Management (Monthly)</li>
-										<li>Primary – Update Organisational Chart</li>
-										<li>People Management (Monthly)</li>
-										<li>Primary – Complete Performance Review Template</li>
-										</ul>
-                                       
+
+                                            <li>Primary – Increase Team Management Benchmark (Monthly)</li>
+                                            <li>Advanced – Leadership and Management Assessment</li>
+                                            <li>People Management (Monthly)</li>
+                                            <li>Primary – Update Employee Succession Plan Metrics</li>
+                                            <li>People Management (Monthly)</li>
+                                            <li>Primary – Complete Employee Satisfaction Surveys</li>
+                                            <li>People Management (Monthly)</li>
+                                            <li>Primary – Update Organisational Chart</li>
+                                            <li>People Management (Monthly)</li>
+                                            <li>Primary – Complete Performance Review Template</li>
+                                        </ul>
+
                                     </div>
                                 </div>
                                 <div className="col-md-4">
@@ -412,7 +417,7 @@ function SmallBusiness() {
                                         <img src={Optimal_Team} alt="Optimal_Team" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
                         <div class="tab-pane fade" id="module10" role="tabpanel" aria-labelledby="module10-tab">
                             <div className="row">
@@ -423,9 +428,9 @@ function SmallBusiness() {
                                         <h5>Development Tools</h5>
                                         <ul className="tools">
                                             <li>King IV One Page Summary </li>
-                                               <li> King IV Analysis </li>
-                                                 <li>King IV Principles </li>
-                                                <li> King IV Summary </li>
+                                            <li> King IV Analysis </li>
+                                            <li>King IV Principles </li>
+                                            <li> King IV Summary </li>
                                         </ul>
                                     </div>
                                 </div>
@@ -433,11 +438,11 @@ function SmallBusiness() {
                                     <div className="tab-cnt middle-cnt">
                                         <h5>Development Goals</h5>
                                         <ul className="tools">
-                                            
-                                        <li>Primary – Increase Governance Benchmark (Monthly)</li>
-										<li>Primary – Review and Implement King IV</li>
-</ul>
-                                       
+
+                                            <li>Primary – Increase Governance Benchmark (Monthly)</li>
+                                            <li>Primary – Review and Implement King IV</li>
+                                        </ul>
+
                                     </div>
                                 </div>
                                 <div className="col-md-4">
@@ -445,7 +450,7 @@ function SmallBusiness() {
                                         <img src={Compliance_Req} alt="Compliance_Req" />
                                     </div>
                                 </div>
-                            </div> 
+                            </div>
                         </div>
 
                     </div>

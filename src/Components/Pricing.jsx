@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import Price_Img1 from '../assets/icons/price-img1.svg';
 import Price_Img2 from '../assets/icons/price-img2.svg';
 import Price_Img3 from '../assets/icons/price-img3.svg';
@@ -16,10 +17,15 @@ const LazyYouTube = lazy(() => import('react-youtube'));
 function Pricing() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
     return (
         <div className="pricing-page">
+
+            <Helmet>
+                <title>Best Business Plan Software for Startups | RED3SIXTY</title>
+                <meta name="description" content="We have developed platform options to help you start or grow your professional services business. Makes you easy to upgrade or cancel at any time." />
+            </Helmet>
 
 
             {/* Pricing Section Starts */}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Project_Prioritisation from '../assets/images/project-prioritisation.jpg';
 import Porters_Five_Forces from '../assets/images/porters-five-forces.jpg';
 import Balanced_Scorecard from '../assets/images/balanced-scorecard.jpg';
@@ -31,12 +32,16 @@ function Tools() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
 
     return (
         <div className="tools-page">
 
+            <Helmet>
+                <title>Best Business Planning Software | Diagnostic Software | RED3SIXTY</title>
+                <meta name="description" content="Find business planning tools. We provide best business planning tools software. You can grow your business with our software." />
+            </Helmet>
 
             {/* Modules Section Starts */}
 
@@ -309,15 +314,15 @@ function Tools() {
             {/* Modules Section Ends */}
 
 
-           {/* Modules Section Starts */}
+            {/* Modules Section Starts */}
 
-           <section className="modules-block">
+            <section className="modules-block">
                 <div className="container">
                     <div className="modules-block-hdng" data-aos="fade-up">
                         <h2 className="sec-hdng">Capabilities Analysis Tools and Focus Areas</h2>
                     </div>
                     <div className="row module-txt-gd">
-                    <div className="col-md-6" data-aos="fade-left">
+                        <div className="col-md-6" data-aos="fade-left">
                             <div className="module-img-block">
                                 <img src={Module_Img_Block1} alt="Module_Img_Block2" />
                             </div>
@@ -330,7 +335,7 @@ function Tools() {
                                 <p className="hdng-16">Your customer needs to audit their organization to identify areas for improvement and make solid recommendations based on your assessmentA Microsoft Excel self-assessment tool to rate your compliance with best practices across the following core competencies: Strategic Planning, CRM, Demand Generation, Performance Measurement, Market Research, Sales, Organizational Development, Human Resources, Systems & Technology, and Product Development.</p>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </section>

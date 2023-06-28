@@ -1,6 +1,7 @@
 import React from 'react';
 import Menu from './Menu';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 
 const UltimateUserGuide = () => {
 	useEffect(() => {
@@ -17,6 +18,11 @@ const UltimateUserGuide = () => {
 
 
 		<div className="business-builder-page tabs-help">
+
+<Helmet>
+                <title>Biz Plan Builder | Business Builder System | RED3SIXTY</title>
+                <meta name="description" content="How to use the Business Builder System Portal. Establishing a Business Builder Survey Baseline Evaluating survey scores Using surveys as periodic look-backs and redirecting." />
+            </Helmet>
 
 			{/* Ultimate User Guide Section Ends */}
 

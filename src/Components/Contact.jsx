@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Linkedin from '../assets/icons/linkedin.png';
 import Phone from '../assets/icons/phone-pin.svg';
 import Map from '../assets/icons/map-pin.svg';
@@ -38,13 +39,16 @@ const responsive = {
 function Contact() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
     return (
 
         <div className="contact-page">
 
-
+            <Helmet>
+                <title>Contact Us | Business Diagnostics | Business Development Consulting</title>
+                <meta name="description" content="Do you have a question? Contact the relevant expert's team to request any further details or information. You can contact us online, or give us a call 0110282854." />
+            </Helmet>
 
             {/* Team Slider Section Starts */}
 
@@ -67,35 +71,35 @@ function Contact() {
                         </div>
 
                         <div className="team-box">
-                        <img src={Team3} alt="Team3" />
+                            <img src={Team3} alt="Team3" />
                             <h3>Estelanie van der Merwe</h3>
                             <p>Technology</p>
                             <NavLink to="https://www.linkedin.com/in/estelanie-van-der-merwe-77a399115" target="_blank"><img src={Linkedin} alt="Linkedin" />Connect With Me</NavLink>
                         </div>
 
                         <div className="team-box">
-                        <img src={Team4} alt="Team4" />
+                            <img src={Team4} alt="Team4" />
                             <h3>Aakash Choudhary</h3>
                             <p>Development Lead</p>
                             <NavLink to="https://www.linkedin.com/in/aakash-choudhary-441019246/" target="_blank"><img src={Linkedin} alt="Linkedin" />Connect With Me</NavLink>
                         </div>
 
                         <div className="team-box">
-                        <img src={Team5} alt="Team5" />
+                            <img src={Team5} alt="Team5" />
                             <h3>Ashish Kumar</h3>
                             <p>Technical lead</p>
                             <NavLink to="https://www.linkedin.com/in/ashish-kumar-421a2b245/" target="_blank"><img src={Linkedin} alt="Linkedin" />Connect With Me</NavLink>
                         </div>
 
                         <div className="team-box">
-                        <img src={Team6} alt="Team6" />
+                            <img src={Team6} alt="Team6" />
                             <h3>Steve Sutton</h3>
                             <p>Founder</p>
                             <NavLink to="https://www.linkedin.com/in/suttons" target="_blank"><img src={Linkedin} alt="Linkedin" />Connect With Me</NavLink>
                         </div>
 
                         <div className="team-box">
-                        <img src={Team7} alt="Team7" />
+                            <img src={Team7} alt="Team7" />
                             <h3>Mandisa Jostrey</h3>
                             <p>Enterprise Delivery</p>
                             <NavLink to="https://www.linkedin.com/in/mandisa-thembelihle-jostrey-726a0162" target="_blank"><img src={Linkedin} alt="Linkedin" />Connect With Me</NavLink>
@@ -132,7 +136,7 @@ function Contact() {
 
                             <div className="op-cnt" data-aos="fade-right">
                                 <div className="contact-txt-icon">
-                                <img src={Message} alt="Message" />
+                                    <img src={Message} alt="Message" />
                                 </div>
                                 <div className="contact-txt">
                                     <p>Email us</p>
@@ -142,7 +146,7 @@ function Contact() {
 
                             <div className="op-cnt" data-aos="fade-up">
                                 <div className="contact-txt-icon">
-                                <img src={Map} alt="Map" />
+                                    <img src={Map} alt="Map" />
                                 </div>
                                 <div className="contact-txt">
                                     <p>Address</p>
@@ -157,13 +161,13 @@ function Contact() {
                             </div>
                         </div>
 
-                        <div className="col-md-6"  data-aos="fade-right">
+                        <div className="col-md-6" data-aos="fade-right">
                             <div className="map">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12456.612288185082!2d-9.364376!3d38.691328!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1ec8b1fdf106b5%3A0xde4917e8b3937ad7!2sPra%C3%A7a%205%20de%20Outubro%2C%202775-275%20Parede%2C%20Portugal!5e0!3m2!1sen!2sus!4v1676539415039!5m2!1sen!2sus" width="100%" height="350" title="one"></iframe>
                             </div>
                         </div>
 
-                        <div className="col-md-6"  data-aos="fade-left">
+                        <div className="col-md-6" data-aos="fade-left">
                             <div className="map">
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14334.610594845668!2d27.914135!3d-26.077606!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e9575a6071a6a59%3A0x57ab8ac799410836!2sWild%20Fig%20Business%20Park!5e0!3m2!1sen!2sus!4v1676539430397!5m2!1sen!2sus" width="100%" height="350" title="two"></iframe>
                             </div>

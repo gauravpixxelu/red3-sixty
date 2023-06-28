@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Right_Arrow from '../assets/images/right-arrow.png';
 import Left_Arrow from '../assets/images/left-arrow.png';
 import Circle_Shape from '../assets/images/circle-shape.png';
@@ -20,10 +21,16 @@ const LazyYouTube = lazy(() => import('react-youtube'));
 function Download() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
 
     return (
         <div className="download-page">
+
+            <Helmet>
+                <title>Business Diagnostic Software | Business Growth Consultant | RED3SIXTY</title>
+                <meta name="description" content="Updates and Resources Start your consulting business at a fraction of the cost of a franchise. Download RED3SIXTY value proposition." />
+            </Helmet>
+
 
             {/* Download Section Starts */}
 
@@ -131,13 +138,13 @@ function Download() {
                         <div className="col-md-4">
                             <div className="video-block-download">
                                 <Suspense fallback={<div>Loading...</div>}>
-                                <LazyLoadComponent>
-                                  <LazyYouTube
-                                    videoId="S9PbZj0IMiE"
-                                    opts={{ width: '100%', height: '250' }}
-                                  />
-                                </LazyLoadComponent>
-                              </Suspense>
+                                    <LazyLoadComponent>
+                                        <LazyYouTube
+                                            videoId="S9PbZj0IMiE"
+                                            opts={{ width: '100%', height: '250' }}
+                                        />
+                                    </LazyLoadComponent>
+                                </Suspense>
                                 <h5 className="hdng-h5">Quick Tour</h5>
                             </div>
                         </div>
@@ -145,13 +152,13 @@ function Download() {
                         <div className="col-md-4">
                             <div className="video-block-download">
                                 <Suspense fallback={<div>Loading...</div>}>
-                                <LazyLoadComponent>
-                                  <LazyYouTube
-                                    videoId="xx5FP_kjnqk"
-                                    opts={{ width: '100%', height: '250' }}
-                                  />
-                                </LazyLoadComponent>
-                              </Suspense>
+                                    <LazyLoadComponent>
+                                        <LazyYouTube
+                                            videoId="xx5FP_kjnqk"
+                                            opts={{ width: '100%', height: '250' }}
+                                        />
+                                    </LazyLoadComponent>
+                                </Suspense>
                                 <h5 className="hdng-h5">How To Sign Up</h5>
                             </div>
                         </div>
@@ -159,13 +166,13 @@ function Download() {
                         <div className="col-md-4">
                             <div className="video-block-download">
                                 <Suspense fallback={<div>Loading...</div>}>
-                                <LazyLoadComponent>
-                                  <LazyYouTube
-                                    videoId="Rh-Uy4pZ0jI"
-                                    opts={{ width: '100%', height: '250' }}
-                                  />
-                                </LazyLoadComponent>
-                              </Suspense>
+                                    <LazyLoadComponent>
+                                        <LazyYouTube
+                                            videoId="Rh-Uy4pZ0jI"
+                                            opts={{ width: '100%', height: '250' }}
+                                        />
+                                    </LazyLoadComponent>
+                                </Suspense>
                                 <h5 className="hdng-h5">Business Owner Benefits</h5>
                             </div>
                         </div>
@@ -173,13 +180,13 @@ function Download() {
                         <div className="col-md-4">
                             <div className="video-block-download">
                                 <Suspense fallback={<div>Loading...</div>}>
-                                <LazyLoadComponent>
-                                  <LazyYouTube
-                                    videoId="SHwP2HB3JPM"
-                                    opts={{ width: '100%', height: '250' }}
-                                  />
-                                </LazyLoadComponent>
-                              </Suspense>
+                                    <LazyLoadComponent>
+                                        <LazyYouTube
+                                            videoId="SHwP2HB3JPM"
+                                            opts={{ width: '100%', height: '250' }}
+                                        />
+                                    </LazyLoadComponent>
+                                </Suspense>
                                 <h5 className="hdng-h5">Consulting Platform</h5>
                             </div>
                         </div>
@@ -187,13 +194,13 @@ function Download() {
                         <div className="col-md-4">
                             <div className="video-block-download">
                                 <Suspense fallback={<div>Loading...</div>}>
-                                <LazyLoadComponent>
-                                  <LazyYouTube
-                                    videoId="XxeomqRDunU"
-                                    opts={{ width: '100%', height: '250' }}
-                                  />
-                                </LazyLoadComponent>
-                              </Suspense>
+                                    <LazyLoadComponent>
+                                        <LazyYouTube
+                                            videoId="XxeomqRDunU"
+                                            opts={{ width: '100%', height: '250' }}
+                                        />
+                                    </LazyLoadComponent>
+                                </Suspense>
                                 <h5 className="hdng-h5">Business Builder Certified Consultant</h5>
                             </div>
                         </div>

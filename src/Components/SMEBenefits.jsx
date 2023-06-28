@@ -1,5 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import Benefit1 from '../assets/icons/benefit-1.svg';
 import Benefit2 from '../assets/icons/benefit-2.svg';
 import Benefit3 from '../assets/icons/benefit-3.svg';
@@ -7,12 +8,15 @@ import Benefit3 from '../assets/icons/benefit-3.svg';
 function SMEBenefits() {
     useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
-      
+    }, []);
+
     return (
         <div className="sme-benefit-page">
 
-
+            <Helmet>
+                <title>Customer Experience Diagnostic | Business Builder Diagnostic Tool</title>
+                <meta name="description" content="Small and Medium Enterprises We help you boost local economies. Can help people by providing meaningful jobs to local people, with significantly lower investment costs than large businesses." />
+            </Helmet>
 
             {/* Logo Slder Section Ends */}
 
