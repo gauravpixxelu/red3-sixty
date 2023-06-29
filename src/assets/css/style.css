@@ -2225,6 +2225,12 @@ form.from-bottom .post-comment  .form-button {
 
 /*-- 404 Css --*/ 
 
-
+.notfoundblock {
+    text-align: center;
+}
+.notfoundblock img {
+    width: 1000px;
+    margin: 0 auto;
+}
 
 /*-- 404 Css --*/ 
