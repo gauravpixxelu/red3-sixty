@@ -42,7 +42,7 @@ function ACoach() {
                                         height: '515',
                                         playerVars: {
                                             autoplay: 0,
-                                            mute: 1,
+                                            mute: 0,
                                         },
                                     }}
                                 />
