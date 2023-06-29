@@ -3,118 +3,114 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
    <url>
-      <loc>/</loc>
+      <loc>https://red3-sixty.com/</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/about-company</loc>
+      <loc>https://red3-sixty.com/about-company</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/benefits</loc>
+      <loc>https://red3-sixty.com/benefits</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/pricing</loc>
+      <loc>https://red3-sixty.com/pricing</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/book-online</loc>
+      <loc>https://red3-sixty.com/book-online</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/overview</loc>
+      <loc>https://red3-sixty.com/overview</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/sme-benefits</loc>
+      <loc>https://red3-sixty.com/sme-benefits</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/contact</loc>
+      <loc>https://red3-sixty.com/contact</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/ultimate-user-guide</loc>
+      <loc>https://red3-sixty.com/ultimate-user-guide</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/downloads</loc>
+      <loc>https://red3-sixty.com/downloads</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/tools</loc>
+      <loc>https://red3-sixty.com/tools</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/small-business</loc>
+      <loc>https://red3-sixty.com/small-business</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/medium-business</loc>
+      <loc>https://red3-sixty.com/medium-business</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/large-business</loc>
+      <loc>https://red3-sixty.com/large-business</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/access-to-market</loc>
+      <loc>https://red3-sixty.com/access-to-market</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/blogs</loc>
+      <loc>https://red3-sixty.com/blogs</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
  <url>
-      <loc>/an-accountant</loc>
+      <loc>https://red3-sixty.com/an-accountant</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
     <url>
-      <loc>/potential</loc>
+      <loc>https://red3-sixty.com/potential</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
     <url>
-      <loc>/a-consultant</loc>
+      <loc>https://red3-sixty.com/a-consultant</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
     <url>
-      <loc>/consulting-success</loc>
+      <loc>https://red3-sixty.com/consulting-success</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
     <url>
-      <loc>/a-coach</loc>
+      <loc>https://red3-sixty.com/a-coach</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
    <url>
-      <loc>/coaching-success</loc>
+      <loc>https://red3-sixty.com/coaching-success</loc>
       <changefreq>Weekly</changefreq>
    </url>
 
-<url>
-      <loc>/blogs/:slug</loc>
-      <changefreq>Weekly</changefreq>
-   </url>
 
 </urlset> 
