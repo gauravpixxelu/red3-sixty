@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+      <loc>/</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/about-company</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/benefits</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/pricing</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/book-online</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/overview</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/sme-benefits</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/contact</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/ultimate-user-guide</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/downloads</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/tools</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/small-business</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/medium-business</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/large-business</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/access-to-market</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/blogs</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+ <url>
+      <loc>/an-accountant</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+    <url>
+      <loc>/potential</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+    <url>
+      <loc>/a-consultant</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+    <url>
+      <loc>/consulting-success</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+    <url>
+      <loc>/a-coach</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+   <url>
+      <loc>/coaching-success</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+<url>
+      <loc>/blogs/:slug</loc>
+      <changefreq>Weekly</changefreq>
+   </url>
+
+</urlset> 
