@@ -11,7 +11,7 @@ const BlogSidebar = () => {
   useEffect(() => {
     const fetchPopularPosts = async () => {
       const response = await fetch(
-        "https://red3sixtyonlinechatgpt.mbeadmin.com/api/all-blogs-list"
+        `${process.env.REACT_APP_API_URL}all-blogs-list`
       );
       const data = await response.json();
       setBlogs(data.data);

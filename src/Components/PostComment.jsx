@@ -12,7 +12,7 @@ const PostComment = () => {
     const data = { author, email, website, comment };
 
     try {
-      const response = await fetch('https://red3sixtyonlinechatgpt.mbeadmin.com/api/post-comment', {
+      const response = await fetch(`${process.env.REACT_APP_API_URL}post-comment`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(data)
