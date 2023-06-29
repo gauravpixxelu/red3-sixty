@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 const LifetimeForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
-  const [phone, setPhone] = useState('');
-  const [message, setMessage] = useState('');
+  // const [phone, setPhone] = useState('');
+  // const [message, setMessage] = useState('');
   const [thankMessage, setThankMessage] = useState('');
   // const [form_type, setFormType] = useState('');
   // const [site_type, setSiteType] = useState('');
@@ -36,8 +36,8 @@ const LifetimeForm = () => {
     const data = {
       name,
       email,
-      phone,
-      message,
+      // phone,
+      // message,
       thankMessage,
       form_type: "lifetime_offer",
       site_type: "Red3sixty",
@@ -58,8 +58,8 @@ const LifetimeForm = () => {
       setThankMessage('Thank you for your message. It has been sent.');
       setName('');
       setEmail('');
-      setPhone('');
-      setMessage('');
+      // setPhone('');
+      // setMessage('');
     } catch (error) {
       console.log(error);
       setThankMessage('Message failed to send. Please try again later.');
@@ -93,7 +93,7 @@ const LifetimeForm = () => {
           </div>
         </div>
 
-        <div className="col-md-12">
+        {/* <div className="col-md-12">
           <div className="form-feild">
             <input
               type="text"
@@ -113,7 +113,7 @@ const LifetimeForm = () => {
               placeholder="Type Your Message Here..."
             />
           </div>
-        </div>
+        </div> */}
 
         <div className="col-md-12">
           <div className="form-button">

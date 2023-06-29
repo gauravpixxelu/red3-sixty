@@ -223,7 +223,7 @@ function Pricing() {
                                     <span>Best Value</span>
                                 </div>
                                 <h3>Lifetime Offer</h3>
-                                <h4><del>$5880</del>/$1999</h4>
+                                <h4>$199</h4>
                                 <p>Once Off Consulting Practice Builder</p>
                                 <ul>
                                     <li>Business Builder Diagnostic</li>

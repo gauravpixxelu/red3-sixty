@@ -3,8 +3,8 @@ import React, { useState, useEffect } from 'react';
 const BusinessPlanForm = () => {
     const [name, setName] = useState('');
     const [contact_email, setEmail] = useState('');
-    const [contact_number, setPhone] = useState('');
-    const [message, setMessage] = useState('');
+    // const [contact_number, setPhone] = useState('');
+    // const [message, setMessage] = useState('');
     const [thankmessage, setThank] = useState('');
     // const [form_type, setFormType] = useState('');
     // const [site_type, setSiteType] = useState('');
@@ -36,8 +36,8 @@ const BusinessPlanForm = () => {
         const data = {
             name,
             contact_email,
-            contact_number,
-            message,
+            // contact_number,
+            // message,
             thankmessage,
             form_type: "download_business_plan",
             site_type: "Red3sixty",
@@ -58,8 +58,8 @@ const BusinessPlanForm = () => {
             setThank('Thank you for your message. It has been sent.');
             setName('');
             setEmail('');
-            setPhone('');
-            setMessage('');
+            // setPhone('');
+            // setMessage('');
         } catch (error) {
             console.log(error);
             setThank('Message failed to send. Please try again later.');
@@ -82,7 +82,7 @@ const BusinessPlanForm = () => {
                     </div>
                 </div>
 
-                <div className="col-md-12">
+                {/* <div className="col-md-12">
                     <div className="form-feild">
                         <input type="text" value={contact_number} onChange={e => setPhone(e.target.value)} placeholder="Phone" />
                     </div>
@@ -92,7 +92,7 @@ const BusinessPlanForm = () => {
                     <div className="form-feild">
                         <textarea type="textrea" value={message} onChange={e => setMessage(e.target.value)} placeholder="Type Your Message Here..." />
                     </div>
-                </div>
+                </div> */}
 
                 <div className="col-md-12">
                     <div className="form-button">
