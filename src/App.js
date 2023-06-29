@@ -30,6 +30,7 @@ import AConsultant from './Components/AConsultant';
 import UnlockYourConsultingSuccess from './Components/UnlockYourConsultingSuccess';
 import ACoach from './Components/ACoach';
 import UnlockYourCoachingSuccess from './Components/UnlockYourCoachingSuccess';
+import NotFound from './Components/NotFound';
 
 
 import AOS from 'aos';
@@ -84,7 +85,8 @@ function App() {
           <Route path="/a-consultant" element={<AConsultant />} />
           <Route path="/consulting-success" element={<UnlockYourConsultingSuccess />} />          
           <Route path="/a-coach" element={<ACoach />} />
-          <Route path="/coaching-success" element={<UnlockYourCoachingSuccess />} />          
+          <Route path="/coaching-success" element={<UnlockYourCoachingSuccess />} />    
+          <Route path="/*" element={<NotFound />} />      
         </Routes>
         <Footer />
         <ExitPopup />     
