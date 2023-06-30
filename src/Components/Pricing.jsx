@@ -123,7 +123,7 @@ function Pricing() {
                         <div className="col">
                             <div className="price-box">
                                 <h3>Free For Life</h3>
-                                <h4><sup>€</sup>0<span>/ Monthly</span></h4>
+                                <h4>$0<span>/ Monthly</span></h4>
                                 <p>Business Starter</p>
                                 <ul>
                                     <li>Business Builder Diagnostic</li>
@@ -143,7 +143,7 @@ function Pricing() {
                         <div className="col">
                             <div className="price-box">
                                 <h3>Standard</h3>
-                                <h4><sup>€</sup>25<span>/ Monthly</span></h4>
+                                <h4>$25<span>/ Monthly</span></h4>
                                 <p>Annuity Generator</p>
                                 <ul>
                                     <li>Business Builder Diagnostic</li>
@@ -167,7 +167,7 @@ function Pricing() {
                         <div className="col">
                             <div className="price-box">
                                 <h3>Basic</h3>
-                                <h4><sup>€</sup>39<span>/ Monthly</span></h4>
+                                <h4>$39<span>/ Monthly</span></h4>
                                 <p>Business Scaler</p>
                                 <ul>
                                     <li>Business Builder Diagnostic</li>
@@ -192,7 +192,7 @@ function Pricing() {
                         <div className="col">
                             <div className="price-box">
                                 <h3>Advanced</h3>
-                                <h4><sup>€</sup>49<span>/ Monthly</span></h4>
+                                <h4>$49<span>/ Monthly</span></h4>
                                 <p>Practice Builder</p>
                                 <ul>
                                     <li>Business Builder Diagnostic</li>
