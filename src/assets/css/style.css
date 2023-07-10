@@ -2218,6 +2218,45 @@ form.from-bottom .post-comment  .form-button {
     margin: 30px auto 0;
     width: 92.5%;
 }
+.accountant-box.bg-gd {
+    background: #f8f9fc;
+}
+.accountant-box {
+    padding: 50px 0;
+}
+.accountant-box .site-ul li {
+    font-size: 16px;
+    margin: 0 0 5px;
+    color: #6a6a6a;
+}
+.accountant-box .site-ul {
+    margin-bottom: 10px;
+}
+.accountant-box  a.custom-btn {
+    margin-top: 10px;
+}
+.box-gd h5 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.box-gd h4 {
+    text-transform: uppercase;
+    color: #ed1b24;
+    font-weight: 700;
+    font-size: 36px;
+}
+.accountant-box .row {
+    align-items: center;
+}
+.account-box-gd {
+    border: 1px solid rgba(0,0,0,.1);
+    box-shadow: 0 10px 23px 0 rgb(0 0 0/5%);
+    background: #fff;
+    padding: 30px;
+    margin: 15px 0;
+}
+
 
 /*-- Accountant Css --*/ 
 
