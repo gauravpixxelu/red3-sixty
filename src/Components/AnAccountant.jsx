@@ -72,7 +72,7 @@ function AnAccountant() {
                         </div>
                     </div>       
                 </div>
-            </section>
+            </section>           
 
             {/* Accountant Banner Ends */}     
 
