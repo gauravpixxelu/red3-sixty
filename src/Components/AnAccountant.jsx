@@ -70,7 +70,7 @@ function AnAccountant() {
                         <div className="acc-box" data-aos="fade-left">
                             <h4>Unleash a Phenomenal ROI</h4>
                         </div>
-                    </div>
+                    </div>       
                 </div>
             </section>
 
