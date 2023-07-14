@@ -70,11 +70,11 @@ function AnAccountant() {
                         <div className="acc-box" data-aos="fade-left">
                             <h4>Unleash a Phenomenal ROI</h4>
                         </div>
-                    </div>       
+                    </div>
                 </div>
-            </section>                 
+            </section>
 
-            {/* Accountant Banner Ends */}     
+            {/* Accountant Banner Ends */}
 
 
             {/* Accountant Banner Starts */}
@@ -127,7 +127,7 @@ function AnAccountant() {
             {/* Accountant Banner Ends */}
 
             <section className="accountant-box bg-gd">
-                <div className="container">
+                <div className="container" data-aos="fade-up">
                     <h2 className="hdng">Find new business clients and close more deals</h2>
                     <ul className="site-ul">
                         <li>1. Find pre-qualified leads</li>
@@ -145,7 +145,7 @@ function AnAccountant() {
             {/* Accountant Banner Ends */}
 
             <section className="accountant-box">
-                <div className="container">
+                <div className="container" data-aos="fade-up">
                     <div className="row">
                         <div className="col-md-6">
                             <img src={Laptop_Img} alt="RightArrow" />
@@ -169,7 +169,7 @@ function AnAccountant() {
             {/* Accountant Banner Ends */}
 
             <section className="accountant-box bg-gd text-center">
-                <div className="container">
+                <div className="container" data-aos="fade-up">
                     <h2 className="hdng">Easily find your next paying customer in 3 steps</h2>
                     <p className="hdng-16">Point and click to have 100s of leads ready for you to sell consulting products and services to. Find, convert and close new business clients</p>
                     <div className="row">
@@ -208,7 +208,7 @@ function AnAccountant() {
             {/* Accountant Banner Ends */}
 
             <section className="accountant-box">
-                <div className="container">
+                <div className="container" data-aos="fade-up">
                     <h2 className="hdng">Here are some of the services these businesses are looking for:</h2>
                     <ul className="site-ul">
                         <li>1. Google Business Profile improvement </li>
@@ -218,6 +218,7 @@ function AnAccountant() {
                         <li>5. Customer Service improvement</li>
                         <li>6. Customer Service improvement</li>
                     </ul>
+                    <p className="hdng-16">There are no hidden fees. The cost includes all training, certification and support. We have structured easy to pay options all with our money back guarantee. Whether you are looking to start small or really invest in your business</p>
                     <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
                 </div>
             </section>
@@ -228,7 +229,32 @@ function AnAccountant() {
             {/* Accountant Banner Ends */}
 
             <section className="accountant-box bg-gd">
-                <div className="container">
+                <div className="container" data-aos="fade-up">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <img src={Laptop_Img} alt="RightArrow" />
+                        </div>
+                        <div className="col-md-6">
+                            <div className="box-gd">
+                                <h2 className="hdng">Build your consulting business</h2>
+                                <p className="hdng-18">Everything you need in one solution</p>
+                                <h5> <del> Normal Price: $2940 </del> </h5>
+                                <h4>ONLY: $199 Lifetime access; or $25 per month</h4>
+                                <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box">
+                <div className="container" data-aos="fade-up">
                     <h2 className="hdng">What do you get?</h2>
                     <p className="hdng-16">Everything you need to start or grow a business consulting firm. The solution is perfect for Accountants, consultants, coaches looking to start or scale. You get:</p>
                     <ul className="site-ul">
@@ -249,8 +275,8 @@ function AnAccountant() {
 
             {/* Accountant Banner Ends */}
 
-            <section className="accountant-box">
-                <div className="container">
+            <section className="accountant-box bg-gd">
+                <div className="container" data-aos="fade-up">
                     <h2 className="hdng">How much does it cost?</h2>
                     <p className="hdng-16">We have structured easy to pay options all with our money back guarantee. Whether you are looking to start small or really invest in your business the following options:</p>
                     <ul className="site-ul">
@@ -264,6 +290,31 @@ function AnAccountant() {
             </section>
 
             {/* Accountant Banner Ends */}
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box">
+                <div className="container" data-aos="fade-up">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <img src={Laptop_Img} alt="RightArrow" />
+                        </div>
+                        <div className="col-md-6">
+                            <div className="box-gd">
+                                <h2 className="hdng">Build your consulting business</h2>
+                                <p className="hdng-18">Everything you need in one solution</p>
+                                <h5> <del> Normal Price: $2940 </del> </h5>
+                                <h4>ONLY: $199 Lifetime access; or $25 per month</h4>
+                                <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
 
 
             <section className="gd-hdng">
