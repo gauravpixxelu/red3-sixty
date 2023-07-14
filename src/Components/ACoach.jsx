@@ -121,6 +121,201 @@ function ACoach() {
 
             {/* Coach Banner Ends */}
 
+             {/* Accountant Banner Ends */}
+
+            <section className="accountant-box bg-gd">
+                <div className="container" data-aos="fade-up">
+                    <h2 className="hdng">Find new business clients and close more deals</h2>
+                    <ul className="site-ul">
+                        <li>1. Find pre-qualified leads</li>
+                        <li>2. Easily identify services</li>
+                        <li>3. Sell automated reports</li>
+                        <li>4. Close business clients</li>
+                    </ul>
+                    <p className="hdng-16">There are no hidden fees. The cost includes all training, certification and support. We have structured easy to pay options all with our money back guarantee. Whether you are looking to start small or really invest in your business</p>
+                    <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box">
+                <div className="container" data-aos="fade-up">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <img src={Laptop_Img} alt="RightArrow" />
+                        </div>
+                        <div className="col-md-6">
+                            <div className="box-gd">
+                                <h2 className="hdng">Build your consulting business</h2>
+                                <p className="hdng-18">Everything you need in one solution</p>
+                                <h5> <del> Normal Price: $2940 </del> </h5>
+                                <h4>ONLY: $199 Lifetime access; or $25 per month</h4>
+                                <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box bg-gd text-center">
+                <div className="container" data-aos="fade-up">
+                    <h2 className="hdng">Easily find your next paying customer in 3 steps</h2>
+                    <p className="hdng-16">Point and click to have 100s of leads ready for you to sell consulting products and services to. Find, convert and close new business clients</p>
+                    <div className="row">
+                        <div className="col-md-4">
+                            <div className="account-box-gd">
+                                <h4>Step 1</h4>
+                                <h5>Find pre-qualified leads</h5>
+                                <p className="hdng-16">Automatically find leads by industry or location. Leads are pre-scored and easily qualified</p>
+                            </div>
+                        </div>
+
+                        <div className="col-md-4">
+                            <div className="account-box-gd">
+                                <h4>Step 2</h4>
+                                <h5>Generate custom reports</h5>
+                                <p className="hdng-16">Automatically generate a google business profile report highlighting services that you can provide</p>
+                            </div>
+                        </div>
+
+                        <div className="col-md-4">
+                            <div className="account-box-gd">
+                                <h4>Step 3</h4>
+                                <h5>Send customised emails</h5>
+                                <p className="hdng-16">Send customers their free report and easily convert them to paying customers. Access additional reports and services</p>
+                            </div>
+                        </div>
+                    </div>
+                    <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box">
+                <div className="container" data-aos="fade-up">
+                    <h2 className="hdng">Here are some of the services these businesses are looking for:</h2>
+                    <ul className="site-ul">
+                        <li>1. Google Business Profile improvement </li>
+                        <li>2. Business valuation services</li>
+                        <li>3. Business growth diagnostics</li>
+                        <li>4. Growth Acceleration</li>
+                        <li>5. Customer Service improvement</li>
+                        <li>6. Customer Service improvement</li>
+                    </ul>
+                    <p className="hdng-16">There are no hidden fees. The cost includes all training, certification and support. We have structured easy to pay options all with our money back guarantee. Whether you are looking to start small or really invest in your business</p>
+                    <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box bg-gd">
+                <div className="container" data-aos="fade-up">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <img src={Laptop_Img} alt="RightArrow" />
+                        </div>
+                        <div className="col-md-6">
+                            <div className="box-gd">
+                                <h2 className="hdng">Build your consulting business</h2>
+                                <p className="hdng-18">Everything you need in one solution</p>
+                                <h5> <del> Normal Price: $2940 </del> </h5>
+                                <h4>ONLY: $199 Lifetime access; or $25 per month</h4>
+                                <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box">
+                <div className="container" data-aos="fade-up">
+                    <h2 className="hdng">What do you get?</h2>
+                    <p className="hdng-16">Everything you need to start or grow a business consulting firm. The solution is perfect for Accountants, consultants, coaches looking to start or scale. You get:</p>
+                    <ul className="site-ul">
+                        <li><b>1. Access to unlimited lead generation platform</b></li>
+                        <li>2. Access to unlimited GBP report generation</li>
+                        <li>3. Access to business diagnostic services</li>
+                        <li><b>4. Unlimited business diagnostic report generation</b></li>
+                        <li>5. Business consultant certification</li>
+                        <li><b>6. Unlimited online training</b></li>
+                        <li>7. Access to AI platform</li>
+                    </ul>
+                    <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box bg-gd">
+                <div className="container" data-aos="fade-up">
+                    <h2 className="hdng">How much does it cost?</h2>
+                    <p className="hdng-16">We have structured easy to pay options all with our money back guarantee. Whether you are looking to start small or really invest in your business the following options:</p>
+                    <ul className="site-ul">
+                        <li>1. Standard $25 / Monthly: Lead generation, certification and 1 business diagnostic</li>
+                        <li>2. Basic $39 / Monthly: Lead generation, certification and 2 business diagnostics</li>
+                        <li>3. Advanced $49 / Monthly: Lead generation, certification, 3 business diagnostics</li>
+                        <li>4. Lifetime $199 / Once Off: Lead generation, certification, unlimited business diagnostics</li>
+                    </ul>
+                    <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+            {/* Accountant Banner Ends */}
+
+            <section className="accountant-box">
+                <div className="container" data-aos="fade-up">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <img src={Laptop_Img} alt="RightArrow" />
+                        </div>
+                        <div className="col-md-6">
+                            <div className="box-gd">
+                                <h2 className="hdng">Build your consulting business</h2>
+                                <p className="hdng-18">Everything you need in one solution</p>
+                                <h5> <del> Normal Price: $2940 </del> </h5>
+                                <h4>ONLY: $199 Lifetime access; or $25 per month</h4>
+                                <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            {/* Accountant Banner Ends */}
+
+
+
+
+            
             <section className="gd-hdng">
                 <h2 className="sec-hdng">Welcome to the world of RED3SIXTY – Where Your Coaching Journey Begins!</h2>
             </section>
