@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { Helmet } from 'react-helmet';
 import RightArrow from '../assets/icons/arrow-right.svg';
 import { lazy, Suspense } from 'react';
+import Laptop_Img from '../assets/images/laptop-img.jpg';
 import { LazyLoadComponent } from 'react-lazy-load-image-component';
 import TabFrame from '../assets/images/tab-frame.svg';
 
