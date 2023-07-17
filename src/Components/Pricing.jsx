@@ -51,16 +51,17 @@ function Pricing() {
                             <div className="row">
                                 <div className="col-md-6" data-aos="flip-left">
                                     <div className="price-page-box box-1">
-                                        <h3>Free For Life</h3>
+                                        <h3>Free Trial </h3>
                                         <ul>
                                             <li>Everything you need to start with.</li>
-                                            <li>Acess to exclusive diagnostic platform.</li>
+                                            <li>Access to exclusive diagnostic platform.</li>
                                             <li>Unlimited report generation.</li>
-                                            <li><strong>No credit card no payments, ever!</strong></li>
-                                            <li>Includes online training.</li>
+                                            <li>Development Modules.</li>
+                                            <li><strong>No credit card no payments!</strong></li>
+                                            <li>Includes online training and certification.</li>
                                         </ul>
                                         <p><strong>Upgrade anytime!</strong></p>
-                                        <p>Proof of concept. Use unlimited report generation. Only limited to 10 customers at any one time and no access to customer development modules.</p>
+                                        <p>Proof of concept. use unlimited report generation. Only limited to 1 customer at any one time.</p>
                                     </div>
                                 </div>
 
@@ -86,7 +87,7 @@ function Pricing() {
                                             <li>Everything in BASIC plus.</li>
                                             <li><strong>Five Additional Diagnostics.</strong></li>
                                             <li>Email and phone support.</li>
-                                            <li>Implementation Partner Listing</li>
+                                            <li>Implementation Partner Listing</li> 
                                         </ul>
                                         <p><strong>Cancel Anytime!</strong></p>
                                         <p>Full access to 5 additional diagnostic solutions, ensuring you can now provide a full range of consulting and advisory services.</p>
@@ -122,16 +123,18 @@ function Pricing() {
                     <div className="row" data-aos="fade-up">
                         <div className="col">
                             <div className="price-box">
-                                <h3>Free For Life</h3>
-                                <h4>$0<span>/ Monthly</span></h4>
+                                <h3>Free Trial</h3>
+                                <h4>$0<span>/2 Weeks</span></h4>
                                 <p>Business Starter</p>
                                 <ul>
                                     <li>Business Builder Diagnostic</li>
                                     <li>Unlimited Diagnostic Reports</li>
-                                    <li>Create up to 10 customers</li>
+                                    <li>Create 1 Customers as proff of concept</li>
                                     <li>Access to Portal</li>
                                     <li>Email Diagnostic System</li>
-                                    <li>Training Modules</li>
+                                    <li>Training Modules </li>
+                                    <li>Development Modules</li>
+                                    <li>Online Certification</li>
                                     <li>No Credit Card details</li>
                                     <li>No Monthly payments</li>
                                     <li>No adverts</li>
