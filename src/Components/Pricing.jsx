@@ -129,7 +129,7 @@ function Pricing() {
                                 <ul>
                                     <li>Business Builder Diagnostic</li>
                                     <li>Unlimited Diagnostic Reports</li>
-                                    <li>Create 1 Customers as proff of concept</li>
+                                    <li>Create 1 Customers as proof of concept</li>
                                     <li>Access to Portal</li>
                                     <li>Email Diagnostic System</li>
                                     <li>Training Modules </li>
