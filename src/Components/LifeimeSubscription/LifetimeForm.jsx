@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 const LifetimeForm = () => {
   const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
+  const [contact_email, setEmail] = useState('');
   // const [phone, setPhone] = useState('');
   // const [message, setMessage] = useState('');
   const [thankMessage, setThankMessage] = useState('');
@@ -35,7 +35,7 @@ const LifetimeForm = () => {
     e.preventDefault();
     const data = {
       name,
-      email,
+      contact_email,
       // phone,
       // message,
       thankMessage,
@@ -85,7 +85,7 @@ const LifetimeForm = () => {
           <div className="form-feild">
             <input
               type="email"
-              value={email}
+              value={contact_email}
               onChange={e => setEmail(e.target.value)}
               placeholder="Email"
               required
