@@ -17,16 +17,19 @@ const CounterHome = () => {
       setIsVisible(entry.isIntersecting);
     }, options);
 
-    if (counterRef.current) {
-      observer.observe(counterRef.current);
+    // Create a local variable inside the effect
+    const currentRef = counterRef.current;
+
+    if (currentRef) {
+      observer.observe(currentRef);
     }
 
     return () => {
-      if (counterRef.current) {
-        observer.unobserve(counterRef.current);
+      if (currentRef) {
+        observer.unobserve(currentRef);
       }
     };
-  }, []);
+  }, []); // Empty dependency array to run this effect only once
 
   return (
     <div className="row">
