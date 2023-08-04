@@ -30,6 +30,7 @@ import AConsultant from './Components/AConsultant';
 import UnlockYourConsultingSuccess from './Components/UnlockYourConsultingSuccess';
 import ACoach from './Components/ACoach';
 import UnlockYourCoachingSuccess from './Components/UnlockYourCoachingSuccess';
+import Services from './Components/ServicesElements/services';
 import NotFound from './Components/NotFound';
 
 
@@ -86,6 +87,7 @@ function App() {
           <Route path="/consulting-success" element={<UnlockYourConsultingSuccess />} />          
           <Route path="/a-coach" element={<ACoach />} />
           <Route path="/coaching-success" element={<UnlockYourCoachingSuccess />} />    
+          <Route path="/services" element={<Services />} />  
           <Route path="/*" element={<NotFound />} />      
         </Routes>
         <Footer />
