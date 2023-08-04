@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect, lazy } from 'react';
+import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { NavLink } from "react-router-dom";
 import Business from '../ServicesElements/images/business.svg';
