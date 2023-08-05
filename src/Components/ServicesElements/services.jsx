@@ -12,6 +12,12 @@ import Service2 from './images/service2.svg';
 import Service3 from './images/service3.svg';
 import Service4 from './images/service4.svg';
 import Service5 from './images/service5.svg';
+import Logo1 from './images/logo-2.jpg';
+import Logo2 from './images/logo-2.jpg';
+import Logo3 from './images/logo-3.jpg';
+import Logo4 from './images/logo-4.jpg';
+import Logo5 from './images/logo-5.jpg';
+import Logo6 from './images/logo-6.jpg';
 import HireImg from './images/image-service.png';
 import CounterHome from './CounterHome';
 import TechHome from './TechHome';
@@ -19,8 +25,28 @@ import WorkSlider from './WorkSlider';
 import ServiceForm from './ServiceForm';
 import ServicePopup from './ServicePopup';
 import ServiceMarquee from './ServiceMarquee';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 
 
+const responsive = {
+    superLargeDesktop: {
+        breakpoint: { max: 4000, min: 3000 },
+        items: 6
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 6
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 5
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 3
+    }
+};
 
 function Services() {
     useEffect(() => {
@@ -216,6 +242,108 @@ function Services() {
             </section>
 
             {/* --- Customers Outlook --- */}
+
+
+            {/* --- Logo Slider --- */}
+
+            <section className="logo-carousel">
+                <div className="container" data-aos="fade-up">
+                    <Carousel responsive={responsive} infinite={true} >
+                        <img src={Logo1} alt="Logo1" />
+                        <img src={Logo2} alt="Logo2" />
+                        <img src={Logo3} alt="Logo3" />
+                        <img src={Logo4} alt="Logo4" />
+                        <img src={Logo5} alt="Logo5" />
+                        <img src={Logo6} alt="Logo6" />
+                    </Carousel>
+                </div>
+            </section>
+
+            {/* --- Logo Slider --- */}
+
+
+            {/* --- Pricing --- */}
+
+            <section className="service-pricing" data-aos="fade-up">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-3">
+                            <div className="service-price-box price-box1">
+                                <h3>Pricing 1</h3>
+                                <div className="price-box">
+                                <ul>
+                                    <li>Business Builder Diagnostic</li>
+                                    <li>Unlimited Diagnostic Reports</li>
+                                    <li>Unlimited Customer Creation</li>
+                                    <li>Access to Portal</li>
+                                    <li>Email Diagnostic System</li>
+                                    <li>Training Modules</li>
+                                    <li>Development Modules</li>
+                                    <li>Goal Tracking</li>
+                                </ul>
+                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="service-price-box price-box2">
+                                <h3>Pricing 2</h3>
+                                <div className="price-box">
+                                <ul>
+                                    <li>Business Builder Diagnostic</li>
+                                    <li>Unlimited Diagnostic Reports</li>
+                                    <li>Unlimited Customer Creation</li>
+                                    <li>Access to Portal</li>
+                                    <li>Email Diagnostic System</li>
+                                    <li>Training Modules</li>
+                                    <li>Development Modules</li>
+                                    <li>Goal Tracking</li>
+                                </ul>
+                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="service-price-box price-box3">
+                                <h3>Pricing 3</h3>
+                                <div className="price-box">
+                                <ul>
+                                    <li>Business Builder Diagnostic</li>
+                                    <li>Unlimited Diagnostic Reports</li>
+                                    <li>Unlimited Customer Creation</li>
+                                    <li>Access to Portal</li>
+                                    <li>Email Diagnostic System</li>
+                                    <li>Training Modules</li>
+                                    <li>Development Modules</li>
+                                    <li>Goal Tracking</li>
+                                </ul>
+                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-3">
+                            <div className="service-price-box price-box4">
+                                <h3>Pricing 4</h3>
+                                <div className="price-box">
+                                <ul>
+                                    <li>Business Builder Diagnostic</li>
+                                    <li>Unlimited Diagnostic Reports</li>
+                                    <li>Unlimited Customer Creation</li>
+                                    <li>Access to Portal</li>
+                                    <li>Email Diagnostic System</li>
+                                    <li>Training Modules</li>
+                                    <li>Development Modules</li>
+                                    <li>Goal Tracking</li>
+                                </ul>
+                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* --- Pricing --- */}
 
 
             {/* --- Assesment --- */}

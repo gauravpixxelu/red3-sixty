@@ -2751,9 +2751,75 @@ section.service-banner .banner-content h4 {
 .hire-img {
     padding-left: 60px;
 }
-
-
-
+.service-page .logo-carousel {
+    background: #f8f9fc;
+    padding: 60px 0;
+}
+.service-pricing {
+    padding: 80px 0;
+}
+.service-price-box {
+    box-shadow: 0px 10px 23px 0px rgb(0 0 0 / 5%);
+    border: 1px solid #F1CEBE;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.service-price-box h3 {
+    text-align: center;
+    background: #F1CEBE;
+    margin-bottom: 0;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+.price-box2 {
+    border: 1px solid #C3EAD8;
+}
+.price-box2 h3 {
+    background: #C3EAD8;
+}
+.price-box3 {
+    border: 1px solid #C8D4F2;
+}
+.price-box3 h3 {
+    background: #C8D4F2;
+}
+.price-box4 {
+    border: 1px solid #EEF2C8;
+}
+.price-box4 h3 {
+    background: #EEF2C8;
+}
+.service-price-box .price-box {
+    padding: 20px;
+    min-height: auto;
+    background: #fff;
+    border: 0;
+    box-shadow: 0px 0 0 0px #fff;
+}
+.service-price-box .price-box .custom-btn {
+    width: auto;
+    position: relative;
+    margin-top: 25px;
+    color: #000;
+    border-radius: 5px;
+    overflow: hidden;
+    background: #F1CEBE;
+    border-color: #F1CEBE;
+}
+.price-box2 .price-box .custom-btn {
+    background: #C3EAD8;
+    border-color: #C3EAD8;
+}
+.price-box3 .price-box .custom-btn {
+    background: #C8D4F2;
+    border-color: #C8D4F2;
+}
+.price-box4 .price-box .custom-btn {
+    background: #EEF2C8;
+    border-color: #EEF2C8;
+}
 
 
 
