@@ -9,10 +9,11 @@ import Reason1 from '../ServicesElements/images/reason1.svg';
 import Reason2 from '../ServicesElements/images/reason2.svg';
 import Reason3 from '../ServicesElements/images/reason3.svg';
 import Up from '../ServicesElements/images/up.svg';
-import Down from '../ServicesElements/images/down.svg';
-import CounterHome from '../ServicesElements/CounterHome';
-import TechHome from '../ServicesElements/TechHome';
-import WorkSlider from '../ServicesElements/WorkSlider';
+import Down from './images/down.svg';
+import CounterHome from './CounterHome';
+import TechHome from './TechHome';
+import WorkSlider from './WorkSlider';
+import ServiceForm from './ServiceForm';
 
 
 function Services() {
@@ -48,6 +49,7 @@ function Services() {
                             <div className="banner-form">
                             <h3>Maximize Your Online Success with Our Web Design and Development Expertise</h3>
                             <p className="hdng-18">Submit the Form Below to Request Custom Services</p>
+                            <ServiceForm />
                             </div>
                         </div>
                     </div>

@@ -3,21 +3,10 @@ import React, { useState, useEffect } from 'react';
 const ServiceForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
-    const [subject, setSubject] = useState('');
     const [phone, setPhone] = useState('');
-    const [address, setAddress] = useState('');
     const [message, setMessage] = useState('');
     const [thankmessage, setThank] = useState('');
     // const [page_type, setPageType] = useState('');
-
-    useEffect(() => {
-        // setPageType(getPageType());
-    }, []);
-
-    // const getPageType = () => {
-    //     // Function to determine the page type based on the URL or any other logic
-    //     // Return the determined page type
-    // };
 
 
     const handleSubmit = async e => {
@@ -25,17 +14,15 @@ const ServiceForm = () => {
         const data = {
             name,
             email,
-            subject,
             phone,
-            address,
             message,
             thankmessage,
-            page_type: "Contact",
+            page_type: "Services",
         };
 
         try {
             const response = await fetch(
-                `${process.env.REACT_APP_API_URL}contact-us`,
+                `${process.env.REACT_APP_API_URL}pixxelu-contact-us`,
                 {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -47,9 +34,7 @@ const ServiceForm = () => {
             setThank('Thank you for your message. It has been sent.');
             setName('');
             setEmail('');
-            setSubject('');
             setPhone('');
-            setAddress('');
             setMessage('');
         } catch (error) {
             console.log(error);
@@ -60,7 +45,7 @@ const ServiceForm = () => {
     return (
         <form onSubmit={handleSubmit} className="from-bottom">
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-12">
                     <div className="form-feild">
                         <input type="text" value={name} onChange={e => setName(e.target.value)} placeholder="Name" required />
                     </div>
@@ -69,12 +54,6 @@ const ServiceForm = () => {
                 <div className="col-md-6">
                     <div className="form-feild">
                         <input type="email" value={email} onChange={e => setEmail(e.target.value)} placeholder="Email" required />
-                    </div>
-                </div>
-
-                <div className="col-md-6">
-                    <div className="form-feild">
-                        <input type="text" value={subject} onChange={e => setSubject(e.target.value)} placeholder="Subject" />
                     </div>
                 </div>
 

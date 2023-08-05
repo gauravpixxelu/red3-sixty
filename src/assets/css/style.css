@@ -2565,6 +2565,7 @@ section.service-banner .banner-content h4 {
     margin-bottom: 25px;
     background: #fff;
     padding: 30px;
+    margin-left: 50px;
 }
 .banner-form p {
     text-align: center;
@@ -2573,6 +2574,44 @@ section.service-banner .banner-content h4 {
     font-size: 24px;
     text-align: center;
 }
+.service-banner-box h5 {
+    font-size: 18px;
+}
+.banner-form .form-feild input, .banner-form .form-feild textarea {
+    border-radius: 0;
+    box-shadow: 0px 10px 23px 0px rgb(0 0 0 / 2%);
+    border: 1px solid rgb(0 0 0 / 10%);
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    color: #000;
+    font-size: 16px;
+    outline: 0;
+}
+.banner-form .form-feild textarea {
+    height: 120px;
+}
+.banner-form .form-feild input::placeholder, .banner-form .form-feild textarea::placeholder {
+    color: #000;
+    font-size: 16px;
+}
+.banner-form .form-feild {
+    margin-top: 20px;
+}
+.banner-form .from-bottom .form-button {
+    justify-content: flex-start;
+}
+.banner-form .from-bottom .form-button .custom-btn {
+    box-shadow: 0px 10px 23px 0px rgb(0 0 0 / 2%);
+}
+.service-banner .row {
+    align-items: center;
+}
+
+
+
+
+
 
 /*-- Service Css --*/ 
 
