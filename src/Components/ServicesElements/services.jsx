@@ -25,8 +25,10 @@ import WorkSlider from './WorkSlider';
 import ServiceForm from './ServiceForm';
 import ServicePopup from './ServicePopup';
 import ServiceMarquee from './ServiceMarquee';
+import ServiceTab from './ServiceTab';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+
 
 
 const responsive = {
@@ -247,6 +249,7 @@ function Services() {
             {/* --- Logo Slider --- */}
 
             <section className="logo-carousel">
+            <h2 className="sec-hdng">Trusted and Implemented by our <br />Strategic Partners</h2>
                 <div className="container" data-aos="fade-up">
                     <Carousel responsive={responsive} infinite={true} >
                         <img src={Logo1} alt="Logo1" />
@@ -264,24 +267,24 @@ function Services() {
 
             {/* --- Pricing --- */}
 
-            <section className="service-pricing" data-aos="fade-up">
+            {/* <section className="service-pricing" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-3">
                             <div className="service-price-box price-box1">
                                 <h3>Pricing 1</h3>
                                 <div className="price-box">
-                                <ul>
-                                    <li>Business Builder Diagnostic</li>
-                                    <li>Unlimited Diagnostic Reports</li>
-                                    <li>Unlimited Customer Creation</li>
-                                    <li>Access to Portal</li>
-                                    <li>Email Diagnostic System</li>
-                                    <li>Training Modules</li>
-                                    <li>Development Modules</li>
-                                    <li>Goal Tracking</li>
-                                </ul>
-                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                    <ul>
+                                        <li>Business Builder Diagnostic</li>
+                                        <li>Unlimited Diagnostic Reports</li>
+                                        <li>Unlimited Customer Creation</li>
+                                        <li>Access to Portal</li>
+                                        <li>Email Diagnostic System</li>
+                                        <li>Training Modules</li>
+                                        <li>Development Modules</li>
+                                        <li>Goal Tracking</li>
+                                    </ul>
+                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
                                 </div>
                             </div>
                         </div>
@@ -289,17 +292,17 @@ function Services() {
                             <div className="service-price-box price-box2">
                                 <h3>Pricing 2</h3>
                                 <div className="price-box">
-                                <ul>
-                                    <li>Business Builder Diagnostic</li>
-                                    <li>Unlimited Diagnostic Reports</li>
-                                    <li>Unlimited Customer Creation</li>
-                                    <li>Access to Portal</li>
-                                    <li>Email Diagnostic System</li>
-                                    <li>Training Modules</li>
-                                    <li>Development Modules</li>
-                                    <li>Goal Tracking</li>
-                                </ul>
-                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                    <ul>
+                                        <li>Business Builder Diagnostic</li>
+                                        <li>Unlimited Diagnostic Reports</li>
+                                        <li>Unlimited Customer Creation</li>
+                                        <li>Access to Portal</li>
+                                        <li>Email Diagnostic System</li>
+                                        <li>Training Modules</li>
+                                        <li>Development Modules</li>
+                                        <li>Goal Tracking</li>
+                                    </ul>
+                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
                                 </div>
                             </div>
                         </div>
@@ -307,17 +310,17 @@ function Services() {
                             <div className="service-price-box price-box3">
                                 <h3>Pricing 3</h3>
                                 <div className="price-box">
-                                <ul>
-                                    <li>Business Builder Diagnostic</li>
-                                    <li>Unlimited Diagnostic Reports</li>
-                                    <li>Unlimited Customer Creation</li>
-                                    <li>Access to Portal</li>
-                                    <li>Email Diagnostic System</li>
-                                    <li>Training Modules</li>
-                                    <li>Development Modules</li>
-                                    <li>Goal Tracking</li>
-                                </ul>
-                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                    <ul>
+                                        <li>Business Builder Diagnostic</li>
+                                        <li>Unlimited Diagnostic Reports</li>
+                                        <li>Unlimited Customer Creation</li>
+                                        <li>Access to Portal</li>
+                                        <li>Email Diagnostic System</li>
+                                        <li>Training Modules</li>
+                                        <li>Development Modules</li>
+                                        <li>Goal Tracking</li>
+                                    </ul>
+                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
                                 </div>
                             </div>
                         </div>
@@ -325,21 +328,28 @@ function Services() {
                             <div className="service-price-box price-box4">
                                 <h3>Pricing 4</h3>
                                 <div className="price-box">
-                                <ul>
-                                    <li>Business Builder Diagnostic</li>
-                                    <li>Unlimited Diagnostic Reports</li>
-                                    <li>Unlimited Customer Creation</li>
-                                    <li>Access to Portal</li>
-                                    <li>Email Diagnostic System</li>
-                                    <li>Training Modules</li>
-                                    <li>Development Modules</li>
-                                    <li>Goal Tracking</li>
-                                </ul>
-                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                    <ul>
+                                        <li>Business Builder Diagnostic</li>
+                                        <li>Unlimited Diagnostic Reports</li>
+                                        <li>Unlimited Customer Creation</li>
+                                        <li>Access to Portal</li>
+                                        <li>Email Diagnostic System</li>
+                                        <li>Training Modules</li>
+                                        <li>Development Modules</li>
+                                        <li>Goal Tracking</li>
+                                    </ul>
+                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </section> */}
+
+            <section className="service-tab" data-aos="fade-up">
+                <div className="container">
+                <h2 className="sec-hdng">Our Packages</h2>
+                    <ServiceTab />
                 </div>
             </section>
 
