@@ -1,0 +1,33 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="98" height="98" viewBox="0 0 98 98" fill="none">
+<g filter="url(#filter0_d_1371_554)">
+<rect width="94" height="94" rx="11" fill="#EBF4FF"/>
+<rect x="0.5" y="0.5" width="93" height="93" rx="10.5" stroke="black"/>
+</g>
+<g clip-path="url(#clip0_1371_554)">
+<circle cx="47" cy="56" r="30" fill="white"/>
+<path d="M55.077 47.1153C53.4949 40.1894 50.1208 35.8076 47.0001 35.8076C43.8794 35.8076 40.5052 40.1894 38.9231 47.1153H55.077Z" fill="#3EBAFF"/>
+<path d="M38.1155 56C38.1151 57.891 38.2472 59.7798 38.5108 61.6539H55.4894C55.753 59.7798 55.8851 57.891 55.8847 56C55.8851 54.1091 55.753 52.2203 55.4894 50.3462H38.5108C38.2472 52.2203 38.1151 54.1091 38.1155 56Z" fill="#3EBAFF"/>
+<path d="M38.9231 64.8846C40.5052 71.8106 43.8794 76.1924 47.0001 76.1924C50.1208 76.1924 53.4949 71.8106 55.077 64.8846H38.9231Z" fill="#3EBAFF"/>
+<path d="M57.6191 47.1154H66.3847C65.0677 44.0897 63.0665 41.4177 60.5417 39.3138C58.0169 37.2098 55.0388 35.7324 51.8463 35C54.4857 37.3441 56.5561 41.6785 57.6191 47.1154Z" fill="#3EBAFF"/>
+<path d="M68.0168 50.3462H58.3093C58.5483 52.2218 58.6678 54.11 58.6672 56C58.6673 57.8901 58.5473 59.7783 58.3078 61.6539H68.0154C69.072 57.9551 69.0735 54.045 68.0168 50.3462Z" fill="#3EBAFF"/>
+<path d="M51.8463 77.0001C55.0387 76.2681 58.0168 74.7909 60.5416 72.6868C63.0664 70.5828 65.0676 67.9106 66.3847 64.8846H57.6207C56.5552 70.3215 54.4852 74.6559 51.8463 77.0001Z" fill="#3EBAFF"/>
+<path d="M36.3794 64.8846H27.6154C28.9325 67.9106 30.9337 70.5828 33.4585 72.6868C35.9834 74.7909 38.9614 76.2681 42.1539 77.0001C39.5122 74.6559 37.4422 70.3215 36.3794 64.8846Z" fill="#3EBAFF"/>
+<path d="M42.1539 35C38.9614 35.732 35.9834 37.2092 33.4585 39.3132C30.9337 41.4172 28.9325 44.0894 27.6154 47.1154H36.3794C37.445 41.6785 39.515 37.3441 42.1539 35Z" fill="#3EBAFF"/>
+<path d="M35.333 56C35.3329 54.11 35.4529 52.2217 35.6924 50.3462H25.9848C24.9282 54.045 24.9282 57.9551 25.9848 61.6539H35.6924C35.4529 59.7783 35.3329 57.8901 35.333 56Z" fill="#3EBAFF"/>
+</g>
+<line y1="18.5" x2="94" y2="18.5" stroke="black"/>
+<defs>
+<filter id="filter0_d_1371_554" x="0" y="0" width="98" height="98" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="4" dy="4"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1371_554"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1371_554" result="shape"/>
+</filter>
+<clipPath id="clip0_1371_554">
+<rect width="60" height="60" fill="white" transform="translate(17 26)"/>
+</clipPath>
+</defs>
+</svg>

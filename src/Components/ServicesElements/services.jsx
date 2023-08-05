@@ -2,18 +2,24 @@ import React from 'react';
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 import { NavLink } from "react-router-dom";
-import Business from '../ServicesElements/images/business.svg';
-import Rocket from '../ServicesElements/images/rocket.png';
-import Flags from '../ServicesElements/images/flags.png';
-import Reason1 from '../ServicesElements/images/reason1.svg';
-import Reason2 from '../ServicesElements/images/reason2.svg';
-import Reason3 from '../ServicesElements/images/reason3.svg';
-import Up from '../ServicesElements/images/up.svg';
-import Down from './images/down.svg';
+import Business from './images/business.svg';
+import Rocket from './images/rocket.png';
+import Flags from './images/flags.png';
+import Quote from './images/quote.svg';
+import Star from './images/star.svg';
+import Service1 from './images/service1.svg';
+import Service2 from './images/service2.svg';
+import Service3 from './images/service3.svg';
+import Service4 from './images/service4.svg';
+import Service5 from './images/service5.svg';
+import HireImg from './images/image-service.png';
 import CounterHome from './CounterHome';
 import TechHome from './TechHome';
 import WorkSlider from './WorkSlider';
 import ServiceForm from './ServiceForm';
+import ServicePopup from './ServicePopup';
+import ServiceMarquee from './ServiceMarquee';
+
 
 
 function Services() {
@@ -35,31 +41,85 @@ function Services() {
                 <div className="container" data-aos="fade-up">
                     <div className="row">
                         <div className="col-md-6">
-                        <div className="banner-content">
+                            <div className="banner-content">
                                 <h4>Web Design | Web Development | eCommerce Development</h4>
                                 <h1>We Give Eagle wings to your Business, now it's your turn to decide where to fly.</h1>
                                 <p>Develop clean, secure, and robust websites for your right target audience. Make your business a brand by creating high-end web solutions with Red3-sixty</p>
                             </div>
                             <div className="service-banner-box">
-                                <h5>Highly recommend working with Pixxelu. Professional, on-time, and on-budget delivery. Customer service and quality are their top priority</h5>
+                                <img src={Quote} alt="Quote" />
+                                <h5>Highly recommend working with Red3-sixty. Professional, on-time, and on-budget delivery. Customer service and quality are their top priority</h5>
                                 <p>Conan Venus, Owner, Conan Venus And Company</p>
                             </div>
                         </div>
                         <div className="col-md-6">
                             <div className="banner-form">
-                            <h3>Maximize Your Online Success with Our Web Design and Development Expertise</h3>
-                            <p className="hdng-18">Submit the Form Below to Request Custom Services</p>
-                            <ServiceForm />
+                                <h3>Maximize Your Online Success with Our Web Design and Development Expertise</h3>
+                                <p className="hdng-18">Submit the Form Below to Request Custom Services</p>
+                                <ServiceForm />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-
             {/* --- Services Banner --- */}
 
 
+            {/* --- Service Marquee --- */}
+
+            <section className="service-marque" >
+                <ServiceMarquee />
+            </section>
+
+            {/* --- Service Marquee --- */}
+
+
+            {/* --- Technologies --- */}
+
+            <section className="service-gd" data-aos="fade-up">
+                <div className="container">
+                    <div className="technologies-block">
+                        <h4 class="small-hdn">SERVICES</h4>
+                        <h2 className="sec-hdng">Create a global impact with your business solution <br />by prioritizing the Right Traffic</h2>
+                        <p className="hdng-18">Beat your competitors by simply listening to and understanding the voice of your traffic. Gauging the user analytics, we assist in creating a compelling and converting version of your Website. Red3-sixty eliminates the friction, so your users do not have even a single doubt about your business.</p>
+                    </div>
+                    <div className="service-block-gd">
+                        <div className="service-gd-box">
+                            <img src={Service1} alt="Rocket" />
+                            <h4>Web Design</h4>
+                            <p className="hdng-16">Immerse your audience in captivating digital experiences. Our design experts blend creativity with functionality, delivering websites that leave a lasting impact.</p>
+                        </div>
+                        <div className="service-gd-box">
+                            <img src={Service2} alt="Rocket" />
+                            <h4>Ui/Ux Design</h4>
+                            <p className="hdng-16">Elevate user satisfaction with our UI/UX design service. We craft seamless interfaces that enhance usability, ensuring your audience stays engaged and delighted.</p>
+                        </div>
+                        <div className="service-gd-box">
+                            <img src={Service3} alt="Rocket" />
+                            <h4>Web Development</h4>
+                            <p className="hdng-16">Turn your ideas into reality with our web development service. Our team builds responsive, high-performance websites that help empower your online presence.</p>
+                        </div>
+                        <div className="service-gd-box">
+                            <img src={Service4} alt="Rocket" />
+                            <h4>E-Commerce</h4>
+                            <p className="hdng-16">We design and build ideal e-commerce websites, empowering your business to thrive in the digital sphere with enhanced functionality and user-friendly interfaces.</p>
+                        </div>
+                        <div className="service-gd-box">
+                            <img src={Service5} alt="Rocket" />
+                            <h4>Digital Marketing</h4>
+                            <p className="hdng-16">Amplify your online presence with our digital marketing services. From strategic campaigns to posts, we deliver results that elevate your brand's visibility and success.</p>
+                        </div>
+                        <div className="service-gd-box">
+                            <h4>Get In Touch</h4>
+                            <p className="hdng-16">Ready to embark on your digital journey? Contact us now to discuss your project and unlock the digital possibilities.</p>
+                            <NavLink to="#" className="custom-btn"><span>Contact Our Experts</span></NavLink>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* --- Technologies --- */}
 
 
             {/* --- Technologies --- */}
@@ -77,7 +137,6 @@ function Services() {
             {/* --- Technologies --- */}
 
 
-
             {/* --- Assesment --- */}
 
             <section className="assesment" data-aos="fade-up">
@@ -88,16 +147,13 @@ function Services() {
                         </div>
                         <img className="rocket" src={Rocket} alt="Rocket" />
                         <div className="assesment-btn">
-                            <NavLink to="#" className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></NavLink>
+                            <ServicePopup />
                         </div>
                     </div>
                 </div>
             </section>
 
             {/* --- Assesment --- */}
-
-
-
 
 
             {/* --- Work --- */}
@@ -114,48 +170,37 @@ function Services() {
             {/* --- Work --- */}
 
 
+            {/* --- Technologies --- */}
 
-
-
-
-            <section className="reasons">
+            <section className="hire">
                 <div className="container" data-aos="fade-up">
-                    <h2 className="sec-hdng">Reasons Why We Are The Prime Across the Globe</h2>
-                    <div className="row" data-aos="fade-up">
-                        <div className="col-md-4">
-                            <div className="reasons-block">
-                                <img src={Reason1} alt="Reason1" />
-                                <h4 className="hdng-h4">Clear Consultation</h4>
-                                <p className="hdng-16">Schedule a direct meeting with our consultant; then and there, we can plan and strategize the ideation and implementation to be carried out. A requisite timeline and budget can also be devised as per your considerations.</p>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="hire-txt">
+                                <h4 class="small-hdn">Hire Now</h4>
+                                <h2 className="sec-hdng">Hire a UI/UX Designer or Developer</h2>
+                                <p className="hdng-16"> If you got a small project or some minor altercations, and are looking to hire a designer or developer on a part-time or full-time basis? Don’t worry, We’ve got you all covered.</p>
+                                <p className="hdng-16">You can hire a UI/UX Designer or a Web Developer from Pixxelu to add a modern touch to your website or app.</p>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />Transparent Communication</li>
+                                    <li><img src={Star} alt="Star" />IP Protection</li>
+                                    <li><img src={Star} alt="Star" />Cutting-Edge Designs</li>
+                                    <li><img src={Star} alt="Star" />Agile Methodologies</li>
+                                    <li><img src={Star} alt="Star" />On-Time Delivery Assured</li>
+                                </ul>
+                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
                             </div>
                         </div>
-
-                        <div className="col-md-4">
-                            <img src={Down} alt="Down" className="down" />
-                            <div className="reasons-block">
-                                <img src={Reason2} alt="Reason2" />
-                                <h4 className="hdng-h4">Value In-Depth Research</h4>
-                                <p className="hdng-16">After the consultation, our experts and designers take the matter into their hands. Comparative study and research create a better scope that can draw convertible traffic.</p>
-                            </div>
-                            <img src={Up} alt="Up" className="up" />
-                        </div>
-
-                        <div className="col-md-4">
-                            <div className="reasons-block">
-                                <img src={Reason3} alt="Reason3" />
-                                <h4 className="hdng-h4">Quick & affordable</h4>
-                                <p className="hdng-16">We create what's best and what's easy for you to purchase. Time and money are crucial factors in any business, and we fully understand this. Our customization and catering are pocket- and time friendly.</p>
+                        <div className="col-md-6">
+                            <div className="hire-img">
+                                <img src={HireImg} alt="HireImg" />
                             </div>
                         </div>
                     </div>
-                    <div className="reasons-btn">
-                        <NavLink to="#" className="custom-btn"><span>Get A Free Assessment Now</span></NavLink>
-                    </div>
-
                 </div>
             </section>
 
-
+            {/* --- Technologies --- */}
 
 
             {/* --- Customers Outlook --- */}
@@ -164,7 +209,7 @@ function Services() {
                 <div className="container">
                     <div className="customers-hdng">
                         <h2 className="sec-hdng">Customers outlook</h2>
-                        <p className="hdng-16">We sell so you can sell even better and uplift your business in your respected arena with a well-tailored website.</p>
+                        <p className="hdng-18">We sell so you can sell even better and uplift your business in your respected arena with a well-tailored website.</p>
                         <img src={Flags} alt="Flags" />
                     </div>
                 </div>
@@ -182,7 +227,7 @@ function Services() {
                             <h2 className="sec-hdng">Congratulations! Red3-sixty is happy that your search finally ends here.</h2>
                         </div>
                         <div className="assesment-btn">
-                            <NavLink to="#" className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></NavLink>
+                            <ServicePopup />
                         </div>
                     </div>
                 </div>
@@ -208,9 +253,24 @@ function Services() {
                 </div>
             </section>
 
-            {/* --- Video Review --- */}
+            {/* --- Satisfaction Review --- */}
 
 
+            <section className="marque-slides" data-aos="fade-up">
+                <div class="marquee">
+                    <div class="marquee__inner" aria-hidden="true">
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire Front/End Developers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire Node.js Developers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire PHP Developers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire Shopify Developers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire WordPress Developers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire Webflow Developers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire React Developers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire Graphic Designers</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Hire UI/UX Designers</NavLink></p>
+                    </div>
+                </div>
+            </section>
 
 
         </div>
