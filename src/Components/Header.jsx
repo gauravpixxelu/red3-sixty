@@ -71,7 +71,7 @@ const Header = () => {
                   <li><NavLink className="dropdown-item" to="/about-company">About</NavLink></li>
                 </ul>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <NavLink className="nav-link dropdown-toggle" to="/services" aria-current="page">Services</NavLink>
                 <ul className="dropdown-menu">
                   <li><NavLink className="dropdown-item" to="/services#service-tabs" onClick={() => {
@@ -105,7 +105,7 @@ const Header = () => {
                     }
                   }}>Custom Websites POA</NavLink></li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item dropdown">
                 <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">I am...</NavLink>
                 <ul className="dropdown-menu">
