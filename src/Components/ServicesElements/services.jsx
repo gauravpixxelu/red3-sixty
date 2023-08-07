@@ -7,6 +7,8 @@ import Rocket from './images/rocket.png';
 import Flags from './images/flags.png';
 import Quote from './images/quote.svg';
 import Star from './images/star.svg';
+import Circle_Shape from './images/circle-shape.png';
+import Benfits_Img from './images/benefits.png';
 import Service1 from './images/service1.svg';
 import Service2 from './images/service2.svg';
 import Service3 from './images/service3.svg';
@@ -50,7 +52,9 @@ const responsive = {
     }
 };
 
+
 function Services() {
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -231,6 +235,31 @@ function Services() {
             {/* --- Technologies --- */}
 
 
+            {/* Book Online Section Starts */}
+
+            <section className="platform-block">
+                <div className="container">
+                    <div className="row platform-4" data-aos="fade-right">
+                        <div className="col-md-6">
+                            <div className="banner-image">
+                                <img className="abxo" src={Benfits_Img} alt="Benfits_Img1" />
+                                <img className="gdxo" src={Circle_Shape} alt="Circle_Shape" />
+                            </div>
+                        </div>
+                        <div className="col-md-6" data-aos="fade-left">
+                            <div className="platform-txt">
+                                <h2 className="hdng">Pre-Qualified Leads and customer creation!</h2>
+                                <p className="hdng-16">Discover more leads, get more customers! Close more deals! All Leads are pre-qualified! No need for cold calls! Use Pre-populated emails to ensure high conversions. Generate high ROI linked to your business plan.</p>
+                                <NavLink to="/pricing" className="custom-btn"><span>Prices</span></NavLink>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Book Online Section Ends */}
+
+
             {/* --- Customers Outlook --- */}
 
             <section className="customers-outlook" data-aos="fade-up">
@@ -246,10 +275,14 @@ function Services() {
             {/* --- Customers Outlook --- */}
 
 
+
+
+
+
             {/* --- Logo Slider --- */}
 
             <section className="logo-carousel">
-            <h2 className="sec-hdng">Trusted and Implemented by our <br />Strategic Partners</h2>
+                <h2 className="sec-hdng">Trusted and Implemented by our <br />Strategic Partners</h2>
                 <div className="container" data-aos="fade-up">
                     <Carousel responsive={responsive} infinite={true} >
                         <img src={Logo1} alt="Logo1" />
@@ -346,9 +379,9 @@ function Services() {
                 </div>
             </section> */}
 
-            <section className="service-tab" data-aos="fade-up">
+            <section className="service-tab" id="service-tabs" data-aos="fade-up">
                 <div className="container">
-                <h2 className="sec-hdng">Our Packages</h2>
+                    <h2 className="sec-hdng">Our Packages</h2>
                     <ServiceTab />
                 </div>
             </section>
