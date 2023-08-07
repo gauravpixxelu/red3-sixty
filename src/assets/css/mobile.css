@@ -757,4 +757,196 @@ p.error-msg {
 }
 
 
+
+/*-- Service Css --*/ 
+section.service-banner {
+    padding: 20px 0;
+}
+.service-banner .banner-content h1 {
+    font-size: 36px;
+}
+.service-banner-box {
+    margin-top: 20px;
+    padding: 15px;
+}
+.banner-form {
+    margin-bottom: 0;
+    padding: 30px 15px;
+    margin-left: 0;
+    margin-top: 20px;
+}
+.banner-form h3 {
+    font-size: 20px;
+}
+.service-marque .marquee p {
+    gap: 10px;
+    font-size: 16px;
+    padding: 0 20px;
+}
+.service-marque .marquee p img {
+    width: 30px;
+}
+.service-marque {
+    padding: 30px 0;
+}
+.service-gd {
+    padding: 30px 0;
+}
+.service-gd-box {
+    padding: 30px 15px;
+}
+.service-block-gd {
+    grid-template-columns: repeat(1,1fr);
+}
+.service-gd-box:nth-child(4) {
+    border-bottom: 1px solid rgb(0 0 0 / 10%);
+}
+.technologies {
+    padding: 40px 0;
+}
+.service-tab .nav-tab .tab-content {
+    margin-left: 0;
+    padding: 0;
+    padding-left: 0;
+}
+.work .slick-prev:before, .work .slick-next:before {
+    width: 25px;
+    height: 25px;
+}
+.service-tab .nav-tab #nav-tab {
+    grid-template-columns: repeat(2,1fr);
+}
+.banner-form .form-feild {
+    margin-top: 10px;
+}
+.banner-form .form-feild input, .banner-form .form-feild textarea {
+    height: 50px;
+    font-size: 14px;
+}
+.banner-form .form-feild input::placeholder, .banner-form .form-feild textarea::placeholder {
+    font-size: 14px;
+}
+div.banner-form .form-feild textarea {
+    height: 100px;
+}
+.service-tab .nav button {
+    min-width: auto;
+    text-align: center;
+    padding: 10px;
+}
+.service-tab .nav-tab {
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.service-tab .nav-tab nav {
+    width: 100%;
+}
+.marque-slides .marquee p a {
+    font-size: 24px;
+}
+.marquee p {
+    padding: 0 30px;
+}
+.marque-slides .marquee p a img {
+    width: 24px;
+    margin-right: 15px;
+}
+.assement-block .assesment-hdng h2 {
+    font-size: 24px;
+}
+.assement-block {
+    flex-wrap: wrap;
+}
+.assement-block .assesment-btn {
+    text-align: left;
+    margin-top: 20px;
+}
+.service-tab {
+    padding: 40px 0;
+}
+.service-tab h2.sec-hdng {
+    margin-bottom: 20px;
+}
+.service-page .logo-carousel {
+    padding: 40px 0;
+}
+.logo-carousel h2.sec-hdng {
+    margin-bottom: 20px;
+}
+.customers-outlook {
+    padding: 40px 0;
+}
+.customers-outlook {
+    padding: 40px 0;
+}
+.customers-hdng img {
+    width: 100%;
+    margin-top: 15px;
+}
+.hire-img {
+    padding-left: 0;
+    padding-top: 30px;
+}
+.hire-txt {
+    padding-right: 0;
+}
+.hire-txt .site-ul li {
+    font-size: 14px;
+}
+.hire {
+    padding: 40px 0 0;
+}
+.work {
+    padding: 40px 0 ;
+}
+.work-slide {
+    padding: 0 20px;
+    margin: 0 0;
+}
+.work .slick-prev {
+    left: 0;
+    z-index: 9;
+}
+.work .slick-next {
+    right: 5px;
+}
+.assesment .rocket {
+    display: none;
+}
+.service-gd-box:last-child h4 {
+    font-size: 24px;
+}
+.service-tab .nav-tab .tab-content .tabservice-list .tab-service h4 {
+    font-size: 18px;
+}
+.service-tab .nav-tab .tab-content .tabservice-list .tab-service h5 {
+    font-size: 14px;
+}
+.service-tab .nav-tab .tab-content .tabservice-list .tab-service img {
+    margin-right: 10px;
+}
+.tabservice-overview {
+    margin-top: 25px;
+}
+.satisfaction .counter h3 {
+    font-size: 30px;
+}
+.satisfaction .counter p {
+    font-size: 14px;
+}
+.satisfaction .col-md-9 .counter .row {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 20px;
+}
+.satisfaction .col-md-9 .counter {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
 }

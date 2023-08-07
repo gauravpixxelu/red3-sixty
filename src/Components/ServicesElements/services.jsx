@@ -208,7 +208,7 @@ function Services() {
                                 <h4 class="small-hdn">Hire Now</h4>
                                 <h2 className="sec-hdng">Hire a UI/UX Designer or Developer</h2>
                                 <p className="hdng-16"> If you got a small project or some minor altercations, and are looking to hire a designer or developer on a part-time or full-time basis? Don’t worry, We’ve got you all covered.</p>
-                                <p className="hdng-16">You can hire a UI/UX Designer or a Web Developer from Pixxelu to add a modern touch to your website or app.</p>
+                                <p className="hdng-16">You can hire a UI/UX Designer or a Web Developer from Red3-sixty to add a modern touch to your website or app.</p>
                                 <ul className="site-ul">
                                     <li><img src={Star} alt="Star" />Transparent Communication</li>
                                     <li><img src={Star} alt="Star" />IP Protection</li>
