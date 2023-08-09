@@ -56,6 +56,13 @@ const responsive = {
 function Services() {
 
     useEffect(() => {
+        document.body.classList.add('servcies')
+        return () => {
+            document.body.classList.remove('servcies')
+        }
+    }, [])
+
+    useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
     

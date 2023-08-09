@@ -4,6 +4,8 @@ const ServiceForm = () => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
+    const [services, setServices] = useState('');
+    const [budget, setBudget] = useState('Around $500');
     const [message, setMessage] = useState('');
     const [thankmessage, setThank] = useState('');
     // const [page_type, setPageType] = useState('');
@@ -15,6 +17,8 @@ const ServiceForm = () => {
             name,
             email,
             phone,
+            services,
+            budget,
             message,
             thankmessage,
             page_type: "Services",
@@ -35,6 +39,8 @@ const ServiceForm = () => {
             setName('');
             setEmail('');
             setPhone('');
+            setBudget('');
+            setServices('');
             setMessage('');
         } catch (error) {
             console.log(error);
@@ -45,7 +51,7 @@ const ServiceForm = () => {
     return (
         <form onSubmit={handleSubmit} className="from-bottom">
             <div className="row">
-                <div className="col-md-12">
+                <div className="col-md-6">
                     <div className="form-feild">
                         <input type="text" value={name} onChange={e => setName(e.target.value)} placeholder="Name" required />
                     </div>
@@ -62,6 +68,48 @@ const ServiceForm = () => {
                         <input type="text" value={phone} onChange={e => setPhone(e.target.value)} placeholder="Phone" />
                     </div>
                 </div>
+
+                <div className="col-md-6">
+                    <div className="form-feild">
+                        <select value={services} onChange={e => setServices(e.target.value)}>
+                            <option value="" disabled>Select Services</option>
+                            <option value="Web Design">Web Design</option>
+                            <option value="Ui/Ux Design">Ui/Ux Design</option>
+                            <option value="Web Development">Web Development</option>
+                            <option value="E-Commerce">E-Commerce</option>
+                            <option value="Digital Marketing">Digital Marketing</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div className="col-md-12">
+                    <div className="form-feild">
+                        <label>Budget</label>
+                        <div className="budget-radio">
+                        <label>
+                            <input type="radio" value="Around $500" checked={budget === 'Around $500'} onChange={e => setBudget(e.target.value)} />
+                            <span>Around $500</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" value="$1000" checked={budget === '$1000'} onChange={e => setBudget(e.target.value)} />
+                            <span>$1000</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" value="$1500" checked={budget === '$1500'} onChange={e => setBudget(e.target.value)} />
+                            <span>$1500</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" value="$2000" checked={budget === '$2000'} onChange={e => setBudget(e.target.value)} />
+                            <span>$2000</span>
+                        </label>
+                        </div>
+                    </div>
+                </div>
+
+
 
                 <div className="col-md-12">
                     <div className="form-feild">

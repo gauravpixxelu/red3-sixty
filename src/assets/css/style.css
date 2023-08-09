@@ -2579,7 +2579,7 @@ section.service-banner .banner-content h4 {
 .service-banner-box h5 {
     font-size: 18px;
 }
-.banner-form .form-feild input, .banner-form .form-feild textarea {
+.banner-form .form-feild input, .banner-form .form-feild textarea, .banner-form .form-feild select {
     border-radius: 0;
     box-shadow: 0px 10px 23px 0px rgb(0 0 0 / 2%);
     border: 1px solid rgb(0 0 0 / 10%);
@@ -2813,10 +2813,60 @@ section.service-banner .banner-content h4 {
     text-align: center;
     margin-bottom: 40px;
 }
-
-
-
-
+.budget-radio {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-top: 10px;
+}  
+.budget-radio label {
+    display: flex;
+    align-items: center;
+}  
+.budget-radio input[type='radio'] {
+    margin-right: 0;
+    display: none;
+}
+.budget-radio label span:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    z-index: 0;
+}
+.budget-radio label span {
+    position: relative;
+    padding: 10px 0;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 0px 10px 23px 0px rgb(0 0 0 / 2%);
+    border: 1px solid rgb(0 0 0 / 10%);
+}
+.budget-radio input:checked + span {
+    background-color: #ed1b24;
+    border-color: #ed1b24;
+    color: #fff;
+    font-weight: 500;
+}
+.banner-form .form-feild > label {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ed1b24;
+    font-weight: 600;
+}   
+.servcies #chipbot-app {
+    display: none;
+}
 
 
 
