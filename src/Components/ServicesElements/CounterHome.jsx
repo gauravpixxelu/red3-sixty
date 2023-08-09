@@ -37,9 +37,9 @@ const CounterHome = () => {
         {isVisible && (
           <div>
             <h3>
-              <CountUp end={12} suffix="+" />
+              <CountUp end={5} suffix="+" />
             </h3>
-            <p className="hdng-18">Over 12 years of Technology Experience</p>
+            <p className="hdng-18">Over 5 years of Technology Experience</p>
           </div>
         )}
       </div>
@@ -59,7 +59,7 @@ const CounterHome = () => {
         {isVisible && (
           <div>
             <h3>
-              <CountUp end={2500} suffix="+" />
+              <CountUp end={150} suffix="+" />
             </h3>
             <p className="hdng-18">Projects Delivered</p>
           </div>

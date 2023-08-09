@@ -8,8 +8,6 @@ const ServiceForm = () => {
     const [budget, setBudget] = useState('Around $500');
     const [message, setMessage] = useState('');
     const [thankmessage, setThank] = useState('');
-    // const [page_type, setPageType] = useState('');
-
 
     const handleSubmit = async e => {
         e.preventDefault();
@@ -108,8 +106,6 @@ const ServiceForm = () => {
                         </div>
                     </div>
                 </div>
-
-
 
                 <div className="col-md-12">
                     <div className="form-feild">
