@@ -37,9 +37,9 @@ const CounterHome = () => {
         {isVisible && (
           <div>
             <h3>
-              <CountUp end={5} suffix="+" />
+              <CountUp end={15} suffix="+" />
             </h3>
-            <p className="hdng-18">Over 5 years of Technology Experience</p>
+            <p className="hdng-18">Over 15 years of Technology Experience</p>
           </div>
         )}
       </div>

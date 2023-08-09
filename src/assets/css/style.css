@@ -2904,6 +2904,10 @@ section.service-banner .banner-content h4 {
 .tabservice-overview .popup-gd {
     margin-top: 25px;
 }
+.work-slide-content h4.hdng-h4 a {
+    color: #000;
+    text-decoration: none;
+}
 
 
 /* .service-price-box {

@@ -294,7 +294,7 @@ function Services() {
                         </div>
                         <div className="col-md-6" data-aos="fade-left">
                             <div className="platform-txt">
-                                <h2 className="hdng">Unique design & code in accordance with the newest technologies.</h2>
+                                <h2 className="hdng">Redesign your old website</h2>
                                 <p className="hdng-16">Design and code are only tools of expression. What sets us and our work apart is people. We’re a small group of creative thinkers who craft bespoke digital-first brand identities.</p>
                                 <ul className="site-ul">
                                     <li><img src={Star} alt="Star" />Frontend Development</li>
@@ -313,40 +313,7 @@ function Services() {
             {/* Book Online Section Ends */}
 
 
-            {/* --- Customers Outlook --- */}
-
-            <section className="customers-outlook" data-aos="fade-up">
-                <div className="container">
-                    <div className="customers-hdng">
-                        <h2 className="sec-hdng">Customers outlook</h2>
-                        <p className="hdng-18">We sell so you can sell even better and uplift your business in your respected arena with a well-tailored website.</p>
-                        <img src={Flags} alt="Flags" />
-                    </div>
-                </div>
-            </section>
-
-            {/* --- Customers Outlook --- */}
-
-            {/* --- Logo Slider --- */}
-
-            <section className="logo-carousel">
-                <h2 className="sec-hdng">Trusted and Implemented by our <br />Strategic Partners</h2>
-                <div className="container" data-aos="fade-up">
-                    <Carousel responsive={responsive} infinite={true} >
-                        <img src={Logo1} alt="Logo1" />
-                        <img src={Logo2} alt="Logo2" />
-                        <img src={Logo3} alt="Logo3" />
-                        <img src={Logo4} alt="Logo4" />
-                        <img src={Logo5} alt="Logo5" />
-                        <img src={Logo6} alt="Logo6" />
-                    </Carousel>
-                </div>
-            </section>
-
-            {/* --- Logo Slider --- */}
-
-
-            {/* --- Pricing --- */}
+                        {/* --- Pricing --- */}
 
             {/* <section className="service-pricing" data-aos="fade-up">
                 <div className="container">
@@ -427,7 +394,7 @@ function Services() {
                 </div>
             </section> */}
 
-            <section className="service-tab" id="service-tabs" data-aos="fade-up">
+<section className="service-tab" id="service-tabs" data-aos="fade-up">
                 <div className="container">
                     <h2 className="sec-hdng">Our Packages</h2>
                     <ServiceTab />
@@ -436,6 +403,40 @@ function Services() {
 
             {/* --- Pricing --- */}
 
+
+            {/* --- Logo Slider --- */}
+
+            <section className="logo-carousel">
+                <h2 className="sec-hdng">Trusted and Implemented by our <br />Strategic Partners</h2>
+                <div className="container" data-aos="fade-up">
+                    <Carousel responsive={responsive} infinite={true} >
+                        <img src={Logo1} alt="Logo1" />
+                        <img src={Logo2} alt="Logo2" />
+                        <img src={Logo3} alt="Logo3" />
+                        <img src={Logo4} alt="Logo4" />
+                        <img src={Logo5} alt="Logo5" />
+                        <img src={Logo6} alt="Logo6" />
+                    </Carousel>
+                </div>
+            </section>
+
+            {/* --- Logo Slider --- */}
+
+
+            {/* --- Customers Outlook --- */}
+
+            <section className="customers-outlook" data-aos="fade-up">
+                <div className="container">
+                    <div className="customers-hdng">
+                        <h2 className="sec-hdng">Customers outlook</h2>
+                        <p className="hdng-18">We sell so you can sell even better and uplift your business in your respected arena with a well-tailored website.</p>
+                        <img src={Flags} alt="Flags" />
+                    </div>
+                </div>
+            </section>
+
+            {/* --- Customers Outlook --- */}
+            
 
             {/* --- Assesment --- */}
 
