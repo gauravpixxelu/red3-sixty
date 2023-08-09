@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { NavLink } from "react-router-dom";
 import Business from './images/business.svg';
@@ -25,11 +25,12 @@ import CounterHome from './CounterHome';
 import TechHome from './TechHome';
 import WorkSlider from './WorkSlider';
 import ServiceForm from './ServiceForm';
-import ServicePopup from './ServicePopup';
 import ServiceMarquee from './ServiceMarquee';
 import ServiceTab from './ServiceTab';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import Modal from 'react-modal';
+
 
 
 
@@ -55,6 +56,16 @@ const responsive = {
 
 function Services() {
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const openPopup = () => {
+        setIsOpen(true);
+    };
+
+    const closePopup = () => {
+        setIsOpen(false);
+    };
+
     useEffect(() => {
         document.body.classList.add('servcies')
         return () => {
@@ -65,7 +76,7 @@ function Services() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
-    
+
     return (
         <div className="service-page">
 
@@ -153,7 +164,16 @@ function Services() {
                         <div className="service-gd-box">
                             <h4>Get In Touch</h4>
                             <p className="hdng-16">Ready to embark on your digital journey? Contact us now to discuss your project and unlock the digital possibilities.</p>
-                            <NavLink to="#" className="custom-btn"><span>Contact Our Experts</span></NavLink>
+                            <div className="popup-gd">
+                                {/* Render a button or other element to trigger the popup */}
+                                <button onClick={openPopup} className="custom-btn"><span>Contact Our Expert</span></button>
+
+                                {/* Render the popup component */}
+                                <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                    <ServiceForm />
+                                    <button className="close" onClick={closePopup}>Close</button>
+                                </Modal>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -187,7 +207,16 @@ function Services() {
                         </div>
                         <img className="rocket" src={Rocket} alt="Rocket" />
                         <div className="assesment-btn">
-                            <ServicePopup />
+                            <div className="popup-gd">
+                                {/* Render a button or other element to trigger the popup */}
+                                <button onClick={openPopup} className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></button>
+
+                                {/* Render the popup component */}
+                                <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                    <ServiceForm />
+                                    <button className="close" onClick={closePopup}>Close</button>
+                                </Modal>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -228,7 +257,16 @@ function Services() {
                                     <li><img src={Star} alt="Star" />Agile Methodologies</li>
                                     <li><img src={Star} alt="Star" />On-Time Delivery Assured</li>
                                 </ul>
-                                <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Hire Now</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-6">
@@ -256,8 +294,15 @@ function Services() {
                         </div>
                         <div className="col-md-6" data-aos="fade-left">
                             <div className="platform-txt">
-                                <h2 className="hdng">Pre-Qualified Leads and customer creation!</h2>
-                                <p className="hdng-16">Discover more leads, get more customers! Close more deals! All Leads are pre-qualified! No need for cold calls! Use Pre-populated emails to ensure high conversions. Generate high ROI linked to your business plan.</p>
+                                <h2 className="hdng">Unique design & code in accordance with the newest technologies.</h2>
+                                <p className="hdng-16">Design and code are only tools of expression. What sets us and our work apart is people. We’re a small group of creative thinkers who craft bespoke digital-first brand identities.</p>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />Frontend Development</li>
+                                    <li><img src={Star} alt="Star" />Backend Development</li>
+                                    <li><img src={Star} alt="Star" />API Development & Integration</li>
+                                    <li><img src={Star} alt="Star" />Database</li>
+                                    <li><img src={Star} alt="Star" />Version Control</li>
+                                </ul>
                                 <NavLink to="/pricing" className="custom-btn"><span>Prices</span></NavLink>
                             </div>
                         </div>
@@ -281,11 +326,6 @@ function Services() {
             </section>
 
             {/* --- Customers Outlook --- */}
-
-
-
-
-
 
             {/* --- Logo Slider --- */}
 
@@ -406,7 +446,16 @@ function Services() {
                             <h2 className="sec-hdng">Congratulations! Red3-sixty is happy that your search finally ends here.</h2>
                         </div>
                         <div className="assesment-btn">
-                            <ServicePopup />
+                            <div className="popup-gd">
+                                {/* Render a button or other element to trigger the popup */}
+                                <button onClick={openPopup} className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></button>
+
+                                {/* Render the popup component */}
+                                <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                    <ServiceForm />
+                                    <button className="close" onClick={closePopup}>Close</button>
+                                </Modal>
+                            </div>
                         </div>
                     </div>
                 </div>

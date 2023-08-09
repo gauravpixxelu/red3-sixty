@@ -2892,6 +2892,18 @@ section.service-banner .banner-content h4 {
 .servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form select:focus {
     border-color: #ed1b24;
 }
+.servcies .platform-txt .site-ul li {
+    list-style: circle;
+    font-size: 16px;
+    color: #6a6a6a;
+    margin-bottom: 5px;
+}
+.service-gd-box:last-child .popup-gd {
+    margin-top: 25px;
+}
+.tabservice-overview .popup-gd {
+    margin-top: 25px;
+}
 
 
 /* .service-price-box {

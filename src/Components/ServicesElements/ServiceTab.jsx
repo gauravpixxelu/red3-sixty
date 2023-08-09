@@ -1,8 +1,21 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
+import { useState } from 'react';
 import Star from './images/star.svg';
+import Modal from 'react-modal';
+import ServiceForm from './ServiceForm';
+
 
 const ServiceTab = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const openPopup = () => {
+        setIsOpen(true);
+    };
+
+    const closePopup = () => {
+        setIsOpen(false);
+    };
 
     return (
 
@@ -57,7 +70,16 @@ const ServiceTab = () => {
                                     <li>Fully responsive from Desktop to Smartphone.</li>
                                     <li>Login and update your own website.</li>
                                 </ul>
-                                <NavLink to="#" className="custom-btn"><span>Request A Quote</span></NavLink>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Request A Quote</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -116,8 +138,16 @@ const ServiceTab = () => {
                                     <li>Login and update your own website.</li>
                                     <li>Micro Business hosting package (coza domain, emails and hosting) included for one year at no price difference.</li>
                                 </ul>
-                                <NavLink to="#" className="custom-btn"><span>Request A Quote</span></NavLink>
-                            </div>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Request A Quote</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>                            </div>
                         </div>
                     </div>
                 </div>
@@ -190,8 +220,16 @@ const ServiceTab = () => {
                                     <li>Fully responsive from Desktop to Smartphone.</li>
                                     <li>Micro Business hosting package / Business hosting package included for one year at no price difference.</li>
                                 </ul>
-                                <NavLink to="#" className="custom-btn"><span>Request A Quote</span></NavLink>
-                            </div>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Request A Quote</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,8 +306,16 @@ const ServiceTab = () => {
                                     <li>Fully responsive from Desktop to Smartphone.</li>
                                     <li>Business hosting package included for one year at no price difference.</li>
                                 </ul>
-                                <NavLink to="#" className="custom-btn"><span>Request A Quote</span></NavLink>
-                            </div>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Request A Quote</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>                            </div>
                         </div>
                     </div>
                 </div>
@@ -309,8 +355,16 @@ const ServiceTab = () => {
                                     <li>MLM Web Applications.</li>
                                     <li>And more custom.</li>
                                 </ul>
-                                <NavLink to="#" className="custom-btn"><span>Request A Quote</span></NavLink>
-                            </div>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Request A Quote</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>                            </div>
                         </div>
                     </div>
                 </div>
