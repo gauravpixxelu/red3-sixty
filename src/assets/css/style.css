@@ -2867,8 +2867,31 @@ section.service-banner .banner-content h4 {
 .servcies #chipbot-app {
     display: none;
 }
-
-
+.servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form {
+    width: 500px;
+    position: fixed;
+    padding: 40px 30px 30px;
+}
+.servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form select {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    padding: 13px;
+    font-size: 14px;
+    color: #6a6a6a;
+    outline: 0;
+}
+.servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form .budget-radio label span {
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 2%);
+    color: #6a6a6a;
+}
+.servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form .budget-radio input:checked + span {
+    color: #fff;
+}
+.servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form select:focus {
+    border-color: #ed1b24;
+}
 
 
 /* .service-price-box {
