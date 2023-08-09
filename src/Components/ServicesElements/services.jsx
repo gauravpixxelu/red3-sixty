@@ -139,27 +139,27 @@ function Services() {
                         <div className="service-gd-box">
                             <img src={Service1} alt="Rocket" />
                             <h4>Web Design</h4>
-                            <p className="hdng-16">Immerse your audience in captivating digital experiences. Our design experts blend creativity with functionality, delivering websites that leave a lasting impact.</p>
+                            <p className="hdng-16">Immerse your audience in captivating websites. Our website designs blend aesthetics and functionality to create exceptional user experiences that drive results.</p>
                         </div>
                         <div className="service-gd-box">
                             <img src={Service2} alt="Rocket" />
                             <h4>Ui/Ux Design</h4>
-                            <p className="hdng-16">Elevate user satisfaction with our UI/UX design service. We craft seamless interfaces that enhance usability, ensuring your audience stays engaged and delighted.</p>
+                            <p className="hdng-16">Elevate engagement with intuitive interfaces. We craft engaging UI/UX designs that interact with digital experiences that resonate, connecting users to your brand.</p>
                         </div>
                         <div className="service-gd-box">
                             <img src={Service3} alt="Rocket" />
                             <h4>Web Development</h4>
-                            <p className="hdng-16">Turn your ideas into reality with our web development service. Our team builds responsive, high-performance websites that help empower your online presence.</p>
+                            <p className="hdng-16">We build dynamic websites using cutting-edge tech, and create robust online presences, ensuring your digital footprint matches your vision.</p>
                         </div>
                         <div className="service-gd-box">
                             <img src={Service4} alt="Rocket" />
                             <h4>E-Commerce</h4>
-                            <p className="hdng-16">We design and build ideal e-commerce websites, empowering your business to thrive in the digital sphere with enhanced functionality and user-friendly interfaces.</p>
+                            <p className="hdng-16">Tailored online stores. We empower businesses, boosting sales and enhancing customer transactions for an impactful online retail presence.</p>
                         </div>
                         <div className="service-gd-box">
                             <img src={Service5} alt="Rocket" />
                             <h4>Digital Marketing</h4>
-                            <p className="hdng-16">Amplify your online presence with our digital marketing services. From strategic campaigns to posts, we deliver results that elevate your brand's visibility and success.</p>
+                            <p className="hdng-16">Amplify brand reach strategically. Through SEO, content, and campaigns, we expand your online footprint, driving growth and engagement.</p>
                         </div>
                         <div className="service-gd-box">
                             <h4>Get In Touch</h4>
@@ -248,14 +248,13 @@ function Services() {
                             <div className="hire-txt">
                                 <h4 class="small-hdn">Hire Now</h4>
                                 <h2 className="sec-hdng">Hire a UI/UX Designer or Developer</h2>
-                                <p className="hdng-16"> If you got a small project or some minor altercations, and are looking to hire a designer or developer on a part-time or full-time basis? Don’t worry, We’ve got you all covered.</p>
-                                <p className="hdng-16">You can hire a UI/UX Designer or a Web Developer from Red3-sixty to add a modern touch to your website or app.</p>
+                                <p className="hdng-16"> Enhance your digital ventures by hiring our skilled UI/UX designers and developers. Experience flexible hiring options, whether it's hourly, monthly, or project-based. Unlock the advantage of tailored design solutions that align with your vision, simplifying your journey from concept to reality.</p>
+                                <p className="hdng-18"><b>Benefits of Hiring a UI/UX Designer:</b></p>
                                 <ul className="site-ul">
-                                    <li><img src={Star} alt="Star" />Transparent Communication</li>
-                                    <li><img src={Star} alt="Star" />IP Protection</li>
-                                    <li><img src={Star} alt="Star" />Cutting-Edge Designs</li>
-                                    <li><img src={Star} alt="Star" />Agile Methodologies</li>
-                                    <li><img src={Star} alt="Star" />On-Time Delivery Assured</li>
+                                    <li><img src={Star} alt="Star" /><b>Strategic Expertise:</b> Craft user-centric designs aligned with your goals.</li>
+                                    <li><img src={Star} alt="Star" /><b>Efficiency:</b> Streamline development with intuitive interfaces.</li>
+                                    <li><img src={Star} alt="Star" /><b>Innovation:</b> Stay ahead with cutting-edge design trends.</li>
+                                    <li><img src={Star} alt="Star" /><b>Engagement:</b> Elevate user satisfaction, retention, and conversion.</li>
                                 </ul>
                                 <div className="popup-gd">
                                     {/* Render a button or other element to trigger the popup */}

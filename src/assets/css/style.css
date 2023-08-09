@@ -2719,7 +2719,7 @@ section.service-banner .banner-content h4 {
     margin: 0;
 }
 .service-gd-box {
-    padding: 50px 30px;
+    padding: 50px 28px;
     border-left: 1px solid rgb(0 0 0 / 10%);
 }
 .service-gd-box:nth-child(1), .service-gd-box:nth-child(4) {
@@ -2743,9 +2743,14 @@ section.service-banner .banner-content h4 {
     font-size: 16px;
     color: #6a6a6a;
     margin-bottom: 5px;
+    display: block;
+}
+.hire-txt .site-ul li img {
+    top: 0;
+    margin-right: 10px;
 }
 .hire-txt {
-    padding-right: 60px;
+    padding-right: 35px;
 }
 .hire-img {
     padding-left: 60px;
