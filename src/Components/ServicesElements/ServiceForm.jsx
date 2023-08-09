@@ -22,6 +22,7 @@ const ServiceForm = () => {
             page_type: "Services",
         };
 
+
         try {
             const response = await fetch(
                 `${process.env.REACT_APP_API_URL}pixxelu-contact-us`,
@@ -45,6 +46,9 @@ const ServiceForm = () => {
             setThank('Message failed to send. Please try again later.');
         }
     };
+
+
+
 
     return (
         <form onSubmit={handleSubmit} className="from-bottom">
@@ -76,6 +80,7 @@ const ServiceForm = () => {
                             <option value="Web Development">Web Development</option>
                             <option value="E-Commerce">E-Commerce</option>
                             <option value="Digital Marketing">Digital Marketing</option>
+                            <option value="Website Redesign">Website Redesign</option>
                         </select>
                     </div>
                 </div>
