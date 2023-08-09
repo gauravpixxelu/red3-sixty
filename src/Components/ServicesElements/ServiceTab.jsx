@@ -41,22 +41,22 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Cms Basic 1-3 Pager</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$299</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Cms Basic 4-5 Pager</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$399</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Pages, Per Page</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$50 per page</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Work At Per Hour Fee</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$20 per hour</h5>
                                 </div>
                             </div>
                         </div>
@@ -94,36 +94,36 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Cms Business 1-5 Page</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$399</h5>
                                     <p>(Micro Business hosting package included 1 year)</p>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Cms Business 6-8 Page</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$499</h5>
                                     <p>(Micro Business hosting package included 1 year)</p>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Cms Business 9-12 Page</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$699</h5>
                                     <p>(Micro Business hosting package included 1 year)</p>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Page / Blog Page</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$70 per page</h5>
                                     <p>Price per page.</p>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Work At Per Hour Fee</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$30 per hour</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Additional Disk Space</h4>
-                                    <h5>$50 + vat. per 1 GIG per month</h5>
+                                    <h5>$150 per 1 GIG per month</h5>
                                 </div>
                             </div>
                         </div>
@@ -161,7 +161,7 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>E-comm Basic Package</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$799</h5>
                                     <p>Preloaded with up to 5 Products, 1 Category and 1 Payment Gateway. You can add or remove as many as you like yourself.</p>
                                     <p>Up to 4 information pages.</p>
                                     <p>Micro Business hosting package included 1 year.</p>
@@ -169,7 +169,7 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>E-comm Standard Package</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$899</h5>
                                     <p>Preloaded with up to 30 Products, 10 Categories and 1 Payment Gateway. You can add or remove as many as you like yourself.</p>
                                     <p>Up to 5 information pages.</p>
                                     <p>Business hosting package included 1 year.</p>
@@ -178,7 +178,7 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>E-comm Advance Package</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$999</h5>
                                     <p>Preloaded with up to 100 Products, 30 Categories and 1 Payment Gateway. You can add or remove as many as you like yourself. Up to 6 information pages.</p>
                                     <p>Business hosting package included 1 year.</p>
                                     <p>Zoom training. Advanced Theme options.</p>
@@ -186,23 +186,23 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Additional Product / Category Upload</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$5 per product</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Page / Blog Page</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$80 per page</h5>
                                     <p>Price per page.</p>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Work At Per Hour Fee</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$30 per hour</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Additional Disk Space</h4>
-                                    <h5>$50 + vat. per 1 GIG per month</h5>
+                                    <h5>$200 per 1 GIG per month</h5>
                                 </div>
                             </div>
                         </div>
@@ -243,7 +243,7 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Directory Listing Base Package</h4>
-                                    <h5>$50 + vat. (incl. hosting)</h5>
+                                    <h5>$1299 (incl. hosting)</h5>
                                     <p>Preloaded with up to 15 Listings and 5 Categories. You can add or remove as many as you like yourself.</p>
                                     <p>Browse listings on a Classifieds style website.</p>
                                     <p>Up to 4 information pages.</p>
@@ -253,7 +253,7 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Directory Listing Standard Package</h4>
-                                    <h5>$50 + vat. (incl. hosting)</h5>
+                                    <h5>$1499 (incl. hosting)</h5>
                                     <p>Preloaded with up to 30 Listings and 10 Categories. You can add or remove as many as you like yourself.</p>
                                     <p>Browse listings on a Classifieds style website.</p>
                                     <p>Up to 5 information pages.</p>
@@ -263,7 +263,7 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Directory Listing Advance Package</h4>
-                                    <h5>$50 + vat. (incl. hosting)</h5>
+                                    <h5>$1999 (incl. hosting)</h5>
                                     <p>Preloaded with up to 60 Listings and 20 Categories. You can add or remove as many as you like yourself.</p>
                                     <p>Browse listings on a Classifieds style website.</p>
                                     <p>Up to 6 information pages.</p>
@@ -273,23 +273,23 @@ const ServiceTab = () => {
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Learner Management System (Lms) Standard Package</h4>
-                                    <h5>$50 + vat. (incl. hosting)</h5>
+                                    <h5>$1499 (incl. hosting)</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Page / Blog Page</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$100 per page</h5>
                                     <p>Price per page.</p>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Extra Work At Per Hour Fee</h4>
-                                    <h5>$50 + vat.</h5>
+                                    <h5>$50 per hour</h5>
                                 </div>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Additional Disk Space</h4>
-                                    <h5>$50 + vat. per 1 GIG per month</h5>
+                                    <h5>$299 per 1 GIG per month</h5>
                                 </div>
                             </div>
                         </div>

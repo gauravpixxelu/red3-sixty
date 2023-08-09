@@ -25,22 +25,22 @@ const ServiceMarquee = () => {
             <div class="marquee">
                 <div class="marquee__inner" aria-hidden="true">
                     <div class="marquee__inner" aria-hidden="true">
-                        <p> <img src={Slide1} alt="Slide" />Python</p>
-                        <p> <img src={Slide2} alt="Slide" />Frame</p>
-                        <p> <img src={Slide3} alt="Slide" />Angular</p>
-                        <p> <img src={Slide4} alt="Slide" />Bootstrap</p>
-                        <p> <img src={Slide5} alt="Slide" />Codeigniter</p>
-                        <p> <img src={Slide6} alt="Slide" />XD</p>
-                        <p> <img src={Slide7} alt="Slide" />Figma</p>
-                        <p> <img src={Slide8} alt="Slide" />Illustrator</p>
-                        <p> <img src={Slide9} alt="Slide" />Photoshop </p>
-                        <p> <img src={Slide10} alt="Slide" />Indesign </p>
-                        <p> <img src={Slide11} alt="Slide" />After Effects</p>
-                        <p> <img src={Slide12} alt="Slide" />Shopify</p>
-                        <p> <img src={Slide13} alt="Slide" />Wordpress</p>
-                        <p> <img src={Slide14} alt="Slide" />React </p>
-                        <p> <img src={Slide15} alt="Slide" />HTML</p>
-                        <p> <img src={Slide16} alt="Slide" />Css</p>
+                        <p><img src={Slide1} alt="Slide" />Python</p>
+                        <p><img src={Slide2} alt="Slide" />Frame</p>
+                        <p><img src={Slide3} alt="Slide" />Angular</p>
+                        <p><img src={Slide4} alt="Slide" />Bootstrap</p>
+                        <p><img src={Slide5} alt="Slide" />Codeigniter</p>
+                        <p><img src={Slide6} alt="Slide" />XD</p>
+                        <p><img src={Slide7} alt="Slide" />Figma</p>
+                        <p><img src={Slide8} alt="Slide" />Illustrator</p>
+                        <p><img src={Slide9} alt="Slide" />Photoshop </p>
+                        <p><img src={Slide10} alt="Slide" />Indesign </p>
+                        <p><img src={Slide11} alt="Slide" />After Effects</p>
+                        <p><img src={Slide12} alt="Slide" />Shopify</p>
+                        <p><img src={Slide13} alt="Slide" />Wordpress</p>
+                        <p><img src={Slide14} alt="Slide" />React </p>
+                        <p><img src={Slide15} alt="Slide" />HTML</p>
+                        <p><img src={Slide16} alt="Slide" />Css</p>
                     </div>
                 </div>
             </div>

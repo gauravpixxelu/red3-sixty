@@ -2507,7 +2507,7 @@ img.up {
     text-align: center;
 }
 .work-slide-content {
-    margin: 35px auto 0;
+    margin: 25px auto 0;
 }
 .work .slick-prev:before, .work .slick-next:before {
     color: #111;
@@ -2908,6 +2908,29 @@ section.service-banner .banner-content h4 {
     color: #000;
     text-decoration: none;
 }
+.banner-form p.error-msg {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    margin-top: 25px;
+    background: #ed1b24;
+    color: #fff;
+}
+.banner-form .form-button {
+    flex-wrap: wrap;
+}
+.servcies .ReactModal__Overlay {
+    background: rgb(0 0 0 / 40%)!important;
+}
+.servcies .work {
+    padding: 80px 0 20px;
+}
+.platform-txt .popup-gd {
+    margin-top: 25px;
+}
+
+
+
 
 
 /* .service-price-box {

@@ -946,11 +946,9 @@ div.banner-form .form-feild textarea {
     font-size: 14px;
     margin-bottom: 3px;
 }
-.servcies .platform-txt .site-ul li {
-    color: #6a6a6a;
-    font-size: 14px;
-    list-style: circle;
-    margin-bottom: 3px;
+.servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form {
+    width: 85%;
+    top: 60px !important;
 }
 
 
