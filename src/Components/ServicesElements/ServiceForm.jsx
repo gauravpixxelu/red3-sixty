@@ -85,23 +85,43 @@ const ServiceForm = () => {
                         <label>Budget</label>
                         <div className="budget-radio">
                         <label>
-                            <input type="radio" value="Around $500" checked={budget === 'Around $500'} onChange={e => setBudget(e.target.value)} />
-                            <span>Around $500</span>
+                            <input type="radio" value="$500 - $1000" checked={budget === '$500 - $1000'} onChange={e => setBudget(e.target.value)} />
+                            <span>$500 - $1000</span>
                         </label>
 
                         <label>
-                            <input type="radio" value="$1000" checked={budget === '$1000'} onChange={e => setBudget(e.target.value)} />
-                            <span>$1000</span>
+                            <input type="radio" value="$1000 - $1500" checked={budget === '$1000 - $1500'} onChange={e => setBudget(e.target.value)} />
+                            <span>$1000 - $1500</span>
                         </label>
 
                         <label>
-                            <input type="radio" value="$1500" checked={budget === '$1500'} onChange={e => setBudget(e.target.value)} />
-                            <span>$1500</span>
+                            <input type="radio" value="$1500 - $2000" checked={budget === '$1500 - $2000'} onChange={e => setBudget(e.target.value)} />
+                            <span>$500 - $1000</span>
                         </label>
 
                         <label>
-                            <input type="radio" value="$2000" checked={budget === '$2000'} onChange={e => setBudget(e.target.value)} />
-                            <span>$2000</span>
+                            <input type="radio" value="$2000 - $2500" checked={budget === '$2000 - $2500'} onChange={e => setBudget(e.target.value)} />
+                            <span>$2000 - $2500</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" value="$2500 - $3000" checked={budget === '$2500 - $3000'} onChange={e => setBudget(e.target.value)} />
+                            <span>$2500 - $3000</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" value="$3000 - $4000" checked={budget === '$3000 - $4000'} onChange={e => setBudget(e.target.value)} />
+                            <span>$3000 - $4000</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" value="$4000 - $4500" checked={budget === '$4000 - $4500'} onChange={e => setBudget(e.target.value)} />
+                            <span>$4000 - $4500</span>
+                        </label>
+
+                        <label>
+                            <input type="radio" value="$4500 - $5000" checked={budget === '$4500 - $5000'} onChange={e => setBudget(e.target.value)} />
+                            <span>$4500 - $5000</span>
                         </label>
                         </div>
                     </div>

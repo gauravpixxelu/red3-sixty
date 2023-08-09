@@ -2868,7 +2868,7 @@ section.service-banner .banner-content h4 {
     display: none;
 }
 .servcies .ReactModal__Overlay .ReactModal__Content.lifetime-form {
-    width: 500px;
+    width: 600px;
     position: fixed;
     padding: 40px 30px 30px;
 }

@@ -50,72 +50,63 @@ const WorkSlider = () => {
             <div className="work-slide">
                 <img src={Work1} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Laravel</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Pheonix</NavLink></h4>
+                    <h4 class="hdng-h4">Pheonix</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work2} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Laravel</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Papyrus</NavLink></h4>
+                    <h4 class="hdng-h4">Papyrus</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work3} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Laravel</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Poter Bob</NavLink></h4>
+                    <h4 class="hdng-h4">Poter Bob</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work4} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Shopify</h4>
-                    <h4 class="hdng-h4"><NavLink to="https://drink-trip.com" target="_blank" rel="noopener">Drink Trip</NavLink></h4>
+                    <h4 class="hdng-h4">Drink Trip</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work5} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Shopify</h4>
-                    <h4 class="hdng-h4"><NavLink to="https://www.addisonross.com" target="_blank" rel="noopener">Addison Ross</NavLink></h4>
+                    <h4 class="hdng-h4">Addison Ross</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work6} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Shopify</h4>
-                    <h4 class="hdng-h4"><NavLink to="https://www.thestylishgift.com.au" target="_blank" rel="noopener">The Stylish Gift</NavLink></h4>
+                    <h4 class="hdng-h4">The Stylish Gift</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work7} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Wordpress</h4>
-                    <h4 class="hdng-h4"><NavLink to="https://doonawash.com.au" target="_blank" rel="noopener">Doona Wash</NavLink></h4>
+                    <h4 class="hdng-h4">Doona Wash</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work8} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Shopify</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Premium Care</NavLink></h4>
+                    <h4 class="hdng-h4">Premium Care</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work9} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="small-hdn">Shopify</h4>
-                    <h4 class="hdng-h4"><NavLink to="https://www.en-place.co" target="_blank" rel="noopener">En Place</NavLink></h4>
+                    <h4 class="hdng-h4">En Place</h4>
                 </div>
             </div>
 

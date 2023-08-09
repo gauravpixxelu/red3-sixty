@@ -303,7 +303,6 @@ function Services() {
                                     <li><img src={Star} alt="Star" />Database</li>
                                     <li><img src={Star} alt="Star" />Version Control</li>
                                 </ul>
-                                <NavLink to="/pricing" className="custom-btn"><span>Prices</span></NavLink>
                             </div>
                         </div>
                     </div>
