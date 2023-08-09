@@ -51,7 +51,7 @@ const WorkSlider = () => {
                 <img src={Work1} alt="Work" />
                 <div className="work-slide-content">
                     <h4 class="small-hdn">Laravel</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener"></NavLink></h4>
+                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Pheonix</NavLink></h4>
                 </div>
             </div>
 
@@ -59,7 +59,7 @@ const WorkSlider = () => {
                 <img src={Work2} alt="Work" />
                 <div className="work-slide-content">
                     <h4 class="small-hdn">Laravel</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener"></NavLink></h4>
+                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Papyrus</NavLink></h4>
                 </div>
             </div>
 
@@ -67,7 +67,7 @@ const WorkSlider = () => {
                 <img src={Work3} alt="Work" />
                 <div className="work-slide-content">
                     <h4 class="small-hdn">Laravel</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener"></NavLink></h4>
+                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Poter Bob</NavLink></h4>
                 </div>
             </div>
 
@@ -107,7 +107,7 @@ const WorkSlider = () => {
                 <img src={Work8} alt="Work" />
                 <div className="work-slide-content">
                     <h4 class="small-hdn">Shopify</h4>
-                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener"></NavLink></h4>
+                    <h4 class="hdng-h4"><NavLink to="/pricing" target="_blank" rel="noopener">Premium Care</NavLink></h4>
                 </div>
             </div>
 
