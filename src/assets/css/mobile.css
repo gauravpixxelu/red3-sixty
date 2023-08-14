@@ -950,7 +950,9 @@ div.banner-form .form-feild textarea {
     width: 85%;
     top: 60px !important;
 }
-
+.about-box-block .col-md-6 .about-box {
+    min-height: auto;
+}
 
 
 

@@ -9,6 +9,7 @@ import About2 from '../assets/images/about-2.jpg';
 import About3 from '../assets/images/about-3.jpg';
 import About4 from '../assets/images/about-4.jpg';
 import About5 from '../assets/images/about-5.jpg';
+import About6 from '../assets/images/about-6.png';
 
 
 function About() {
@@ -126,25 +127,32 @@ function About() {
                                 <p className="hdng-16">The National Small Business Chamber (NSBC), in association with World Famous Events, has announced South Africa’s 2019 small business and entrepreneur champions. A big thank you to this year’s event partners Google, Absa, Discovery and Oracle.</p>
                             </div>
                         </div>
-                        <div className="col-md-4" data-aos="fade-left">
+                        <div className="col-md-6" data-aos="fade-left">
                             <div className="about-box">
                                 <img className="abxo" src={About3} alt="About3" />
                                 <p className="hdng-16">Awarded Best Business Consulting Management Platform – In recognition for the business development methodology and systems. Management Consulting platform assisting consultants to scale their businesses. <NavLink className="read-about" to="https://www.mea-markets.com/issues/business-awards-2022/54/" target="_blank">Read More</NavLink></p>
                                 <NavLink to="https://www.mea-markets.com/about-us/" className="custom-btn" target="_blank"><span>About MEA Markets</span></NavLink>
                             </div>
                         </div>
-                        <div className="col-md-4" data-aos="fade-up">
+                        <div className="col-md-6" data-aos="fade-up">
                             <div className="about-box">
                                 <img className="abxo" src={About5} alt="About5" />
                                 <p className="hdng-16">Best Business Consulting Management Platform Internationally for 2022 – Africa & Transformation Leader. In recognition for the business development methodology and systems internationally… <NavLink className="read-about" to="https://www.mea-markets.com/issues/business-awards-2022/54/" target="_blank">Read More</NavLink></p>
                                 <NavLink to="https://www.mea-markets.com/about-us/" className="custom-btn" target="_blank"><span>About MEA Markets</span></NavLink>
                             </div>
                         </div>
-                        <div className="col-md-4" data-aos="fade-right">
+                        <div className="col-md-6" data-aos="fade-right">
                             <div className="about-box">
                                 <img className="abxo" src={About4} alt="About4" />
                                 <p className="hdng-16">Awarded Best Consultants and Coaches Support Platform – Based on innovative technology enabling AI supported business performance analysis. The nomination is in recognition of the revenue generation support that the platform provides to consultants and coaches. <NavLink className="read-about" to="https://www.innovationinbusiness.com/issues/technology-innovator-awards-2022/24/" target="_blank">Read More</NavLink></p>
                                 <NavLink to="https://www.innovationinbusiness.com/innovation-in-business-announces-the-winners-of-the-technology-innovator-awards-2022/" className="custom-btn" target="_blank"><span>About Innovation in Business</span></NavLink>
+                            </div>
+                        </div>
+                        <div className="col-md-6" data-aos="fade-right">
+                            <div className="about-box">
+                                <img className="abxo" src={About6} alt="About6" />
+                                <p className="hdng-16">RED3SIXTY was named the winner of a Silver Stevie® Award in the Company of the Year - Business or Professional Services – Small category in The 20th Annual International Business Awards® <NavLink className="read-about" to="https://red3-sixty.com/blogs/red3sixty-wins-silver-stevie-award-in-2023-international-business-awards" target="_blank">Read More</NavLink></p>
+                                <NavLink to="https://stevieawards.com/iba/about-stevie%C2%AE-awards" className="custom-btn" target="_blank"><span>About the Stevie Awards</span></NavLink>
                             </div>
                         </div>
                     </div>

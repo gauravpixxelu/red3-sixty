@@ -753,7 +753,11 @@ a.read-about {
     min-height: 560px;
 }
 .about-box-block .col-md-6 .about-box {
-    min-height: 570px;
+    min-height: 640px;
+}
+.about-box-block .row .col-md-6:last-child .about-box img {
+    height: 415px;
+    object-fit: contain;
 }
 /*-- AboutPage Css --*/
 
