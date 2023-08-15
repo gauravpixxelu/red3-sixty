@@ -400,6 +400,7 @@ function Services() {
                         </div>
                         <div className="col-md-4">
                             <div className="service-price-box">
+                            <div class="pricing-ribbon"><span>Bestseller</span></div>
                                 <h3>Professional Website Package</h3>
                                 <p>Suitable for potential super-startups and brand revamps for companies.</p>
                                 <div className="service-price-range">
