@@ -2938,7 +2938,7 @@ section.service-banner .banner-content h4 {
     flex-wrap: wrap;
 }
 .servcies .ReactModal__Overlay {
-    background: rgb(0 0 0 / 40%)!important;
+    background: rgb(0 0 0 / 100%)!important;
 }
 .servcies .work {
     padding: 80px 0 20px;
@@ -3059,6 +3059,13 @@ section.service-banner .banner-content h4 {
     text-align: center;
     margin: 0 auto 40px;
     max-width: 900px;
+}
+.servcies .from-bottom h3 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #ed1b24;
+    font-weight: 600;
 }
 
 /* .service-price-box {
