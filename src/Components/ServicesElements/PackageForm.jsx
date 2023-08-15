@@ -6,7 +6,6 @@ const PackageForm = ({ packageTitle }) => {
     const [phone, setPhone] = useState('');
     const [services, setServices] = useState('');
     const [message, setMessage] = useState('');
-    const [package_type, setPackageType] = useState(packageTitle);
     const [thankmessage, setThank] = useState('');
 
     const handleSubmit = async e => {
