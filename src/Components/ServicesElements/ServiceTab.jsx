@@ -315,7 +315,8 @@ const ServiceTab = () => {
                                         <ServiceForm />
                                         <button className="close" onClick={closePopup}>Close</button>
                                     </Modal>
-                                </div>                            </div>
+                                </div>                            
+                                </div>
                         </div>
                     </div>
                 </div>

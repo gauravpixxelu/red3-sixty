@@ -71,41 +71,9 @@ const Header = () => {
                   <li><NavLink className="dropdown-item" to="/about-company">About</NavLink></li>
                 </ul>
               </li>
-              {/* <li className="nav-item dropdown">
-                <NavLink className="nav-link dropdown-toggle" to="/services" aria-current="page">Services</NavLink>
-                <ul className="dropdown-menu">
-                  <li><NavLink className="dropdown-item" to="/services#service-tabs" onClick={() => {
-                    const element = document.getElementById('service-tabs');
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}>Basic Websites without hosting from $50 + vat</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/services#service-tabs" onClick={() => {
-                    const element = document.getElementById('service-tabs');
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}>Business Websites with hosting from $50 + vat</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/services#service-tabs" onClick={() => {
-                    const element = document.getElementById('service-tabs');
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}>E-commerce / Online Shop from $50 + vat</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/services#service-tabs" onClick={() => {
-                    const element = document.getElementById('service-tabs');
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}>Directory & Marketplace Websites from $50 + vat</NavLink></li>
-                  <li><NavLink className="dropdown-item" to="/services#service-tabs" onClick={() => {
-                    const element = document.getElementById('service-tabs');
-                    if (element) {
-                      element.scrollIntoView({ behavior: 'smooth' });
-                    }
-                  }}>Custom Websites POA</NavLink></li>
-                </ul>
-              </li> */}
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/services">Services</NavLink>
+              </li>
               <li className="nav-item dropdown">
                 <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">I am...</NavLink>
                 <ul className="dropdown-menu">

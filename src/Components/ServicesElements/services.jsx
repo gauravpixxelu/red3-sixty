@@ -26,7 +26,6 @@ import TechHome from './TechHome';
 import WorkSlider from './WorkSlider';
 import ServiceForm from './ServiceForm';
 import ServiceMarquee from './ServiceMarquee';
-import ServiceTab from './ServiceTab';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Modal from 'react-modal';
@@ -257,10 +256,8 @@ function Services() {
                                     <li><img src={Star} alt="Star" /><b>Engagement:</b> Elevate user satisfaction, retention, and conversion.</li>
                                 </ul>
                                 <div className="popup-gd">
-                                    {/* Render a button or other element to trigger the popup */}
                                     <button onClick={openPopup} className="custom-btn"><span>Hire Now</span></button>
 
-                                    {/* Render the popup component */}
                                     <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
                                         <ServiceForm />
                                         <button className="close" onClick={closePopup}>Close</button>
@@ -304,15 +301,15 @@ function Services() {
                                     <li><img src={Star} alt="Star" />Build a Custom Design <b>(Figma, XD)</b></li>
                                 </ul>
                                 <div className="popup-gd">
-                                {/* Render a button or other element to trigger the popup */}
-                                <button onClick={openPopup} className="custom-btn"><span>Website Redesign starts form $999</span></button>
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Website Redesign starts form $999</span></button>
 
-                                {/* Render the popup component */}
-                                <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
-                                    <ServiceForm />
-                                    <button className="close" onClick={closePopup}>Close</button>
-                                </Modal>
-                            </div>
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -322,93 +319,274 @@ function Services() {
             {/* Book Online Section Ends */}
 
 
-                        {/* --- Pricing --- */}
+            {/* --- Pricing --- */}
 
-            {/* <section className="service-pricing" data-aos="fade-up">
+            <section className="service-pricing" data-aos="fade-up">
                 <div className="container">
                     <div className="row">
-                        <div className="col-md-3">
-                            <div className="service-price-box price-box1">
-                                <h3>Pricing 1</h3>
-                                <div className="price-box">
-                                    <ul>
-                                        <li>Business Builder Diagnostic</li>
-                                        <li>Unlimited Diagnostic Reports</li>
-                                        <li>Unlimited Customer Creation</li>
-                                        <li>Access to Portal</li>
-                                        <li>Email Diagnostic System</li>
-                                        <li>Training Modules</li>
-                                        <li>Development Modules</li>
-                                        <li>Goal Tracking</li>
-                                    </ul>
-                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                        <div className="col-md-4">
+                            <div className="service-price-box">
+                                <h3>Basic Website Package</h3>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                                <div className="service-price-range">
+                                    <h4><sup>$</sup>199</h4>
+                                    <span><del>$1,165</del> only</span>
+                                </div>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />2 Page Website Design</li>
+                                    <li><img src={Star} alt="Star" />Custom Layout Design</li>
+                                    <li><img src={Star} alt="Star" />Contact/Query Form</li>
+                                    <li><img src={Star} alt="Star" />1 Banner Design</li>
+                                    <li><img src={Star} alt="Star" />2 Stock Photos</li>
+                                    <li><img src={Star} alt="Star" /><strong>FREE </strong> Favicon Design</li>
+                                    <li><img src={Star} alt="Star" />Cross Browser Compatible</li>
+                                    <li><img src={Star} alt="Star" />Complete W3C Certified HTML</li>
+                                    <li><img src={Star} alt="Star" />Website Initial Concepts in 48 Hours</li>
+                                    <li><img src={Star} alt="Star" />Complete Design &amp; Deployment</li>
+                                    <li><img src={Star} alt="Star" />– Value Added Services</li>
+                                    <li><img src={Star} alt="Star" />Complete Source Files</li>
+                                    <li><img src={Star} alt="Star" />Dedicated Project Manager</li>
+                                    <li><img src={Star} alt="Star" />100% Ownership Rights</li>
+                                    <li><img src={Star} alt="Star" />100% Satisfaction Guarantee</li>
+                                    <li><img src={Star} alt="Star" />100% Money Back Guarantee</li>
+                                    <li><img src={Star} alt="Star" />*NO MONTHLY OR ANY HIDDEN FEE*</li>
+                                </ul>
+                                <p className="offer">20% more OFF on Next Order</p>
+                                <div className="popup-gd">
+                                    <button onClick={openPopup} className="custom-btn"><span>Start Project</span></button>
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
-                            <div className="service-price-box price-box2">
-                                <h3>Pricing 2</h3>
-                                <div className="price-box">
-                                    <ul>
-                                        <li>Business Builder Diagnostic</li>
-                                        <li>Unlimited Diagnostic Reports</li>
-                                        <li>Unlimited Customer Creation</li>
-                                        <li>Access to Portal</li>
-                                        <li>Email Diagnostic System</li>
-                                        <li>Training Modules</li>
-                                        <li>Development Modules</li>
-                                        <li>Goal Tracking</li>
-                                    </ul>
-                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                        <div className="col-md-4">
+                            <div className="service-price-box">
+                                <h3>Startup Website Package</h3>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                                <div className="service-price-range">
+                                    <h4><sup>$</sup>449</h4>
+                                    <span><del>$1,496</del> only</span>
+                                </div>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />5 Page Website Design</li>
+                                    <li><img src={Star} alt="Star" />Custom Layout Design</li>
+                                    <li><img src={Star} alt="Star" />Contact/Query Form</li>
+                                    <li><img src={Star} alt="Star" />3 Banner Designs</li>
+                                    <li><img src={Star} alt="Star" />5 Stock Photos (You can provide us more)</li>
+                                    <li><img src={Star} alt="Star" /><strong>FREE </strong> Favicon Design</li>
+                                    <li><img src={Star} alt="Star" /><strong>FREE</strong> Google Friendly Sitemap</li>
+                                    <li><img src={Star} alt="Star" />Complete W3C Certified HTML</li>
+                                    <li><img src={Star} alt="Star" />Website Initial Concepts in 48 Hours</li>
+                                    <li><img src={Star} alt="Star" />Complete Design &amp; Deployment</li>
+                                    <li><img src={Star} alt="Star" />– Value Added Services</li>
+                                    <li><img src={Star} alt="Star" />Complete Source Files</li>
+                                    <li><img src={Star} alt="Star" />Dedicated Project Manager</li>
+                                    <li><img src={Star} alt="Star" />100% Ownership Rights</li>
+                                    <li><img src={Star} alt="Star" />100% Satisfaction Guarantee</li>
+                                    <li><img src={Star} alt="Star" />100% Money Back Guarantee</li>
+                                    <li><img src={Star} alt="Star" />*NO MONTHLY OR ANY HIDDEN FEE*</li>
+                                </ul>
+                                <p className="offer">20% more OFF on Next Order</p>
+                                <div className="popup-gd">
+                                    <button onClick={openPopup} className="custom-btn"><span>Start Project</span></button>
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
-                            <div className="service-price-box price-box3">
-                                <h3>Pricing 3</h3>
-                                <div className="price-box">
-                                    <ul>
-                                        <li>Business Builder Diagnostic</li>
-                                        <li>Unlimited Diagnostic Reports</li>
-                                        <li>Unlimited Customer Creation</li>
-                                        <li>Access to Portal</li>
-                                        <li>Email Diagnostic System</li>
-                                        <li>Training Modules</li>
-                                        <li>Development Modules</li>
-                                        <li>Goal Tracking</li>
-                                    </ul>
-                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                        <div className="col-md-4">
+                            <div className="service-price-box">
+                                <h3>Professional Website Package</h3>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                                <div className="service-price-range">
+                                    <h4><sup>$</sup>649</h4>
+                                    <span><del>$2,163</del> only</span>
+                                </div>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />5 to 10 Unique Pages Website Design</li>
+                                    <li><img src={Star} alt="Star" />CMS Integration <strong>(WordPress)</strong></li>
+                                    <li><img src={Star} alt="Star" />5+ Stock Photos &amp; Banner Designs</li>
+                                    <li><img src={Star} alt="Star" />Favicon Design</li>
+                                    <li><img src={Star} alt="Star" /><strong>FREE </strong> Social Media Integration</li>
+                                    <li><img src={Star} alt="Star" /><strong>FREE </strong> Favicon Design</li>
+                                    <li><img src={Star} alt="Star" /><strong>FREE </strong> Google Friendly Sitemap</li>
+                                    <li><img src={Star} alt="Star" />Unlimited Revisions</li>
+                                    <li><img src={Star} alt="Star" />Complete W3C Certified HTML</li>
+                                    <li><img src={Star} alt="Star" />Website Initial Concepts in 48 Hours</li>
+                                    <li><img src={Star} alt="Star" />Complete Design &amp; Deployment</li>
+                                    <li><img src={Star} alt="Star" />Custom, Interactive &amp; Dynamic Web Design</li>
+                                    <li><img src={Star} alt="Star" />Industry specified Team of Expert Designers and Developers</li>
+                                    <li><img src={Star} alt="Star" />Complete Deployment</li>
+                                    <li><img src={Star} alt="Star" />– Value Added Services</li>
+                                    <li><img src={Star} alt="Star" />Complete Source Files</li>
+                                    <li><img src={Star} alt="Star" />Dedicated Project Manager</li>
+                                    <li><img src={Star} alt="Star" />100% Ownership Rights</li>
+                                    <li><img src={Star} alt="Star" />100% Satisfaction Guarantee</li>
+                                    <li><img src={Star} alt="Star" />100% Money Back Guarantee</li>
+                                    <li><img src={Star} alt="Star" />*NO MONTHLY OR ANY HIDDEN FEE*</li>
+                                </ul>
+                                <p className="offer">20% more OFF on Next Order</p>
+                                <div className="popup-gd">
+                                    <button onClick={openPopup} className="custom-btn"><span>Start Project</span></button>
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-3">
-                            <div className="service-price-box price-box4">
-                                <h3>Pricing 4</h3>
-                                <div className="price-box">
-                                    <ul>
-                                        <li>Business Builder Diagnostic</li>
-                                        <li>Unlimited Diagnostic Reports</li>
-                                        <li>Unlimited Customer Creation</li>
-                                        <li>Access to Portal</li>
-                                        <li>Email Diagnostic System</li>
-                                        <li>Training Modules</li>
-                                        <li>Development Modules</li>
-                                        <li>Goal Tracking</li>
-                                    </ul>
-                                    <NavLink to="#" className="custom-btn"><span>Hire Now</span></NavLink>
+                        <div className="col-md-4">
+                            <div className="service-price-box">
+                                <h3>Corporate Website Package</h3>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                                <div className="service-price-range">
+                                    <h4><sup>$</sup>949</h4>
+                                    <span><del>$3,160</del> only</span>
+                                </div>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />10 to 20 Pages Website Design</li>
+                                    <li><img src={Star} alt="Star" />CMS Integration <strong>(WordPress)</strong></li>
+                                    <li><img src={Star} alt="Star" />Mobile Friendly <strong> Responsive</strong></li>
+                                    <li><img src={Star} alt="Star" /><strong>Free</strong> 6 Months Hosting</li>
+                                    <li><img src={Star} alt="Star" /><strong>Free</strong> 10 Business Email ID’s</li>
+                                    <li><img src={Star} alt="Star" />Custom, Interactive &amp; Dynamic Web Design</li>
+                                    <li><img src={Star} alt="Star" />Customize WordPress Theme Development</li>
+                                    <li><img src={Star} alt="Star" />Interactive Sliding Banners</li>
+                                    <li><img src={Star} alt="Star" />10 Stock Images</li>
+                                    <li><img src={Star} alt="Star" />10 Banner Designs</li>
+                                    <li><img src={Star} alt="Star" />Unlimited Revisions</li>
+                                    <li><img src={Star} alt="Star" />Favicon Design</li>
+                                    <li><img src={Star} alt="Star" />Social Media Integration</li>
+                                    <li><img src={Star} alt="Star" />Google Friendly Sitemap</li>
+                                    <li><img src={Star} alt="Star" />Search Engine Submission</li>
+                                    <li><img src={Star} alt="Star" />Complete W3C Certified HTML</li>
+                                    <li><img src={Star} alt="Star" />Industry specified Team of Award Winning Designers and Developers</li>
+                                    <li><img src={Star} alt="Star" />Complete Deployment</li>
+                                    <li><img src={Star} alt="Star" />– Value Added Services</li>
+                                    <li><img src={Star} alt="Star" />Complete Source Files</li>
+                                    <li><img src={Star} alt="Star" />Dedicated Project Manager</li>
+                                    <li><img src={Star} alt="Star" />100% Ownership Rights</li>
+                                    <li><img src={Star} alt="Star" />100% Satisfaction Guarantee</li>
+                                    <li><img src={Star} alt="Star" />100% Money Back Guarantee</li>
+                                    <li><img src={Star} alt="Star" />*NO MONTHLY OR ANY HIDDEN FEE*</li>
+                                </ul>
+                                <p className="offer">20% more OFF on Next Order</p>
+                                <div className="popup-gd">
+                                    <button onClick={openPopup} className="custom-btn"><span>Start Project</span></button>
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="service-price-box">
+                                <h3>Elite Ecommerce Package</h3>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                                <div className="service-price-range">
+                                    <h4><sup>$</sup>1,449</h4>
+                                    <span><del>$4,830</del> only</span>
+                                </div>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />Custom Ecommerce Website Design</li>
+                                    <li><img src={Star} alt="Star" />Unlimited Products</li>
+                                    <li><img src={Star} alt="Star" />CMS Integration <strong>(WordPress)</strong></li>
+                                    <li><img src={Star} alt="Star" />Fully <strong>Mobile Responsive</strong></li>
+                                    <li><img src={Star} alt="Star" /><strong>Shopping Cart</strong> Integration</li>
+                                    <li><img src={Star} alt="Star" /><strong>Payment Gateway</strong> Integration</li>
+                                    <li><img src={Star} alt="Star" />Product Listing &amp; Management</li>
+                                    <li><img src={Star} alt="Star" />Order Management &amp; Tracking</li>
+                                    <li><img src={Star} alt="Star" />Banner Designs</li>
+                                    <li><img src={Star} alt="Star" />Unlimited Revisions</li>
+                                    <li><img src={Star} alt="Star" />Favicon Design</li>
+                                    <li><img src={Star} alt="Star" />Social Media Integration</li>
+                                    <li><img src={Star} alt="Star" />Google Friendly Sitemap</li>
+                                    <li><img src={Star} alt="Star" />Search Engine Submission</li>
+                                    <li><img src={Star} alt="Star" />Complete W3C Certified HTML</li>
+                                    <li><img src={Star} alt="Star" />Industry specified Team of Expert Designers and Developers</li>
+                                    <li><img src={Star} alt="Star" />Complete Deployment</li>
+                                    <li><img src={Star} alt="Star" />– Value Added Services</li>
+                                    <li><img src={Star} alt="Star" />Complete Source Files</li>
+                                    <li><img src={Star} alt="Star" />Dedicated Project Manager</li>
+                                    <li><img src={Star} alt="Star" />100% Ownership Rights</li>
+                                    <li><img src={Star} alt="Star" />100% Satisfaction Guarantee</li>
+                                    <li><img src={Star} alt="Star" />100% Money Back Guarantee</li>
+                                    <li><img src={Star} alt="Star" />*NO MONTHLY OR ANY HIDDEN FEE*</li>
+                                </ul>
+                                <p className="offer">20% more OFF on Next Order</p>
+                                <div className="popup-gd">
+                                    <button onClick={openPopup} className="custom-btn"><span>Start Project</span></button>
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4">
+                            <div className="service-price-box">
+                                <h3>Identity Website Package</h3>
+                                <p>Suitable for potential super-startups and brand revamps for companies.</p>
+                                <div className="service-price-range">
+                                    <h4><sup>$</sup>2,049</h4>
+                                    <span><del>$6,830</del> only</span>
+                                </div>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />Unlimited Web Pages</li>
+                                    <li><img src={Star} alt="Star" />Custom Made, Interactive, Dynamic &amp; High End Design</li>
+                                    <li><img src={Star} alt="Star" />Customized WordPress &amp; PHP Development</li>
+                                    <li><img src={Star} alt="Star" />Interactive Sliding Banners</li>
+                                    <li><img src={Star} alt="Star" />Up to 15 Custom Made Banner Designs</li>
+                                    <li><img src={Star} alt="Star" />15 Stock Images</li>
+                                    <li><img src={Star} alt="Star" />Unlimited Revisions</li>
+                                    <li><img src={Star} alt="Star" />Content Management System</li>
+                                    <li><img src={Star} alt="Star" />Online Appointment/Booking/Scheduling/Online Ordering Integration (Optional)</li>
+                                    <li><img src={Star} alt="Star" />Online Payment Integration (Optional)</li>
+                                    <li><img src={Star} alt="Star" />Multi Lingual (Optional)</li>
+                                    <li><img src={Star} alt="Star" />Custom Dynamic Forms (Optional)</li>
+                                    <li><img src={Star} alt="Star" />Signup Area (For Newsletters, Offers etc.)</li>
+                                    <li><img src={Star} alt="Star" />Search Bar</li>
+                                    <li><img src={Star} alt="Star" />Live Feeds of Social Networks integration (Optional)</li>
+                                    <li><img src={Star} alt="Star" />Mobile Responsive</li>
+                                    <li><img src={Star} alt="Star" />Up to 15 Professional Email ID’s</li>
+                                    <li><img src={Star} alt="Star" />Google Friendly Sitemap</li>
+                                    <li><img src={Star} alt="Star" />Search Engine Submission</li>
+                                    <li><img src={Star} alt="Star" />Complete W3C Certified HTML</li>
+                                    <li><img src={Star} alt="Star" />Industry specified Team of Award Winning Designers and Developers</li>
+                                    <li><img src={Star} alt="Star" />Complete Deployment</li>
+                                    <li><img src={Star} alt="Star" />– Value Added Services</li>
+                                    <li><img src={Star} alt="Star" />Complete Source Files</li>
+                                    <li><img src={Star} alt="Star" />Dedicated Project Manager</li>
+                                    <li><img src={Star} alt="Star" />100% Ownership Rights</li>
+                                    <li><img src={Star} alt="Star" />100% Satisfaction Guarantee</li>
+                                    <li><img src={Star} alt="Star" />100% Money Back Guarantee</li>
+                                    <li><img src={Star} alt="Star" />*NO MONTHLY OR ANY HIDDEN FEE*</li>
+                                </ul>
+                                <p className="offer">20% more OFF on Next Order</p>
+                                <div className="popup-gd">
+                                    <button onClick={openPopup} className="custom-btn"><span>Start Project</span></button>
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section> */}
+            </section>
 
-<section className="service-tab" id="service-tabs" data-aos="fade-up">
+            {/* <section className="service-tab" id="service-tabs" data-aos="fade-up">
                 <div className="container">
                     <h2 className="sec-hdng">Our Packages</h2>
                     <ServiceTab />
                 </div>
-            </section>
+            </section> */}
 
             {/* --- Pricing --- */}
 
@@ -445,7 +623,7 @@ function Services() {
             </section>
 
             {/* --- Customers Outlook --- */}
-            
+
 
             {/* --- Assesment --- */}
 
