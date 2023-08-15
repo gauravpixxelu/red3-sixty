@@ -3052,7 +3052,7 @@ section.service-banner .banner-content h4 {
     margin-right: 15px;
 }
 .banner-gd-for .marquee {
-    animation: marquee 8s linear infinite;
+    animation: marquee 20s linear infinite;
     --offset: 100vw;
 }
 
