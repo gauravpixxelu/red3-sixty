@@ -49,7 +49,7 @@ const PackageForm = ({ packageTitle }) => {
 
     return (
         <form onSubmit={handleSubmit} className="from-bottom">
-            <h3>{package_type}</h3>
+            <h3>{packageTitle}</h3>
             <div className="row">
                 <div className="col-md-6">
                     <div className="form-feild">
