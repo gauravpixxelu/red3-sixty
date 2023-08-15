@@ -37,7 +37,6 @@ const PackageForm = ({ packageTitle }) => {
             setEmail('');
             setPhone('');
             setServices('');
-            setPackageType('');
             setMessage('');
         } catch (error) {
             console.log(error);
