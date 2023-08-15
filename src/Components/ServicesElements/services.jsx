@@ -204,6 +204,10 @@ function Services() {
 
             <section className="service-pricing" data-aos="fade-up">
                 <div className="container">
+                <div className="technologies-block">
+                        <h2 className="sec-hdng">Our Pricing</h2>
+                        <p className="hdng-18">Our web design and development team thinks hugely different when it comes to making gorgeous web interfaces. Reach us today and discuss your web design or development project.</p>
+                    </div>
                     <div className="row">
                         <div className="col-md-4">
                             <div className="service-price-box">
