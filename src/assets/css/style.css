@@ -2542,7 +2542,7 @@ img.up {
     margin: 0;
 }
 section.service-banner {
-    padding: 80px 0;
+    padding: 120px 0 50px;
     background: url(../images/home-banner.jpg);
     background-size: cover;
     background-position: center center;
@@ -2613,7 +2613,7 @@ section.service-banner .banner-content h4 {
     box-shadow: 0px 10px 23px 0px rgb(0 0 0 / 2%);
 }
 .service-banner .row {
-    align-items: center;
+    align-items: baseline;
 }
 .service-banner-box img {
     width: 30px;
@@ -2651,6 +2651,7 @@ section.service-banner .banner-content h4 {
 }
 .service-gd {
     padding: 80px 0;
+    background: #f8f9fc;
 }
 .service-marque .marquee p {
     display: flex;
@@ -2700,6 +2701,7 @@ section.service-banner .banner-content h4 {
     border: 1px solid rgb(0 0 0 / 10%);
     margin-top: 40px;
     overflow: hidden;
+    background: #fff;
 }
 .service-gd-box img {
     width: 70px;
@@ -3026,13 +3028,33 @@ section.service-banner .banner-content h4 {
     overflow: hidden;
 }
 .service-pricing {
-    padding-bottom: 50px;
+    padding: 80px 0;
 }
 .service-price-box .pricing-ribbon {
     right: -35px;
     border-radius: 50px 50px 0 0;
 }
-
+.banner-gd-for {
+    position: absolute;
+    z-index: 99;
+    background: #00000069;
+    padding: 10px 0;
+}
+.banner-gd-for .marquee p a {
+    font-size: 20px;
+    font-weight: 600;
+    pointer-events: none;
+}
+.banner-gd-for .marquee p {
+    padding: 0 30px;
+}
+.banner-gd-for .marquee p a img {
+    margin-right: 15px;
+}
+.banner-gd-for .marquee {
+    animation: marquee 8s linear infinite;
+    --offset: 100vw;
+}
 
 
 /* .service-price-box {

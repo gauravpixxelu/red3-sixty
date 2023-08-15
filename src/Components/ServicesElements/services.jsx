@@ -85,6 +85,25 @@ function Services() {
             </Helmet>
 
 
+            <section className="marque-slides banner-gd-for" data-aos="fade-up">
+                <div class="marquee">
+                    <div class="marquee__inner" aria-hidden="true">
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Design</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Development</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />eCommerce Development</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Design</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Development</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />eCommerce Development</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Design</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Development</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />eCommerce Development</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Design</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />Web Development</NavLink></p>
+                        <p><NavLink to="#"><img src={Star} alt="Star" />eCommerce Development</NavLink></p>
+                    </div>
+                </div>
+            </section>
+
             {/* --- Services Banner --- */}
 
             <section className="service-banner" >
@@ -92,7 +111,7 @@ function Services() {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="banner-content">
-                                <h4>Web Design | Web Development | eCommerce Development</h4>
+                                {/* <h4>Web Design | Web Development | eCommerce Development</h4> */}
                                 <h1>We Give Eagle wings to your Business, now it's your turn to decide where to fly.</h1>
                                 <p>Develop clean, secure, and robust websites for your right target audience. Make your business a brand by creating high-end web solutions with Red3-sixty</p>
                             </div>
@@ -181,144 +200,6 @@ function Services() {
             {/* --- Technologies --- */}
 
 
-            {/* --- Technologies --- */}
-
-            <section className="technologies" data-aos="fade-up">
-                <div className="container">
-                    <div className="technologies-block">
-                        <h4 class="small-hdn">The Technologies We Use</h4>
-                        <h2 className="sec-hdng">We use the most recent, state-of-the-art technologies. You name it, we know it.</h2>
-                        <TechHome />
-                    </div>
-                </div>
-            </section>
-
-            {/* --- Technologies --- */}
-
-
-            {/* --- Assesment --- */}
-
-            <section className="assesment" data-aos="fade-up">
-                <div className="container">
-                    <div className="assement-block">
-                        <div className="assesment-hdng">
-                            <h2>Not only are website development, web design, and e-commerce rocket science, but the rocket itself. And Red3-sixty is the scientist behind it.</h2>
-                        </div>
-                        <img className="rocket" src={Rocket} alt="Rocket" />
-                        <div className="assesment-btn">
-                            <div className="popup-gd">
-                                {/* Render a button or other element to trigger the popup */}
-                                <button onClick={openPopup} className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></button>
-
-                                {/* Render the popup component */}
-                                <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
-                                    <ServiceForm />
-                                    <button className="close" onClick={closePopup}>Close</button>
-                                </Modal>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* --- Assesment --- */}
-
-
-            {/* --- Work --- */}
-
-            <section className="work" data-aos="fade-up">
-                <div className="container">
-                    <div className="work-hdng">
-                        <h2 className="sec-hdng">Check Out Our Web Design and <br />Development Portfolio</h2>
-                        <WorkSlider />
-                    </div>
-                </div>
-            </section>
-
-            {/* --- Work --- */}
-
-
-            {/* --- Technologies --- */}
-
-            <section className="hire">
-                <div className="container" data-aos="fade-up">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <div className="hire-txt">
-                                <h4 class="small-hdn">Hire Now</h4>
-                                <h2 className="sec-hdng">Hire a UI/UX Designer or Developer</h2>
-                                <p className="hdng-16"> Enhance your digital ventures by hiring our skilled UI/UX designers and developers. Experience flexible hiring options, whether it's hourly, monthly, or project-based. Unlock the advantage of tailored design solutions that align with your vision, simplifying your journey from concept to reality.</p>
-                                <p className="hdng-18"><b>Benefits of Hiring a UI/UX Designer:</b></p>
-                                <ul className="site-ul">
-                                    <li><img src={Star} alt="Star" /><b>Strategic Expertise:</b> Craft user-centric designs aligned with your goals.</li>
-                                    <li><img src={Star} alt="Star" /><b>Efficiency:</b> Streamline development with intuitive interfaces.</li>
-                                    <li><img src={Star} alt="Star" /><b>Innovation:</b> Stay ahead with cutting-edge design trends.</li>
-                                    <li><img src={Star} alt="Star" /><b>Engagement:</b> Elevate user satisfaction, retention, and conversion.</li>
-                                </ul>
-                                <div className="popup-gd">
-                                    <button onClick={openPopup} className="custom-btn"><span>Hire Now</span></button>
-
-                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
-                                        <ServiceForm />
-                                        <button className="close" onClick={closePopup}>Close</button>
-                                    </Modal>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-6">
-                            <div className="hire-img">
-                                <img src={HireImg} alt="HireImg" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* --- Technologies --- */}
-
-
-            {/* Book Online Section Starts */}
-
-            <section className="platform-block">
-                <div className="container">
-                    <div className="row platform-4" data-aos="fade-right">
-                        <div className="col-md-6">
-                            <div className="banner-image">
-                                <img className="abxo" src={Benfits_Img} alt="Benfits_Img1" />
-                                <img className="gdxo" src={Circle_Shape} alt="Circle_Shape" />
-                            </div>
-                        </div>
-                        <div className="col-md-6" data-aos="fade-left">
-                            <div className="platform-txt">
-                                <h2 className="hdng">Redesign your old website</h2>
-                                <p className="hdng-16">A website redesign is a high-level overhaul that involves significantly changing elements like the code, content, structure, and visuals of your current website to better serve your visitors. A great website redesign tends to boost revenue, lower bounce rates, and improve user experience (UX). The Things we'll provide for your websites are:</p>
-                                <ul className="site-ul">
-                                    <li><img src={Star} alt="Star" />Frontend Development <b>(React, Sass ,HTML etc.)</b></li>
-                                    <li><img src={Star} alt="Star" />Backend Development <b>(Php, Laravel, Nodejs etc.)</b></li>
-                                    <li><img src={Star} alt="Star" />CMS Development <b>(Wordpress, Shopify, PrestaShop etc.)</b></li>
-                                    <li><img src={Star} alt="Star" />Virus Free Websites</li>
-                                    <li><img src={Star} alt="Star" />On Page SEO</li>
-                                    <li><img src={Star} alt="Star" />Build a Custom Design <b>(Figma, XD)</b></li>
-                                </ul>
-                                <div className="popup-gd">
-                                    {/* Render a button or other element to trigger the popup */}
-                                    <button onClick={openPopup} className="custom-btn"><span>Website Redesign starts form $999</span></button>
-
-                                    {/* Render the popup component */}
-                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
-                                        <ServiceForm />
-                                        <button className="close" onClick={closePopup}>Close</button>
-                                    </Modal>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Book Online Section Ends */}
-
-
             {/* --- Pricing --- */}
 
             <section className="service-pricing" data-aos="fade-up">
@@ -400,7 +281,7 @@ function Services() {
                         </div>
                         <div className="col-md-4">
                             <div className="service-price-box">
-                            <div class="pricing-ribbon"><span>Bestseller</span></div>
+                                <div class="pricing-ribbon"><span>Bestseller</span></div>
                                 <h3>Professional Website Package</h3>
                                 <p>Suitable for potential super-startups and brand revamps for companies.</p>
                                 <div className="service-price-range">
@@ -590,6 +471,144 @@ function Services() {
             </section> */}
 
             {/* --- Pricing --- */}
+
+
+            {/* --- Technologies --- */}
+
+            <section className="technologies" data-aos="fade-up">
+                <div className="container">
+                    <div className="technologies-block">
+                        <h4 class="small-hdn">The Technologies We Use</h4>
+                        <h2 className="sec-hdng">We use the most recent, state-of-the-art technologies. You name it, we know it.</h2>
+                        <TechHome />
+                    </div>
+                </div>
+            </section>
+
+            {/* --- Technologies --- */}
+
+
+            {/* --- Assesment --- */}
+
+            <section className="assesment" data-aos="fade-up">
+                <div className="container">
+                    <div className="assement-block">
+                        <div className="assesment-hdng">
+                            <h2>Not only are website development, web design, and e-commerce rocket science, but the rocket itself. And Red3-sixty is the scientist behind it.</h2>
+                        </div>
+                        <img className="rocket" src={Rocket} alt="Rocket" />
+                        <div className="assesment-btn">
+                            <div className="popup-gd">
+                                {/* Render a button or other element to trigger the popup */}
+                                <button onClick={openPopup} className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></button>
+
+                                {/* Render the popup component */}
+                                <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                    <ServiceForm />
+                                    <button className="close" onClick={closePopup}>Close</button>
+                                </Modal>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* --- Assesment --- */}
+
+
+            {/* --- Work --- */}
+
+            <section className="work" data-aos="fade-up">
+                <div className="container">
+                    <div className="work-hdng">
+                        <h2 className="sec-hdng">Check Out Our Web Design and <br />Development Portfolio</h2>
+                        <WorkSlider />
+                    </div>
+                </div>
+            </section>
+
+            {/* --- Work --- */}
+
+
+            {/* --- Technologies --- */}
+
+            <section className="hire">
+                <div className="container" data-aos="fade-up">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="hire-txt">
+                                <h4 class="small-hdn">Hire Now</h4>
+                                <h2 className="sec-hdng">Hire a UI/UX Designer or Developer</h2>
+                                <p className="hdng-16"> Enhance your digital ventures by hiring our skilled UI/UX designers and developers. Experience flexible hiring options, whether it's hourly, monthly, or project-based. Unlock the advantage of tailored design solutions that align with your vision, simplifying your journey from concept to reality.</p>
+                                <p className="hdng-18"><b>Benefits of Hiring a UI/UX Designer:</b></p>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" /><b>Strategic Expertise:</b> Craft user-centric designs aligned with your goals.</li>
+                                    <li><img src={Star} alt="Star" /><b>Efficiency:</b> Streamline development with intuitive interfaces.</li>
+                                    <li><img src={Star} alt="Star" /><b>Innovation:</b> Stay ahead with cutting-edge design trends.</li>
+                                    <li><img src={Star} alt="Star" /><b>Engagement:</b> Elevate user satisfaction, retention, and conversion.</li>
+                                </ul>
+                                <div className="popup-gd">
+                                    <button onClick={openPopup} className="custom-btn"><span>Hire Now</span></button>
+
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="hire-img">
+                                <img src={HireImg} alt="HireImg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* --- Technologies --- */}
+
+
+            {/* Book Online Section Starts */}
+
+            <section className="platform-block">
+                <div className="container">
+                    <div className="row platform-4" data-aos="fade-right">
+                        <div className="col-md-6">
+                            <div className="banner-image">
+                                <img className="abxo" src={Benfits_Img} alt="Benfits_Img1" />
+                                <img className="gdxo" src={Circle_Shape} alt="Circle_Shape" />
+                            </div>
+                        </div>
+                        <div className="col-md-6" data-aos="fade-left">
+                            <div className="platform-txt">
+                                <h2 className="hdng">Redesign your old website</h2>
+                                <p className="hdng-16">A website redesign is a high-level overhaul that involves significantly changing elements like the code, content, structure, and visuals of your current website to better serve your visitors. A great website redesign tends to boost revenue, lower bounce rates, and improve user experience (UX). The Things we'll provide for your websites are:</p>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />Frontend Development <b>(React, Sass ,HTML etc.)</b></li>
+                                    <li><img src={Star} alt="Star" />Backend Development <b>(Php, Laravel, Nodejs etc.)</b></li>
+                                    <li><img src={Star} alt="Star" />CMS Development <b>(Wordpress, Shopify, PrestaShop etc.)</b></li>
+                                    <li><img src={Star} alt="Star" />Virus Free Websites</li>
+                                    <li><img src={Star} alt="Star" />On Page SEO</li>
+                                    <li><img src={Star} alt="Star" />Build a Custom Design <b>(Figma, XD)</b></li>
+                                </ul>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Website Redesign starts form $999</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Book Online Section Ends */}
 
 
             {/* --- Logo Slider --- */}
