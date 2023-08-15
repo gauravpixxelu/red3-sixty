@@ -5,7 +5,6 @@ import Modal from 'react-modal';
 import PackageForm from './PackageForm'
 
 const ServiceMarquee = () => {
-    const [isOpen, setIsOpen] = useState(false);
 
     const [isOpenBasic, setIsOpenBasic] = useState(false);
     const [isOpenStartup, setIsOpenStartup] = useState(false);
