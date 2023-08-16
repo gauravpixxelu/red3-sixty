@@ -184,10 +184,7 @@ function Services() {
                             <h4>Get In Touch</h4>
                             <p className="hdng-16">Ready to embark on your digital journey? Contact us now to discuss your project and unlock the digital possibilities.</p>
                             <div className="popup-gd">
-                                {/* Render a button or other element to trigger the popup */}
                                 <button onClick={openPopup} className="custom-btn"><span>Contact Our Expert</span></button>
-
-                                {/* Render the popup component */}
                                 <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
                                     <ServiceForm />
                                     <button className="close" onClick={closePopup}>Close</button>
@@ -205,7 +202,7 @@ function Services() {
 
             <section className="service-pricing" data-aos="fade-up">
                 <div className="container">
-                <Package />
+                    <Package />
                 </div>
             </section>
 
@@ -240,7 +237,7 @@ function Services() {
                         </div>
                         <div className="col-md-6" data-aos="fade-left">
                             <div className="platform-txt">
-                                <h2 className="hdng">Redesign your old website</h2>
+                                <h2 className="sec-hdng">Redesign your old website</h2>
                                 <p className="hdng-16">A website redesign is a high-level overhaul that involves significantly changing elements like the code, content, structure, and visuals of your current website to better serve your visitors. A great website redesign tends to boost revenue, lower bounce rates, and improve user experience (UX). The Things we'll provide for your websites are:</p>
                                 <ul className="site-ul">
                                     <li><img src={Star} alt="Star" />Frontend Development <b>(React, Sass ,HTML etc.)</b></li>
@@ -251,10 +248,7 @@ function Services() {
                                     <li><img src={Star} alt="Star" />Build a Custom Design <b>(Figma, XD)</b></li>
                                 </ul>
                                 <div className="popup-gd">
-                                    {/* Render a button or other element to trigger the popup */}
                                     <button onClick={openPopup} className="custom-btn"><span>Website Redesign starts form $999</span></button>
-
-                                    {/* Render the popup component */}
                                     <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
                                         <ServiceForm />
                                         <button className="close" onClick={closePopup}>Close</button>
@@ -280,10 +274,7 @@ function Services() {
                         <img className="rocket" src={Rocket} alt="Rocket" />
                         <div className="assesment-btn">
                             <div className="popup-gd">
-                                {/* Render a button or other element to trigger the popup */}
                                 <button onClick={openPopup} className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></button>
-
-                                {/* Render the popup component */}
                                 <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
                                     <ServiceForm />
                                     <button className="close" onClick={closePopup}>Close</button>
@@ -330,7 +321,6 @@ function Services() {
                                 </ul>
                                 <div className="popup-gd">
                                     <button onClick={openPopup} className="custom-btn"><span>Hire Now</span></button>
-
                                     <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
                                         <ServiceForm />
                                         <button className="close" onClick={closePopup}>Close</button>
@@ -394,10 +384,7 @@ function Services() {
                         </div>
                         <div className="assesment-btn">
                             <div className="popup-gd">
-                                {/* Render a button or other element to trigger the popup */}
                                 <button onClick={openPopup} className="custom-btn-2 blk"><span>Get A Free Assessment Now</span></button>
-
-                                {/* Render the popup component */}
                                 <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
                                     <ServiceForm />
                                     <button className="close" onClick={closePopup}>Close</button>

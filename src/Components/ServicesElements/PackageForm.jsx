@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const PackageForm = ({ packageTitle }) => {
+const PackageForm = ({ packageTitle, onSubmit }) => {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
@@ -38,12 +38,16 @@ const PackageForm = ({ packageTitle }) => {
             setPhone('');
             setServices('');
             setMessage('');
+
+            // Call the onSubmit callback passed from the parent component
+            if (typeof onSubmit === 'function') {
+                onSubmit();
+            }
         } catch (error) {
             console.log(error);
             setThank('Message failed to send. Please try again later.');
         }
     };
-
 
     return (
         <form onSubmit={handleSubmit} className="from-bottom">
