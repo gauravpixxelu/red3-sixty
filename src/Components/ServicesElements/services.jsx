@@ -209,13 +209,6 @@ function Services() {
                 </div>
             </section>
 
-            {/* <section className="service-tab" id="service-tabs" data-aos="fade-up">
-                <div className="container">
-                    <h2 className="sec-hdng">Our Packages</h2>
-                    <ServiceTab />
-                </div>
-            </section> */}
-
             {/* --- Pricing --- */}
 
 
@@ -232,6 +225,48 @@ function Services() {
             </section>
 
             {/* --- Technologies --- */}
+
+
+            {/* Book Online Section Starts */}
+
+            <section className="platform-block">
+                <div className="container">
+                    <div className="row platform-4" data-aos="fade-right">
+                        <div className="col-md-6">
+                            <div className="banner-image">
+                                <img className="abxo" src={Benfits_Img} alt="Benfits_Img1" />
+                                <img className="gdxo" src={Circle_Shape} alt="Circle_Shape" />
+                            </div>
+                        </div>
+                        <div className="col-md-6" data-aos="fade-left">
+                            <div className="platform-txt">
+                                <h2 className="hdng">Redesign your old website</h2>
+                                <p className="hdng-16">A website redesign is a high-level overhaul that involves significantly changing elements like the code, content, structure, and visuals of your current website to better serve your visitors. A great website redesign tends to boost revenue, lower bounce rates, and improve user experience (UX). The Things we'll provide for your websites are:</p>
+                                <ul className="site-ul">
+                                    <li><img src={Star} alt="Star" />Frontend Development <b>(React, Sass ,HTML etc.)</b></li>
+                                    <li><img src={Star} alt="Star" />Backend Development <b>(Php, Laravel, Nodejs etc.)</b></li>
+                                    <li><img src={Star} alt="Star" />CMS Development <b>(Wordpress, Shopify, PrestaShop etc.)</b></li>
+                                    <li><img src={Star} alt="Star" />Virus Free Websites</li>
+                                    <li><img src={Star} alt="Star" />On Page SEO</li>
+                                    <li><img src={Star} alt="Star" />Build a Custom Design <b>(Figma, XD)</b></li>
+                                </ul>
+                                <div className="popup-gd">
+                                    {/* Render a button or other element to trigger the popup */}
+                                    <button onClick={openPopup} className="custom-btn"><span>Website Redesign starts form $999</span></button>
+
+                                    {/* Render the popup component */}
+                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
+                                        <ServiceForm />
+                                        <button className="close" onClick={closePopup}>Close</button>
+                                    </Modal>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Book Online Section Ends */}
 
 
             {/* --- Assesment --- */}
@@ -315,46 +350,19 @@ function Services() {
             {/* --- Technologies --- */}
 
 
-            {/* Book Online Section Starts */}
+            {/* --- Customers Outlook --- */}
 
-            <section className="platform-block">
+            <section className="customers-outlook" data-aos="fade-up">
                 <div className="container">
-                    <div className="row platform-4" data-aos="fade-right">
-                        <div className="col-md-6">
-                            <div className="banner-image">
-                                <img className="abxo" src={Benfits_Img} alt="Benfits_Img1" />
-                                <img className="gdxo" src={Circle_Shape} alt="Circle_Shape" />
-                            </div>
-                        </div>
-                        <div className="col-md-6" data-aos="fade-left">
-                            <div className="platform-txt">
-                                <h2 className="hdng">Redesign your old website</h2>
-                                <p className="hdng-16">A website redesign is a high-level overhaul that involves significantly changing elements like the code, content, structure, and visuals of your current website to better serve your visitors. A great website redesign tends to boost revenue, lower bounce rates, and improve user experience (UX). The Things we'll provide for your websites are:</p>
-                                <ul className="site-ul">
-                                    <li><img src={Star} alt="Star" />Frontend Development <b>(React, Sass ,HTML etc.)</b></li>
-                                    <li><img src={Star} alt="Star" />Backend Development <b>(Php, Laravel, Nodejs etc.)</b></li>
-                                    <li><img src={Star} alt="Star" />CMS Development <b>(Wordpress, Shopify, PrestaShop etc.)</b></li>
-                                    <li><img src={Star} alt="Star" />Virus Free Websites</li>
-                                    <li><img src={Star} alt="Star" />On Page SEO</li>
-                                    <li><img src={Star} alt="Star" />Build a Custom Design <b>(Figma, XD)</b></li>
-                                </ul>
-                                <div className="popup-gd">
-                                    {/* Render a button or other element to trigger the popup */}
-                                    <button onClick={openPopup} className="custom-btn"><span>Website Redesign starts form $999</span></button>
-
-                                    {/* Render the popup component */}
-                                    <Modal isOpen={isOpen} onRequestClose={closePopup} className="lifetime-form">
-                                        <ServiceForm />
-                                        <button className="close" onClick={closePopup}>Close</button>
-                                    </Modal>
-                                </div>
-                            </div>
-                        </div>
+                    <div className="customers-hdng">
+                        <h2 className="sec-hdng">Customers outlook</h2>
+                        <p className="hdng-18">We sell so you can sell even better and uplift your business in your respected arena with a well-tailored website.</p>
+                        <img src={Flags} alt="Flags" />
                     </div>
                 </div>
             </section>
 
-            {/* Book Online Section Ends */}
+            {/* --- Customers Outlook --- */}
 
 
             {/* --- Logo Slider --- */}
@@ -374,21 +382,6 @@ function Services() {
             </section>
 
             {/* --- Logo Slider --- */}
-
-
-            {/* --- Customers Outlook --- */}
-
-            <section className="customers-outlook" data-aos="fade-up">
-                <div className="container">
-                    <div className="customers-hdng">
-                        <h2 className="sec-hdng">Customers outlook</h2>
-                        <p className="hdng-18">We sell so you can sell even better and uplift your business in your respected arena with a well-tailored website.</p>
-                        <img src={Flags} alt="Flags" />
-                    </div>
-                </div>
-            </section>
-
-            {/* --- Customers Outlook --- */}
 
 
             {/* --- Assesment --- */}

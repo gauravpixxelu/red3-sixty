@@ -6,23 +6,13 @@ import PackageForm from './PackageForm'
 
 const Package = () => {
 
-    const [formSubmitted, setFormSubmitted] = useState(false);
-
-    useEffect(() => {
-        if (formSubmitted) {
-            const timer = setTimeout(() => {
-                closePopup();
-            }, 3000); // Adjust the time as needed (3000 ms = 3 seconds)
-
-            return () => clearTimeout(timer);
-        }
-    }, [formSubmitted]);
-
-    const handleSubmit = (packagePopup) => {
+    const handleFormSubmit = () => {
         // Handle form submission logic here
-        
-        // Set formSubmitted to true when the form is successfully submitted
-        setFormSubmitted(true);
+
+        // Close the popup after 3 seconds (3000 milliseconds)
+        setTimeout(() => {
+            closePopup();
+        }, 3000);
     };
 
     const [isOpenBasic, setIsOpenBasic] = useState(false);
@@ -123,7 +113,7 @@ const Package = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Basic')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenBasic} onRequestClose={() => closePopup('Basic')} className="lifetime-form">
-                                <PackageForm packageTitle="Basic Website Package" onSubmit={handleSubmit}/>
+                                <PackageForm packageTitle="Basic Website Package" onSubmit={handleFormSubmit}/>
                                 <button className="close" onClick={() => closePopup('Basic')}>Close</button>
                             </Modal>
                         </div>
@@ -160,7 +150,7 @@ const Package = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Startup')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenStartup} onRequestClose={() => closePopup('Startup')} className="lifetime-form">
-                                <PackageForm packageTitle="Startup Website Package" onSubmit={handleSubmit}/>
+                                <PackageForm packageTitle="Startup Website Package" onSubmit={handleFormSubmit}/>
                                 <button className="close" onClick={() => closePopup('Startup')}>Close</button>
                             </Modal>
                         </div>
@@ -202,7 +192,7 @@ const Package = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Professional')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenProfessional} onRequestClose={() => closePopup('Professional')} className="lifetime-form">
-                                <PackageForm packageTitle="Professional Website Package" onSubmit={handleSubmit}/>
+                                <PackageForm packageTitle="Professional Website Package" onSubmit={handleFormSubmit}/>
                                 <button className="close" onClick={() => closePopup('Professional')}>Close</button>
                             </Modal>
                         </div>
@@ -247,7 +237,7 @@ const Package = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Corporate')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenCorporate} onRequestClose={() => closePopup('Corporate')} className="lifetime-form">
-                                <PackageForm packageTitle="Corporate Website Package" onSubmit={handleSubmit}/>
+                                <PackageForm packageTitle="Corporate Website Package" onSubmit={handleFormSubmit}/>
                                 <button className="close" onClick={() => closePopup('Corporate')}>Close</button>
                             </Modal>
                         </div>
@@ -291,7 +281,7 @@ const Package = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Elite')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenElite} onRequestClose={() => closePopup('Elite')} className="lifetime-form">
-                                <PackageForm packageTitle="Elite Ecommerce Package" onSubmit={handleSubmit}/>
+                                <PackageForm packageTitle="Elite Ecommerce Package" onSubmit={handleFormSubmit}/>
                                 <button className="close" onClick={() => closePopup('Elite')}>Close</button>
                             </Modal>
                         </div>
@@ -340,7 +330,7 @@ const Package = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Identity')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenIdentity} onRequestClose={() => closePopup('Identity')} className="lifetime-form">
-                                <PackageForm packageTitle="Identity Website Package" onSubmit={handleSubmit}/>
+                                <PackageForm packageTitle="Identity Website Package" onSubmit={handleFormSubmit}/>
                                 <button className="close" onClick={() => closePopup('Identity')}>Close</button>
                             </Modal>
                         </div>
