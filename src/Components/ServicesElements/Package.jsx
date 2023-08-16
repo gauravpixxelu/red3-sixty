@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Star from './images/star.svg';
 import Modal from 'react-modal';
 import PackageForm from './PackageForm'
