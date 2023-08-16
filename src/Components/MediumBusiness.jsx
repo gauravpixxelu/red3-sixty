@@ -61,17 +61,17 @@ function MediumBusiness() {
             <section className="modules-block">
                 <div className="container">
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="module1-tab" data-bs-toggle="tab" data-bs-target="#module1" type="button" role="tab" aria-controls="module1" aria-selected="true">Module 1</button>
-                            <button class="nav-link" id="module2-tab" data-bs-toggle="tab" data-bs-target="#module2" type="button" role="tab" aria-controls="module2" aria-selected="false">Module 2</button>
-                            <button class="nav-link" id="module3-tab" data-bs-toggle="tab" data-bs-target="#module3" type="button" role="tab" aria-controls="module3" aria-selected="false">Module 3</button>
-                            <button class="nav-link" id="module4-tab" data-bs-toggle="tab" data-bs-target="#module4" type="button" role="tab" aria-controls="module4" aria-selected="true">Module 4</button>
-                            <button class="nav-link" id="module5-tab" data-bs-toggle="tab" data-bs-target="#module5" type="button" role="tab" aria-controls="module5" aria-selected="false">Module 5</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="module1-tab" data-bs-toggle="tab" data-bs-target="#module1" type="button" role="tab" aria-controls="module1" aria-selected="true">Module 1</button>
+                            <button className="nav-link" id="module2-tab" data-bs-toggle="tab" data-bs-target="#module2" type="button" role="tab" aria-controls="module2" aria-selected="false">Module 2</button>
+                            <button className="nav-link" id="module3-tab" data-bs-toggle="tab" data-bs-target="#module3" type="button" role="tab" aria-controls="module3" aria-selected="false">Module 3</button>
+                            <button className="nav-link" id="module4-tab" data-bs-toggle="tab" data-bs-target="#module4" type="button" role="tab" aria-controls="module4" aria-selected="true">Module 4</button>
+                            <button className="nav-link" id="module5-tab" data-bs-toggle="tab" data-bs-target="#module5" type="button" role="tab" aria-controls="module5" aria-selected="false">Module 5</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content col3-tab" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="module1" role="tabpanel" aria-labelledby="module1-tab">
+                    <div className="tab-content col3-tab" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="module1" role="tabpanel" aria-labelledby="module1-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -111,7 +111,7 @@ function MediumBusiness() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module2" role="tabpanel" aria-labelledby="module2-tab">
+                        <div className="tab-pane fade" id="module2" role="tabpanel" aria-labelledby="module2-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -150,7 +150,7 @@ function MediumBusiness() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module3" role="tabpanel" aria-labelledby="module3-tab">
+                        <div className="tab-pane fade" id="module3" role="tabpanel" aria-labelledby="module3-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -187,7 +187,7 @@ function MediumBusiness() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module4" role="tabpanel" aria-labelledby="module4-tab">
+                        <div className="tab-pane fade" id="module4" role="tabpanel" aria-labelledby="module4-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -220,7 +220,7 @@ function MediumBusiness() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module5" role="tabpanel" aria-labelledby="module5-tab">
+                        <div className="tab-pane fade" id="module5" role="tabpanel" aria-labelledby="module5-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">

@@ -87,8 +87,8 @@ function Services() {
 
 
             <section className="marque-slides banner-gd-for" data-aos="fade-up">
-                <div class="marquee">
-                    <div class="marquee__inner" aria-hidden="true">
+                <div className="marquee">
+                    <div className="marquee__inner" aria-hidden="true">
                         <p><NavLink to="#"><img src={Star} alt="Star" />Web Design</NavLink></p>
                         <p><NavLink to="#"><img src={Star} alt="Star" />Web Development</NavLink></p>
                         <p><NavLink to="#"><img src={Star} alt="Star" />eCommerce Development</NavLink></p>
@@ -150,7 +150,7 @@ function Services() {
             <section className="service-gd" data-aos="fade-up">
                 <div className="container">
                     <div className="technologies-block">
-                        <h4 class="small-hdn">SERVICES</h4>
+                        <h4 className="small-hdn">SERVICES</h4>
                         <h2 className="sec-hdng">Create a global impact with your business solution <br />by prioritizing the Right Traffic</h2>
                         <p className="hdng-18">Beat your competitors by simply listening to and understanding the voice of your traffic. Gauging the user analytics, we assist in creating a compelling and converting version of your Website. Red3-sixty eliminates the friction, so your users do not have even a single doubt about your business.</p>
                     </div>
@@ -224,7 +224,7 @@ function Services() {
             <section className="technologies" data-aos="fade-up">
                 <div className="container">
                     <div className="technologies-block">
-                        <h4 class="small-hdn">The Technologies We Use</h4>
+                        <h4 className="small-hdn">The Technologies We Use</h4>
                         <h2 className="sec-hdng">We use the most recent, state-of-the-art technologies. You name it, we know it.</h2>
                         <TechHome />
                     </div>
@@ -283,7 +283,7 @@ function Services() {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="hire-txt">
-                                <h4 class="small-hdn">Hire Now</h4>
+                                <h4 className="small-hdn">Hire Now</h4>
                                 <h2 className="sec-hdng">Hire a UI/UX Designer or Developer</h2>
                                 <p className="hdng-16"> Enhance your digital ventures by hiring our skilled UI/UX designers and developers. Experience flexible hiring options, whether it's hourly, monthly, or project-based. Unlock the advantage of tailored design solutions that align with your vision, simplifying your journey from concept to reality.</p>
                                 <p className="hdng-18"><b>Benefits of Hiring a UI/UX Designer:</b></p>
@@ -439,8 +439,8 @@ function Services() {
 
 
             <section className="marque-slides" data-aos="fade-up">
-                <div class="marquee">
-                    <div class="marquee__inner" aria-hidden="true">
+                <div className="marquee">
+                    <div className="marquee__inner" aria-hidden="true">
                         <p><NavLink to="#"><img src={Star} alt="Star" />Hire Front/End Developers</NavLink></p>
                         <p><NavLink to="#"><img src={Star} alt="Star" />Hire Node.js Developers</NavLink></p>
                         <p><NavLink to="#"><img src={Star} alt="Star" />Hire PHP Developers</NavLink></p>

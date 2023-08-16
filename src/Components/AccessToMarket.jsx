@@ -63,24 +63,24 @@ function AccessToMarket() {
             <section className="modules-block">
                 <div className="container">
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="module1-tab" data-bs-toggle="tab" data-bs-target="#module1" type="button" role="tab" aria-controls="module1" aria-selected="true">Module 1</button>
-                            <button class="nav-link" id="module2-tab" data-bs-toggle="tab" data-bs-target="#module2" type="button" role="tab" aria-controls="module2" aria-selected="false">Module 2</button>
-                            <button class="nav-link" id="module3-tab" data-bs-toggle="tab" data-bs-target="#module3" type="button" role="tab" aria-controls="module3" aria-selected="false">Module 3</button>
-                            <button class="nav-link" id="module4-tab" data-bs-toggle="tab" data-bs-target="#module4" type="button" role="tab" aria-controls="module4" aria-selected="true">Module 4</button>
-                            <button class="nav-link" id="module5-tab" data-bs-toggle="tab" data-bs-target="#module5" type="button" role="tab" aria-controls="module5" aria-selected="false">Module 5</button>
-                            <button class="nav-link" id="module6-tab" data-bs-toggle="tab" data-bs-target="#module6" type="button" role="tab" aria-controls="module6" aria-selected="false">Module 6</button>
-                            <button class="nav-link" id="module7-tab" data-bs-toggle="tab" data-bs-target="#module7" type="button" role="tab" aria-controls="module7" aria-selected="true">Module 7</button>
-                            <button class="nav-link" id="module8-tab" data-bs-toggle="tab" data-bs-target="#module8" type="button" role="tab" aria-controls="module8" aria-selected="false">Module 8</button>
-                            <button class="nav-link" id="module9-tab" data-bs-toggle="tab" data-bs-target="#module9" type="button" role="tab" aria-controls="module9" aria-selected="false">Module 9</button>
-                            <button class="nav-link" id="module10-tab" data-bs-toggle="tab" data-bs-target="#module10" type="button" role="tab" aria-controls="module10" aria-selected="true">Module 10</button>
-                            <button class="nav-link" id="module11-tab" data-bs-toggle="tab" data-bs-target="#module11" type="button" role="tab" aria-controls="module11" aria-selected="false">Module 11</button>
-                            <button class="nav-link" id="module12-tab" data-bs-toggle="tab" data-bs-target="#module12" type="button" role="tab" aria-controls="module12" aria-selected="false">Module 12</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="module1-tab" data-bs-toggle="tab" data-bs-target="#module1" type="button" role="tab" aria-controls="module1" aria-selected="true">Module 1</button>
+                            <button className="nav-link" id="module2-tab" data-bs-toggle="tab" data-bs-target="#module2" type="button" role="tab" aria-controls="module2" aria-selected="false">Module 2</button>
+                            <button className="nav-link" id="module3-tab" data-bs-toggle="tab" data-bs-target="#module3" type="button" role="tab" aria-controls="module3" aria-selected="false">Module 3</button>
+                            <button className="nav-link" id="module4-tab" data-bs-toggle="tab" data-bs-target="#module4" type="button" role="tab" aria-controls="module4" aria-selected="true">Module 4</button>
+                            <button className="nav-link" id="module5-tab" data-bs-toggle="tab" data-bs-target="#module5" type="button" role="tab" aria-controls="module5" aria-selected="false">Module 5</button>
+                            <button className="nav-link" id="module6-tab" data-bs-toggle="tab" data-bs-target="#module6" type="button" role="tab" aria-controls="module6" aria-selected="false">Module 6</button>
+                            <button className="nav-link" id="module7-tab" data-bs-toggle="tab" data-bs-target="#module7" type="button" role="tab" aria-controls="module7" aria-selected="true">Module 7</button>
+                            <button className="nav-link" id="module8-tab" data-bs-toggle="tab" data-bs-target="#module8" type="button" role="tab" aria-controls="module8" aria-selected="false">Module 8</button>
+                            <button className="nav-link" id="module9-tab" data-bs-toggle="tab" data-bs-target="#module9" type="button" role="tab" aria-controls="module9" aria-selected="false">Module 9</button>
+                            <button className="nav-link" id="module10-tab" data-bs-toggle="tab" data-bs-target="#module10" type="button" role="tab" aria-controls="module10" aria-selected="true">Module 10</button>
+                            <button className="nav-link" id="module11-tab" data-bs-toggle="tab" data-bs-target="#module11" type="button" role="tab" aria-controls="module11" aria-selected="false">Module 11</button>
+                            <button className="nav-link" id="module12-tab" data-bs-toggle="tab" data-bs-target="#module12" type="button" role="tab" aria-controls="module12" aria-selected="false">Module 12</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content col3-tab" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="module1" role="tabpanel" aria-labelledby="module1-tab">
+                    <div className="tab-content col3-tab" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="module1" role="tabpanel" aria-labelledby="module1-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -112,7 +112,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module2" role="tabpanel" aria-labelledby="module2-tab">
+                        <div className="tab-pane fade" id="module2" role="tabpanel" aria-labelledby="module2-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -144,7 +144,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module3" role="tabpanel" aria-labelledby="module3-tab">
+                        <div className="tab-pane fade" id="module3" role="tabpanel" aria-labelledby="module3-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -175,7 +175,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module4" role="tabpanel" aria-labelledby="module4-tab">
+                        <div className="tab-pane fade" id="module4" role="tabpanel" aria-labelledby="module4-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -204,7 +204,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module5" role="tabpanel" aria-labelledby="module5-tab">
+                        <div className="tab-pane fade" id="module5" role="tabpanel" aria-labelledby="module5-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -237,7 +237,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module6" role="tabpanel" aria-labelledby="module6-tab">
+                        <div className="tab-pane fade" id="module6" role="tabpanel" aria-labelledby="module6-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -267,7 +267,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module7" role="tabpanel" aria-labelledby="module7-tab">
+                        <div className="tab-pane fade" id="module7" role="tabpanel" aria-labelledby="module7-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -296,7 +296,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module8" role="tabpanel" aria-labelledby="module8-tab">
+                        <div className="tab-pane fade" id="module8" role="tabpanel" aria-labelledby="module8-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -324,7 +324,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module9" role="tabpanel" aria-labelledby="module9-tab">
+                        <div className="tab-pane fade" id="module9" role="tabpanel" aria-labelledby="module9-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -353,7 +353,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module10" role="tabpanel" aria-labelledby="module10-tab">
+                        <div className="tab-pane fade" id="module10" role="tabpanel" aria-labelledby="module10-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -381,7 +381,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module11" role="tabpanel" aria-labelledby="module11-tab">
+                        <div className="tab-pane fade" id="module11" role="tabpanel" aria-labelledby="module11-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">
@@ -410,7 +410,7 @@ function AccessToMarket() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="module12" role="tabpanel" aria-labelledby="module12-tab">
+                        <div className="tab-pane fade" id="module12" role="tabpanel" aria-labelledby="module12-tab">
                             <div className="row">
                                 <div className="col-md-4">
                                     <div className="tab-cnt">

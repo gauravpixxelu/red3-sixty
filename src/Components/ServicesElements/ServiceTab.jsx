@@ -20,24 +20,24 @@ const ServiceTab = () => {
     return (
 
 
-        <div class="nav-tab">
+        <div className="nav-tab">
             <nav>
-                <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-                    <button class="nav-link active" id="pricing1-tab" data-bs-toggle="tab" data-bs-target="#pricing1" type="button" role="tab" aria-controls="pricing1" aria-selected="true">Basic Websites without hosting</button>
-                    <button class="nav-link" id="pricing2-tab" data-bs-toggle="tab" data-bs-target="#pricing2" type="button" role="tab" aria-controls="pricing2" aria-selected="false">Business Websites with hosting</button>
-                    <button class="nav-link" id="pricing3-tab" data-bs-toggle="tab" data-bs-target="#pricing3" type="button" role="tab" aria-controls="pricing3" aria-selected="false">E-commerce / Online Shop</button>
-                    <button class="nav-link" id="pricing4-tab" data-bs-toggle="tab" data-bs-target="#pricing4" type="button" role="tab" aria-controls="pricing4" aria-selected="true">Directory & Marketplace Websites</button>
-                    <button class="nav-link" id="pricing5-tab" data-bs-toggle="tab" data-bs-target="#pricing5" type="button" role="tab" aria-controls="pricing5" aria-selected="false">Custom Websites</button>
+                <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+                    <button className="nav-link active" id="pricing1-tab" data-bs-toggle="tab" data-bs-target="#pricing1" type="button" role="tab" aria-controls="pricing1" aria-selected="true">Basic Websites without hosting</button>
+                    <button className="nav-link" id="pricing2-tab" data-bs-toggle="tab" data-bs-target="#pricing2" type="button" role="tab" aria-controls="pricing2" aria-selected="false">Business Websites with hosting</button>
+                    <button className="nav-link" id="pricing3-tab" data-bs-toggle="tab" data-bs-target="#pricing3" type="button" role="tab" aria-controls="pricing3" aria-selected="false">E-commerce / Online Shop</button>
+                    <button className="nav-link" id="pricing4-tab" data-bs-toggle="tab" data-bs-target="#pricing4" type="button" role="tab" aria-controls="pricing4" aria-selected="true">Directory & Marketplace Websites</button>
+                    <button className="nav-link" id="pricing5-tab" data-bs-toggle="tab" data-bs-target="#pricing5" type="button" role="tab" aria-controls="pricing5" aria-selected="false">Custom Websites</button>
                 </div>
 
             </nav>
-            <div class="tab-content col3-tab" id="nav-tabContent">
-                <div class="tab-pane fade active show" id="pricing1" role="tabpanel" aria-labelledby="pricing1-tab">
+            <div className="tab-content col3-tab" id="nav-tabContent">
+                <div className="tab-pane fade active show" id="pricing1" role="tabpanel" aria-labelledby="pricing1-tab">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tabservice-list">
-                                <h3 class="hdng-h3">Basic Cms Packages</h3>
-                                <h4 class="small-hdn">Unpublished - Without Hosting.</h4>
+                                <h3 className="hdng-h3">Basic Cms Packages</h3>
+                                <h4 className="small-hdn">Unpublished - Without Hosting.</h4>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Cms Basic 1-3 Pager</h4>
@@ -62,8 +62,8 @@ const ServiceTab = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="tabservice-overview">
-                                <h3 class="hdng-h3">Overview</h3>
-                                <h4 class="small-hdn">Websites You Can Manage Yourself:</h4>
+                                <h3 className="hdng-h3">Overview</h3>
+                                <h4 className="small-hdn">Websites You Can Manage Yourself:</h4>
                                 <ul className="site-ul">
                                     <li>Our BASIC CMS PACKAGES are aimed at student start-ups.</li>
                                     <li>WordPress 3rd party template based.</li>
@@ -85,12 +85,12 @@ const ServiceTab = () => {
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="pricing2" role="tabpanel" aria-labelledby="pricing2-tab">
+                <div className="tab-pane fade" id="pricing2" role="tabpanel" aria-labelledby="pricing2-tab">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tabservice-list">
-                                <h3 class="hdng-h3">Cms Packages</h3>
-                                <h4 class="small-hdn">With Hosting.</h4>
+                                <h3 className="hdng-h3">Cms Packages</h3>
+                                <h4 className="small-hdn">With Hosting.</h4>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Cms Business 1-5 Page</h4>
@@ -129,8 +129,8 @@ const ServiceTab = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="tabservice-overview">
-                                <h3 class="hdng-h3">Overview</h3>
-                                <h4 class="small-hdn">Websites You Can Manage Yourself:</h4>
+                                <h3 className="hdng-h3">Overview</h3>
+                                <h4 className="small-hdn">Websites You Can Manage Yourself:</h4>
                                 <ul className="site-ul">
                                     <li>BUSINESS CMS website design.</li>
                                     <li>WordPress 3rd party template based.</li>
@@ -152,12 +152,12 @@ const ServiceTab = () => {
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="pricing3" role="tabpanel" aria-labelledby="pricing3-tab">
+                <div className="tab-pane fade" id="pricing3" role="tabpanel" aria-labelledby="pricing3-tab">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tabservice-list">
-                                <h3 class="hdng-h3">E-comm Cms Packages</h3>
-                                <h4 class="small-hdn">Online Shop With Hosting For One Year At No Price Difference.</h4>
+                                <h3 className="hdng-h3">E-comm Cms Packages</h3>
+                                <h4 className="small-hdn">Online Shop With Hosting For One Year At No Price Difference.</h4>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>E-comm Basic Package</h4>
@@ -208,8 +208,8 @@ const ServiceTab = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="tabservice-overview">
-                                <h3 class="hdng-h3">Overview</h3>
-                                <h4 class="small-hdn">Websites You Can Manage Yourself:</h4>
+                                <h3 className="hdng-h3">Overview</h3>
+                                <h4 className="small-hdn">Websites You Can Manage Yourself:</h4>
                                 <ul className="site-ul">
                                     <li>WOOCOMMERCE (Wordpress) website design.</li>
                                     <li>Add to cart, check out and pay.</li>
@@ -234,12 +234,12 @@ const ServiceTab = () => {
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="pricing4" role="tabpanel" aria-labelledby="pricing4-tab">
+                <div className="tab-pane fade" id="pricing4" role="tabpanel" aria-labelledby="pricing4-tab">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tabservice-list">
-                                <h3 class="hdng-h3">Directory & Marketplace Cms Packages</h3>
-                                <h4 class="small-hdn">With Hosting For One Year At No Price Difference.</h4>
+                                <h3 className="hdng-h3">Directory & Marketplace Cms Packages</h3>
+                                <h4 className="small-hdn">With Hosting For One Year At No Price Difference.</h4>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Directory Listing Base Package</h4>
@@ -295,8 +295,8 @@ const ServiceTab = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="tabservice-overview">
-                                <h3 class="hdng-h3">Overview</h3>
-                                <h4 class="small-hdn">Websites You Can Manage Yourself:</h4>
+                                <h3 className="hdng-h3">Overview</h3>
+                                <h4 className="small-hdn">Websites You Can Manage Yourself:</h4>
                                 <ul className="site-ul">
                                     <li> DIRECTORY & MARKETPLACE CMS website design.</li>
                                     <li>Advanced search function.</li>
@@ -321,11 +321,11 @@ const ServiceTab = () => {
                     </div>
                 </div>
 
-                <div class="tab-pane fade" id="pricing5" role="tabpanel" aria-labelledby="pricing5-tab">
+                <div className="tab-pane fade" id="pricing5" role="tabpanel" aria-labelledby="pricing5-tab">
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tabservice-list">
-                                <h3 class="hdng-h3">Custom / Advance Package</h3>
+                                <h3 className="hdng-h3">Custom / Advance Package</h3>
                                 <div className="tab-service">
                                     <img src={Star} alt="Star" />
                                     <h4>Custom Package</h4>
@@ -336,8 +336,8 @@ const ServiceTab = () => {
                         </div>
                         <div className="col-md-6">
                             <div className="tabservice-overview">
-                                <h3 class="hdng-h3">Overview</h3>
-                                <h4 class="small-hdn">Custom Website Development:</h4>
+                                <h3 className="hdng-h3">Overview</h3>
+                                <h4 className="small-hdn">Custom Website Development:</h4>
                                 <ul className="site-ul">
                                     <li>Advance E-commerce.</li>
                                     <li>Property websites.</li>

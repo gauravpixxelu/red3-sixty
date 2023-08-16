@@ -120,7 +120,7 @@ const ServiceForm = () => {
 
                 <div className="col-md-12">
                     <div className="form-button">
-                        <button type="submit" class="custom-btn"><span>I Want A Free Estimate</span></button>
+                        <button type="submit" className="custom-btn"><span>I Want A Free Estimate</span></button>
                         {thankmessage && <p className="error-msg">{thankmessage}</p>}
                     </div>
                 </div>

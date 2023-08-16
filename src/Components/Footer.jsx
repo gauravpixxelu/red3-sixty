@@ -13,13 +13,13 @@ function Footer() {
 
   
   return (
-    <footer class="site-footer">
-      <div class="container">
+    <footer className="site-footer">
+      <div className="container">
         <div className="top-footer">
-          <div class="row">
+          <div className="row">
             <div className="col-md-3">
               <div className="footer-content">
-                <NavLink class="footer-logo" to="/"><img src={Logo} alt="Logo" /></NavLink>
+                <NavLink className="footer-logo" to="/"><img src={Logo} alt="Logo" /></NavLink>
                 <p>RED3SIXTY has developed business growth platforms aimed at helping you run diagnostics and determine where your customer needs to focus in order to grow their business. </p>
               </div>
             </div>
@@ -82,8 +82,8 @@ function Footer() {
       </div>
 
 
-      {/* <div class="exit-op">
-        <div class="gd-box">
+      {/* <div className="exit-op">
+        <div className="gd-box">
           <h2>Free For Life</h2>
           <ul>
             <li>Everything you need to start with.</li>
@@ -94,8 +94,8 @@ function Footer() {
           </ul>
           <b>Upgrade anytime!</b>
           <p>Proof of concept. Use unlimited report generation. Only limited to 10 customers at any one time and no access to customer development modules</p>
-          <NavLink to="https://red-project.com/pages/sign-up?user_type=Consultant&subscricriptionPlan=3679d024-f6be-11ec-895e-068428e27ad2" class="custom-btn"><span>Sign Up</span></NavLink>
-          <button class="close">✕</button>
+          <NavLink to="https://red-project.com/pages/sign-up?user_type=Consultant&subscricriptionPlan=3679d024-f6be-11ec-895e-068428e27ad2" className="custom-btn"><span>Sign Up</span></NavLink>
+          <button className="close">✕</button>
         </div>
   </div> */}
 

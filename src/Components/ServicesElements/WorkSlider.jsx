@@ -49,63 +49,63 @@ const WorkSlider = () => {
             <div className="work-slide">
                 <img src={Work1} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">Pheonix</h4>
+                    <h4 className="hdng-h4">Pheonix</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work2} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">Papyrus</h4>
+                    <h4 className="hdng-h4">Papyrus</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work3} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">Poter Bob</h4>
+                    <h4 className="hdng-h4">Poter Bob</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work4} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">Drink Trip</h4>
+                    <h4 className="hdng-h4">Drink Trip</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work5} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">Addison Ross</h4>
+                    <h4 className="hdng-h4">Addison Ross</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work6} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">The Stylish Gift</h4>
+                    <h4 className="hdng-h4">The Stylish Gift</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work7} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">Doona Wash</h4>
+                    <h4 className="hdng-h4">Doona Wash</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work8} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">Premium Care</h4>
+                    <h4 className="hdng-h4">Premium Care</h4>
                 </div>
             </div>
 
             <div className="work-slide">
                 <img src={Work9} alt="Work" />
                 <div className="work-slide-content">
-                    <h4 class="hdng-h4">En Place</h4>
+                    <h4 className="hdng-h4">En Place</h4>
                 </div>
             </div>
 

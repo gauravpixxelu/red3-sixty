@@ -22,9 +22,9 @@ const ServiceMarquee = () => {
     return (
         <>
 
-            <div class="marquee">
-                <div class="marquee__inner" aria-hidden="true">
-                    <div class="marquee__inner" aria-hidden="true">
+            <div className="marquee">
+                <div className="marquee__inner" aria-hidden="true">
+                    <div className="marquee__inner" aria-hidden="true">
                         <p><img src={Slide1} alt="Slide" />Python</p>
                         <p><img src={Slide2} alt="Slide" />Frame</p>
                         <p><img src={Slide3} alt="Slide" />Angular</p>

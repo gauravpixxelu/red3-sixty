@@ -197,22 +197,22 @@ const UltimateUserGuide = () => {
 
 							<div className="tab-blocks">
 								<nav>
-									<div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
-										<button class="nav-link active" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button" role="tab" aria-controls="business" aria-selected="true">Module 1</button>
-										<button class="nav-link" id="product-tab" data-bs-toggle="tab" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="false">Module 2</button>
-										<button class="nav-link" id="market-tab" data-bs-toggle="tab" data-bs-target="#market" type="button" role="tab" aria-controls="market" aria-selected="false">Module 3</button>
-										<button class="nav-link" id="finding-tab" data-bs-toggle="tab" data-bs-target="#finding" type="button" role="tab" aria-controls="finding" aria-selected="true">Module 4</button>
-										<button class="nav-link" id="capability-tab" data-bs-toggle="tab" data-bs-target="#capability" type="button" role="tab" aria-controls="capability" aria-selected="false">Module 5</button>
-										<button class="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance" type="button" role="tab" aria-controls="finance" aria-selected="false">Module 6</button>
-										<button class="nav-link" id="market-tab" data-bs-toggle="tab" data-bs-target="#market" type="button" role="tab" aria-controls="market" aria-selected="true">Module 7</button>
-										<button class="nav-link" id="sales-tab" data-bs-toggle="tab" data-bs-target="#sales" type="button" role="tab" aria-controls="sales" aria-selected="false">Module 8</button>
-										<button class="nav-link" id="managing-tab" data-bs-toggle="tab" data-bs-target="#managing" type="button" role="tab" aria-controls="managing" aria-selected="false">Module 9</button>
-										<button class="nav-link" id="governance-tab" data-bs-toggle="tab" data-bs-target="#governance" type="button" role="tab" aria-controls="governance" aria-selected="true">Module 10</button>
+									<div className="nav nav-tabs mb-3" id="nav-tab" role="tablist">
+										<button className="nav-link active" id="business-tab" data-bs-toggle="tab" data-bs-target="#business" type="button" role="tab" aria-controls="business" aria-selected="true">Module 1</button>
+										<button className="nav-link" id="product-tab" data-bs-toggle="tab" data-bs-target="#product" type="button" role="tab" aria-controls="product" aria-selected="false">Module 2</button>
+										<button className="nav-link" id="market-tab" data-bs-toggle="tab" data-bs-target="#market" type="button" role="tab" aria-controls="market" aria-selected="false">Module 3</button>
+										<button className="nav-link" id="finding-tab" data-bs-toggle="tab" data-bs-target="#finding" type="button" role="tab" aria-controls="finding" aria-selected="true">Module 4</button>
+										<button className="nav-link" id="capability-tab" data-bs-toggle="tab" data-bs-target="#capability" type="button" role="tab" aria-controls="capability" aria-selected="false">Module 5</button>
+										<button className="nav-link" id="finance-tab" data-bs-toggle="tab" data-bs-target="#finance" type="button" role="tab" aria-controls="finance" aria-selected="false">Module 6</button>
+										<button className="nav-link" id="market-tab" data-bs-toggle="tab" data-bs-target="#market" type="button" role="tab" aria-controls="market" aria-selected="true">Module 7</button>
+										<button className="nav-link" id="sales-tab" data-bs-toggle="tab" data-bs-target="#sales" type="button" role="tab" aria-controls="sales" aria-selected="false">Module 8</button>
+										<button className="nav-link" id="managing-tab" data-bs-toggle="tab" data-bs-target="#managing" type="button" role="tab" aria-controls="managing" aria-selected="false">Module 9</button>
+										<button className="nav-link" id="governance-tab" data-bs-toggle="tab" data-bs-target="#governance" type="button" role="tab" aria-controls="governance" aria-selected="true">Module 10</button>
 									</div>
 
 								</nav>
-								<div class="tab-content col3-tab" id="nav-tabContent">
-									<div class="tab-pane fade active show" id="business" role="tabpanel" aria-labelledby="business-tab">
+								<div className="tab-content col3-tab" id="nav-tabContent">
+									<div className="tab-pane fade active show" id="business" role="tabpanel" aria-labelledby="business-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -260,7 +260,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="product" role="tabpanel" aria-labelledby="product-tab">
+									<div className="tab-pane fade" id="product" role="tabpanel" aria-labelledby="product-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -302,7 +302,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="market" role="tabpanel" aria-labelledby="market-tab">
+									<div className="tab-pane fade" id="market" role="tabpanel" aria-labelledby="market-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -337,7 +337,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="finding" role="tabpanel" aria-labelledby="finding-tab">
+									<div className="tab-pane fade" id="finding" role="tabpanel" aria-labelledby="finding-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -372,7 +372,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="capability" role="tabpanel" aria-labelledby="capability-tab">
+									<div className="tab-pane fade" id="capability" role="tabpanel" aria-labelledby="capability-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -401,7 +401,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="finance" role="tabpanel" aria-labelledby="finance-tab">
+									<div className="tab-pane fade" id="finance" role="tabpanel" aria-labelledby="finance-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -441,7 +441,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="market" role="tabpanel" aria-labelledby="market-tab">
+									<div className="tab-pane fade" id="market" role="tabpanel" aria-labelledby="market-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -482,7 +482,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="sales" role="tabpanel" aria-labelledby="sales-tab">
+									<div className="tab-pane fade" id="sales" role="tabpanel" aria-labelledby="sales-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -519,7 +519,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="managing" role="tabpanel" aria-labelledby="managing-tab">
+									<div className="tab-pane fade" id="managing" role="tabpanel" aria-labelledby="managing-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">
@@ -562,7 +562,7 @@ const UltimateUserGuide = () => {
 										</div>
 									</div>
 
-									<div class="tab-pane fade" id="governance" role="tabpanel" aria-labelledby="governance-tab">
+									<div className="tab-pane fade" id="governance" role="tabpanel" aria-labelledby="governance-tab">
 										<div className="row">
 											<div className="col-md-4">
 												<div className="tab-cnt">

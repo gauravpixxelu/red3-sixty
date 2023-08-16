@@ -1,10 +1,29 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Star from './images/star.svg';
 import Modal from 'react-modal';
 import PackageForm from './PackageForm'
 
-const ServiceMarquee = () => {
+const Package = () => {
+
+    const [formSubmitted, setFormSubmitted] = useState(false);
+
+    useEffect(() => {
+        if (formSubmitted) {
+            const timer = setTimeout(() => {
+                closePopup();
+            }, 3000); // Adjust the time as needed (3000 ms = 3 seconds)
+
+            return () => clearTimeout(timer);
+        }
+    }, [formSubmitted]);
+
+    const handleSubmit = (packagePopup) => {
+        // Handle form submission logic here
+        
+        // Set formSubmitted to true when the form is successfully submitted
+        setFormSubmitted(true);
+    };
 
     const [isOpenBasic, setIsOpenBasic] = useState(false);
     const [isOpenStartup, setIsOpenStartup] = useState(false);
@@ -104,7 +123,7 @@ const ServiceMarquee = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Basic')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenBasic} onRequestClose={() => closePopup('Basic')} className="lifetime-form">
-                                <PackageForm packageTitle="Basic Website Package" />
+                                <PackageForm packageTitle="Basic Website Package" onSubmit={handleSubmit}/>
                                 <button className="close" onClick={() => closePopup('Basic')}>Close</button>
                             </Modal>
                         </div>
@@ -141,7 +160,7 @@ const ServiceMarquee = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Startup')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenStartup} onRequestClose={() => closePopup('Startup')} className="lifetime-form">
-                                <PackageForm packageTitle="Startup Website Package" />
+                                <PackageForm packageTitle="Startup Website Package" onSubmit={handleSubmit}/>
                                 <button className="close" onClick={() => closePopup('Startup')}>Close</button>
                             </Modal>
                         </div>
@@ -149,7 +168,7 @@ const ServiceMarquee = () => {
                 </div>
                 <div className="col-md-4">
                     <div className="service-price-box">
-                        <div class="pricing-ribbon"><span>Bestseller</span></div>
+                        <div className="pricing-ribbon"><span>Bestseller</span></div>
                         <h3>Professional Website Package</h3>
                         <p>Suitable for potential super-startups and brand revamps for companies.</p>
                         <div className="service-price-range">
@@ -183,7 +202,7 @@ const ServiceMarquee = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Professional')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenProfessional} onRequestClose={() => closePopup('Professional')} className="lifetime-form">
-                                <PackageForm packageTitle="Professional Website Package" />
+                                <PackageForm packageTitle="Professional Website Package" onSubmit={handleSubmit}/>
                                 <button className="close" onClick={() => closePopup('Professional')}>Close</button>
                             </Modal>
                         </div>
@@ -228,7 +247,7 @@ const ServiceMarquee = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Corporate')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenCorporate} onRequestClose={() => closePopup('Corporate')} className="lifetime-form">
-                                <PackageForm packageTitle="Corporate Website Package" />
+                                <PackageForm packageTitle="Corporate Website Package" onSubmit={handleSubmit}/>
                                 <button className="close" onClick={() => closePopup('Corporate')}>Close</button>
                             </Modal>
                         </div>
@@ -272,7 +291,7 @@ const ServiceMarquee = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Elite')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenElite} onRequestClose={() => closePopup('Elite')} className="lifetime-form">
-                                <PackageForm packageTitle="Elite Ecommerce Package" />
+                                <PackageForm packageTitle="Elite Ecommerce Package" onSubmit={handleSubmit}/>
                                 <button className="close" onClick={() => closePopup('Elite')}>Close</button>
                             </Modal>
                         </div>
@@ -321,7 +340,7 @@ const ServiceMarquee = () => {
                         <div className="popup-gd">
                             <button onClick={() => openPopup('Identity')} className="custom-btn"><span>Start Project</span></button>
                             <Modal isOpen={isOpenIdentity} onRequestClose={() => closePopup('Identity')} className="lifetime-form">
-                                <PackageForm packageTitle="Identity Website Package" />
+                                <PackageForm packageTitle="Identity Website Package" onSubmit={handleSubmit}/>
                                 <button className="close" onClick={() => closePopup('Identity')}>Close</button>
                             </Modal>
                         </div>
@@ -332,4 +351,4 @@ const ServiceMarquee = () => {
     );
 };
 
-export default ServiceMarquee
+export default Package

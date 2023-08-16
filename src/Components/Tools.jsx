@@ -51,15 +51,15 @@ function Tools() {
                         <h2 className="sec-hdng">Business Planning Tools Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="project-prioritisation-tab" data-bs-toggle="tab" data-bs-target="#project-prioritisation" type="button" role="tab" aria-controls="project-prioritisation" aria-selected="true">Project Prioritisation</button>
-                            <button class="nav-link" id="porters-five-forces-tab" data-bs-toggle="tab" data-bs-target="#porters-five-forces" type="button" role="tab" aria-controls="porters-five-forces" aria-selected="false">Porter's Five Forces</button>
-                            <button class="nav-link" id="balanced-scorecard-tab" data-bs-toggle="tab" data-bs-target="#balanced-scorecard" type="button" role="tab" aria-controls="balanced-scorecard" aria-selected="false">Balanced Scorecard</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="project-prioritisation-tab" data-bs-toggle="tab" data-bs-target="#project-prioritisation" type="button" role="tab" aria-controls="project-prioritisation" aria-selected="true">Project Prioritisation</button>
+                            <button className="nav-link" id="porters-five-forces-tab" data-bs-toggle="tab" data-bs-target="#porters-five-forces" type="button" role="tab" aria-controls="porters-five-forces" aria-selected="false">Porter's Five Forces</button>
+                            <button className="nav-link" id="balanced-scorecard-tab" data-bs-toggle="tab" data-bs-target="#balanced-scorecard" type="button" role="tab" aria-controls="balanced-scorecard" aria-selected="false">Balanced Scorecard</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="project-prioritisation" role="tabpanel" aria-labelledby="project-prioritisation-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="project-prioritisation" role="tabpanel" aria-labelledby="project-prioritisation-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -75,7 +75,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="porters-five-forces" role="tabpanel" aria-labelledby="porters-five-forces-tab">
+                        <div className="tab-pane fade" id="porters-five-forces" role="tabpanel" aria-labelledby="porters-five-forces-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -89,7 +89,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="balanced-scorecard" role="tabpanel" aria-labelledby="balanced-scorecard-tab">
+                        <div className="tab-pane fade" id="balanced-scorecard" role="tabpanel" aria-labelledby="balanced-scorecard-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -123,15 +123,15 @@ function Tools() {
                         <h2 className="sec-hdng">Product/Service Innovation Tools Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="product-development-tab" data-bs-toggle="tab" data-bs-target="#product-development" type="button" role="tab" aria-controls="product-development" aria-selected="true">Product Development</button>
-                            <button class="nav-link" id="product-profitability-tab" data-bs-toggle="tab" data-bs-target="#product-profitability" type="button" role="tab" aria-controls="product-profitability" aria-selected="false">Product Profitability</button>
-                            <button class="nav-link" id="product-roadmap-tab" data-bs-toggle="tab" data-bs-target="#product-roadmap" type="button" role="tab" aria-controls="product-roadmap" aria-selected="false">Product Roadmap</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="product-development-tab" data-bs-toggle="tab" data-bs-target="#product-development" type="button" role="tab" aria-controls="product-development" aria-selected="true">Product Development</button>
+                            <button className="nav-link" id="product-profitability-tab" data-bs-toggle="tab" data-bs-target="#product-profitability" type="button" role="tab" aria-controls="product-profitability" aria-selected="false">Product Profitability</button>
+                            <button className="nav-link" id="product-roadmap-tab" data-bs-toggle="tab" data-bs-target="#product-roadmap" type="button" role="tab" aria-controls="product-roadmap" aria-selected="false">Product Roadmap</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="product-development" role="tabpanel" aria-labelledby="product-development-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="product-development" role="tabpanel" aria-labelledby="product-development-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -145,7 +145,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="product-profitability" role="tabpanel" aria-labelledby="product-profitability-tab">
+                        <div className="tab-pane fade" id="product-profitability" role="tabpanel" aria-labelledby="product-profitability-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -160,7 +160,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="product-roadmap" role="tabpanel" aria-labelledby="product-roadmap-tab">
+                        <div className="tab-pane fade" id="product-roadmap" role="tabpanel" aria-labelledby="product-roadmap-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -190,15 +190,15 @@ function Tools() {
                         <h2 className="sec-hdng">Market Definition Tools Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="market-analysis-tab" data-bs-toggle="tab" data-bs-target="#market-analysis" type="button" role="tab" aria-controls="market-analysis" aria-selected="true">Market Analysis</button>
-                            <button class="nav-link" id="customer-profile-tab" data-bs-toggle="tab" data-bs-target="#customer-profile" type="button" role="tab" aria-controls="customer-profile" aria-selected="false">Customer Profile</button>
-                            <button class="nav-link" id="market-segmentation-tab" data-bs-toggle="tab" data-bs-target="#market-segmentation" type="button" role="tab" aria-controls="market-segmentation" aria-selected="false">Market Segmentation</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="market-analysis-tab" data-bs-toggle="tab" data-bs-target="#market-analysis" type="button" role="tab" aria-controls="market-analysis" aria-selected="true">Market Analysis</button>
+                            <button className="nav-link" id="customer-profile-tab" data-bs-toggle="tab" data-bs-target="#customer-profile" type="button" role="tab" aria-controls="customer-profile" aria-selected="false">Customer Profile</button>
+                            <button className="nav-link" id="market-segmentation-tab" data-bs-toggle="tab" data-bs-target="#market-segmentation" type="button" role="tab" aria-controls="market-segmentation" aria-selected="false">Market Segmentation</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="market-analysis" role="tabpanel" aria-labelledby="market-analysis-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="market-analysis" role="tabpanel" aria-labelledby="market-analysis-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -212,7 +212,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="customer-profile" role="tabpanel" aria-labelledby="customer-profile-tab">
+                        <div className="tab-pane fade" id="customer-profile" role="tabpanel" aria-labelledby="customer-profile-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -226,7 +226,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="market-segmentation" role="tabpanel" aria-labelledby="market-segmentation-tab">
+                        <div className="tab-pane fade" id="market-segmentation" role="tabpanel" aria-labelledby="market-segmentation-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -257,15 +257,15 @@ function Tools() {
                         <h2 className="sec-hdng">Customer Analysis Tools Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="crm-maturity-tab" data-bs-toggle="tab" data-bs-target="#crm-maturity" type="button" role="tab" aria-controls="crm-maturity" aria-selected="true">CRM Maturity</button>
-                            <button class="nav-link" id="lifetime-value-calculator-tab" data-bs-toggle="tab" data-bs-target="#lifetime-value-calculator" type="button" role="tab" aria-controls="lifetime-value-calculator" aria-selected="false">Lifetime Value Calculator</button>
-                            <button class="nav-link" id="customer-satisfaction-tab" data-bs-toggle="tab" data-bs-target="#customer-satisfaction" type="button" role="tab" aria-controls="customer-satisfaction" aria-selected="false">Customer Satisfaction</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="crm-maturity-tab" data-bs-toggle="tab" data-bs-target="#crm-maturity" type="button" role="tab" aria-controls="crm-maturity" aria-selected="true">CRM Maturity</button>
+                            <button className="nav-link" id="lifetime-value-calculator-tab" data-bs-toggle="tab" data-bs-target="#lifetime-value-calculator" type="button" role="tab" aria-controls="lifetime-value-calculator" aria-selected="false">Lifetime Value Calculator</button>
+                            <button className="nav-link" id="customer-satisfaction-tab" data-bs-toggle="tab" data-bs-target="#customer-satisfaction" type="button" role="tab" aria-controls="customer-satisfaction" aria-selected="false">Customer Satisfaction</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="crm-maturity" role="tabpanel" aria-labelledby="crm-maturity-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="crm-maturity" role="tabpanel" aria-labelledby="crm-maturity-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -279,7 +279,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="lifetime-value-calculator" role="tabpanel" aria-labelledby="lifetime-value-calculator-tab">
+                        <div className="tab-pane fade" id="lifetime-value-calculator" role="tabpanel" aria-labelledby="lifetime-value-calculator-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -293,7 +293,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="customer-satisfaction" role="tabpanel" aria-labelledby="customer-satisfaction-tab">
+                        <div className="tab-pane fade" id="customer-satisfaction" role="tabpanel" aria-labelledby="customer-satisfaction-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -351,15 +351,15 @@ function Tools() {
                         <h2 className="sec-hdng">Financial Analysis Tools and Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="break-even-analysis-tab" data-bs-toggle="tab" data-bs-target="#break-even-analysis" type="button" role="tab" aria-controls="break-even-analysis" aria-selected="true">Break Even Analysis</button>
-                            <button class="nav-link" id="cash-flow-forecast-tab" data-bs-toggle="tab" data-bs-target="#cash-flow-forecast" type="button" role="tab" aria-controls="cash-flow-forecast" aria-selected="false">Cash Flow Forecast</button>
-                            <button class="nav-link" id="income-analysis-tab" data-bs-toggle="tab" data-bs-target="#income-analysis" type="button" role="tab" aria-controls="income-analysis" aria-selected="false">Income Analysis</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="break-even-analysis-tab" data-bs-toggle="tab" data-bs-target="#break-even-analysis" type="button" role="tab" aria-controls="break-even-analysis" aria-selected="true">Break Even Analysis</button>
+                            <button className="nav-link" id="cash-flow-forecast-tab" data-bs-toggle="tab" data-bs-target="#cash-flow-forecast" type="button" role="tab" aria-controls="cash-flow-forecast" aria-selected="false">Cash Flow Forecast</button>
+                            <button className="nav-link" id="income-analysis-tab" data-bs-toggle="tab" data-bs-target="#income-analysis" type="button" role="tab" aria-controls="income-analysis" aria-selected="false">Income Analysis</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="break-even-analysis" role="tabpanel" aria-labelledby="break-even-analysis-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="break-even-analysis" role="tabpanel" aria-labelledby="break-even-analysis-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -373,7 +373,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="cash-flow-forecast" role="tabpanel" aria-labelledby="cash-flow-forecast-tab">
+                        <div className="tab-pane fade" id="cash-flow-forecast" role="tabpanel" aria-labelledby="cash-flow-forecast-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -387,7 +387,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="income-analysis" role="tabpanel" aria-labelledby="income-analysis-tab">
+                        <div className="tab-pane fade" id="income-analysis" role="tabpanel" aria-labelledby="income-analysis-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -419,15 +419,15 @@ function Tools() {
                         <h2 className="sec-hdng">Marketing & Lead Analysis Tools and Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="marketing-funnel-calculator-tab" data-bs-toggle="tab" data-bs-target="#marketing-funnel-calculator" type="button" role="tab" aria-controls="marketing-funnel-calculator" aria-selected="true">Marketing Funnel Calculator</button>
-                            <button class="nav-link" id="lead-generation-prioritization-tab" data-bs-toggle="tab" data-bs-target="#lead-generation-prioritization" type="button" role="tab" aria-controls="lead-generation-prioritization" aria-selected="false">Lead Generation Prioritization</button>
-                            <button class="nav-link" id="lead-acquisition-model-tab" data-bs-toggle="tab" data-bs-target="#lead-acquisition-model" type="button" role="tab" aria-controls="lead-acquisition-model" aria-selected="false">Lead Acquisition Model</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="marketing-funnel-calculator-tab" data-bs-toggle="tab" data-bs-target="#marketing-funnel-calculator" type="button" role="tab" aria-controls="marketing-funnel-calculator" aria-selected="true">Marketing Funnel Calculator</button>
+                            <button className="nav-link" id="lead-generation-prioritization-tab" data-bs-toggle="tab" data-bs-target="#lead-generation-prioritization" type="button" role="tab" aria-controls="lead-generation-prioritization" aria-selected="false">Lead Generation Prioritization</button>
+                            <button className="nav-link" id="lead-acquisition-model-tab" data-bs-toggle="tab" data-bs-target="#lead-acquisition-model" type="button" role="tab" aria-controls="lead-acquisition-model" aria-selected="false">Lead Acquisition Model</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="marketing-funnel-calculator" role="tabpanel" aria-labelledby="marketing-funnel-calculator-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="marketing-funnel-calculator" role="tabpanel" aria-labelledby="marketing-funnel-calculator-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -441,7 +441,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="lead-generation-prioritization" role="tabpanel" aria-labelledby="lead-generation-prioritization-tab">
+                        <div className="tab-pane fade" id="lead-generation-prioritization" role="tabpanel" aria-labelledby="lead-generation-prioritization-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -455,7 +455,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="lead-acquisition-model" role="tabpanel" aria-labelledby="lead-acquisition-model-tab">
+                        <div className="tab-pane fade" id="lead-acquisition-model" role="tabpanel" aria-labelledby="lead-acquisition-model-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -487,15 +487,15 @@ function Tools() {
                         <h2 className="sec-hdng">Sales Analysis Tools and Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="sales-skills-analysis-tab" data-bs-toggle="tab" data-bs-target="#sales-skills-analysis" type="button" role="tab" aria-controls="sales-skills-analysis" aria-selected="true">Sales Skills Analysis</button>
-                            <button class="nav-link" id="sales-forecasting-tab" data-bs-toggle="tab" data-bs-target="#sales-forecasting" type="button" role="tab" aria-controls="sales-forecasting" aria-selected="false">Sales Forecasting</button>
-                            <button class="nav-link" id="sales-activities-tab" data-bs-toggle="tab" data-bs-target="#sales-activities" type="button" role="tab" aria-controls="sales-activities" aria-selected="false">Sales Activities</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="sales-skills-analysis-tab" data-bs-toggle="tab" data-bs-target="#sales-skills-analysis" type="button" role="tab" aria-controls="sales-skills-analysis" aria-selected="true">Sales Skills Analysis</button>
+                            <button className="nav-link" id="sales-forecasting-tab" data-bs-toggle="tab" data-bs-target="#sales-forecasting" type="button" role="tab" aria-controls="sales-forecasting" aria-selected="false">Sales Forecasting</button>
+                            <button className="nav-link" id="sales-activities-tab" data-bs-toggle="tab" data-bs-target="#sales-activities" type="button" role="tab" aria-controls="sales-activities" aria-selected="false">Sales Activities</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="sales-skills-analysis" role="tabpanel" aria-labelledby="sales-skills-analysis-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="sales-skills-analysis" role="tabpanel" aria-labelledby="sales-skills-analysis-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -509,7 +509,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="sales-forecasting" role="tabpanel" aria-labelledby="sales-forecasting-tab">
+                        <div className="tab-pane fade" id="sales-forecasting" role="tabpanel" aria-labelledby="sales-forecasting-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -523,7 +523,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="sales-activities" role="tabpanel" aria-labelledby="sales-activities-tab">
+                        <div className="tab-pane fade" id="sales-activities" role="tabpanel" aria-labelledby="sales-activities-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -555,15 +555,15 @@ function Tools() {
                         <h2 className="sec-hdng">People Analysis Tools and Focus Areas</h2>
                     </div>
                     <nav>
-                        <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
-                            <button class="nav-link active" id="management-assessment-tab" data-bs-toggle="tab" data-bs-target="#management-assessment" type="button" role="tab" aria-controls="management-assessment" aria-selected="true">Management Assessment</button>
-                            <button class="nav-link" id="succession-planning-tab" data-bs-toggle="tab" data-bs-target="#succession-planning" type="button" role="tab" aria-controls="succession-planning" aria-selected="false">Succession Planning</button>
-                            <button class="nav-link" id="employee-survey-tab" data-bs-toggle="tab" data-bs-target="#employee-survey" type="button" role="tab" aria-controls="employee-survey" aria-selected="false">Employee Survey</button>
+                        <div className="nav nav-tabs mb-3" id="nav-tab" role="tablist" data-aos="fade-up">
+                            <button className="nav-link active" id="management-assessment-tab" data-bs-toggle="tab" data-bs-target="#management-assessment" type="button" role="tab" aria-controls="management-assessment" aria-selected="true">Management Assessment</button>
+                            <button className="nav-link" id="succession-planning-tab" data-bs-toggle="tab" data-bs-target="#succession-planning" type="button" role="tab" aria-controls="succession-planning" aria-selected="false">Succession Planning</button>
+                            <button className="nav-link" id="employee-survey-tab" data-bs-toggle="tab" data-bs-target="#employee-survey" type="button" role="tab" aria-controls="employee-survey" aria-selected="false">Employee Survey</button>
                         </div>
 
                     </nav>
-                    <div class="tab-content" id="nav-tabContent" data-aos="fade-up">
-                        <div class="tab-pane fade active show" id="management-assessment" role="tabpanel" aria-labelledby="management-assessment-tab">
+                    <div className="tab-content" id="nav-tabContent" data-aos="fade-up">
+                        <div className="tab-pane fade active show" id="management-assessment" role="tabpanel" aria-labelledby="management-assessment-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -577,7 +577,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="succession-planning" role="tabpanel" aria-labelledby="succession-planning-tab">
+                        <div className="tab-pane fade" id="succession-planning" role="tabpanel" aria-labelledby="succession-planning-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
@@ -591,7 +591,7 @@ function Tools() {
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane fade" id="employee-survey" role="tabpanel" aria-labelledby="employee-survey-tab">
+                        <div className="tab-pane fade" id="employee-survey" role="tabpanel" aria-labelledby="employee-survey-tab">
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="tab-cnt">
