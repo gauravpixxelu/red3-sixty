@@ -50,7 +50,7 @@ const PackageForm = ({ packageTitle, onSubmit }) => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="from-bottom">
+        <form onSubmit={handleSubmit}  className={`from-bottom ${thankmessage ? 'success' : ''}`}>
             <h3>{packageTitle}</h3>
             <div className="row">
                 <div className="col-md-6">

@@ -2954,6 +2954,15 @@ section.service-banner .banner-content h4 {
     background: #ed1b24;
     color: #fff;
 }
+.banner-form .success-msg {
+    width: 100%;
+    bottom: 0;
+    position: relative;
+    margin-top: 25px;
+    background: #4CAF50;
+    color: #fff;
+    padding: 5px 0;
+}
 .banner-form .form-button {
     flex-wrap: wrap;
 }
