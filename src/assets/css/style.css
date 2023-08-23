@@ -1871,6 +1871,14 @@ p.error-msg {
     padding: 5px 50px;
     color: #000;
 }
+p.error-msg {
+    position: absolute;
+    bottom: -45px;
+    margin: 0;
+    padding: 5px 50px;
+    color: #000;
+    background: #4CAF50;
+}
 /*-- Contact Form Css --*/ 
 
 
@@ -2117,6 +2125,18 @@ form.from-bottom .post-comment  .form-button {
     text-align: center;
     background: #ed1b24;
     color: #fff;
+}
+.ReactModal__Overlay .ReactModal__Content.lifetime-form p.success-msg {
+    position: absolute;
+    left: 0;
+    bottom: -45px;
+    font-size: 13px;
+    padding: 5px 0;
+    width: 100%;
+    text-align: center;
+    background: #4CAF50;
+    color: #fff;
+    margin: 0;
 }
 
 /*-- Lifetime Popup Css --*/ 

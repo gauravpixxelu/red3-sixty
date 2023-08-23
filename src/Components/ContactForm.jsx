@@ -99,7 +99,7 @@ const ContactForm = () => {
                 <div className="col-md-12">
                     <div className="form-button">
                         <button type="submit" className="custom-btn"><span>Submit</span></button>
-                        {thankmessage && <p className="error-msg">{thankmessage}</p>}
+                        {thankmessage && <p className={`message ${thankmessage.includes('failed') ? 'error-msg' : 'success-msg'}`}>{thankmessage}</p>}
                     </div>
                 </div>
             </div>

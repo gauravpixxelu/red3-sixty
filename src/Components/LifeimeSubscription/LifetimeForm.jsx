@@ -5,7 +5,7 @@ const LifetimeForm = () => {
   const [contact_email, setEmail] = useState('');
   // const [phone, setPhone] = useState('');
   // const [message, setMessage] = useState('');
-  const [thankMessage, setThankMessage] = useState('');
+  const [thankmessage, setThankMessage] = useState('');
   // const [form_type, setFormType] = useState('');
   // const [site_type, setSiteType] = useState('');
   // const [page_type, setPageType] = useState('');
@@ -38,7 +38,7 @@ const LifetimeForm = () => {
       contact_email,
       // phone,
       // message,
-      thankMessage,
+      thankmessage,
       form_type: "lifetime_offer",
       site_type: "Red3sixty",
       page_type: "Pricing",
@@ -67,7 +67,7 @@ const LifetimeForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="from-bottom">
+    <form onSubmit={handleSubmit}  className={`from-bottom ${thankmessage ? 'success' : ''}`}>
       <div className="row">
         <div className="col-md-12">
           <div className="form-feild">
@@ -120,7 +120,7 @@ const LifetimeForm = () => {
             <button type="submit" className="custom-btn">
               <span>Submit</span>
             </button>
-            {thankMessage && <p className="error-msg">{thankMessage}</p>}
+            {thankmessage && <p className={`message ${thankmessage.includes('failed') ? 'error-msg' : 'success-msg'}`}>{thankmessage}</p>}
           </div>
         </div>
       </div>
