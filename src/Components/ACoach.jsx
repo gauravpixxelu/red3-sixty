@@ -214,7 +214,6 @@ function ACoach() {
                         <li>3. Business growth diagnostics</li>
                         <li>4. Growth Acceleration</li>
                         <li>5. Customer Service improvement</li>
-                        <li>6. Customer Service improvement</li>
                     </ul>
                     <p className="hdng-16">There are no hidden fees. The cost includes all training, certification and support. We have structured easy to pay options all with our money back guarantee. Whether you are looking to start small or really invest in your business</p>
                     <NavLink to="/potential" className="custom-btn"><span>Unlock Your Potential Now!</span></NavLink>
