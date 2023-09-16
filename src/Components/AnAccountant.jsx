@@ -243,7 +243,6 @@ function AnAccountant() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </section>
 
