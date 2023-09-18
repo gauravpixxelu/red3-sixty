@@ -75,7 +75,7 @@ const Header = () => {
                 <NavLink className="nav-link" to="/services">Services</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="http://wordpress.red3sixtyonline.com">FNB MasterUp</NavLink>
+                <NavLink className="nav-link" to="https://masterup.red3sixtyonline.com">FNB MasterUp</NavLink>
               </li>
               <li className="nav-item dropdown">
                 <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">I am...</NavLink>
