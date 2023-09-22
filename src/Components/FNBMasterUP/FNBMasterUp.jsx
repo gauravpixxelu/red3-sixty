@@ -42,7 +42,7 @@ function FNBMasterUp() {
                                     <h1>We are looking for business owners like you!</h1>
                                     <p>Are you an ambitious entrepreneur or a visionary business leader of a Small to Medium Enterprise (SME) showing promising potential for growth and innovation? Does your business fall within the Qualifying Small Enterprise (QSE) category, with a turnover between R10m and R50m Is your business 51% black owned?</p>
                                     <div className="fnb-btns">
-                                        <a href="#apply-now" className="custom-btn"><span>Apply Now</span></a>
+                                        <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                         <a href="#" className="custom-btn-2"><span>Brochure</span></a>
                                     </div>
                                 </div>
@@ -132,7 +132,7 @@ function FNBMasterUp() {
                                 <div className="about-fnb-service-txt">
                                     <h2 className="sec-hdng">About</h2>
                                     <p className="hdng-16">The “FNB MasterUp”, between First National Bank (FNB) and RED3SIXTY, is a program designed to of Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the program epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
-                                    <a href="#apply-now" className="custom-btn"><span>Apply Now</span></a>
+                                    <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                 </div>
                             </div>
                             <div className="col-md-6">
@@ -162,7 +162,7 @@ function FNBMasterUp() {
                                     <h2 className="sec-hdng">About RED3SIXTY</h2>
                                     <p className="hdng-16">RED3SIXTY and its Strategic Partner, Business Doctors, have over the last 15 years focused on developing solutions and analysis capabilities delivered through the Business Doctors Franchise network of experienced professionals.</p>
                                     <p className="hdng-16">RED3SIXTY develops business growth methodologies and analytics through benchmarking and automation solutions focused on helping consultants and their customers (SME’s) succeed. RED3SIXTY is well established and operates internationally and locally with a national network able to support business development initiatives down to provincial and local area levels.</p>
-                                    <a href="#apply-now" className="custom-btn"><span>Apply Now</span></a>
+                                    <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                 </div>
                             </div>
                         </div>

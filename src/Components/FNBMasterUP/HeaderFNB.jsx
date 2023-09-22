@@ -45,7 +45,7 @@ const Header = () => {
           <a className="navbar-brand" href="#">
             <img src={FNBLogo} alt="Logo" />
           </a>
-          <a className="custom-btn desktop" to="#apply-now"><span>Apply Now</span></a>
+          <a className="custom-btn desktop" to="#apply-now" aria-label="Apply Now"><span>Apply Now</span></a>
           <button
             className={`navbar-toggler ${isMobileMenuOpen ? 'collapsed' : ''}`}
             type="button"
@@ -67,20 +67,20 @@ const Header = () => {
                 <a className="nav-link" href="#">Home</a>
               </li>          
               <li className="nav-item">
-                <a className="nav-link" href="#about">About</a>
+                <a className="nav-link" href="#about" aria-label="About">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#application-process">Application Process</a>
+                <a className="nav-link" href="#application-process" aria-label="Application Process">Application Process</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#faqs">Faq's</a>
+                <a className="nav-link" href="#faqs" aria-label="Faq's">Faq's</a>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/">Red3sxity</NavLink>
               </li>
             </ul>
             <div className="btn-fnb">
-              <a className="custom-btn" href="#apply-now"><span>Apply Now</span></a>
+              <a className="custom-btn" href="#apply-now" aria-label="Apply Now"><span>Apply Now</span></a>
             </div>            
           </div>
         </nav> 
