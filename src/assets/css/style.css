@@ -3399,6 +3399,9 @@ section.service-banner .banner-content h4 {
 .terms-data .terms-box {
     margin-bottom: 30px;
 }
+.fnb #chipbot-app, .fnb #chipbot-app-styles {
+    display: none;
+}
 
 
 @keyframes marquee {
