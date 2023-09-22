@@ -1053,5 +1053,18 @@ div.banner-form .form-feild textarea {
 .fnb-banner-txt {
     margin-top: 0;
 }
+.ssl-block {
+    gap: 20px;
+    margin-top: 15px;
+}
+.ssl-block ul li img {
+    width: 16px;
+}
+.fnb-submit {
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
 
 }

@@ -3179,9 +3179,6 @@ section.service-banner .banner-content h4 {
     font-size: 22px;
     margin: 20px 0 30px;
 }
-.fnb-banner-txt {
-    margin-top: 50px;
-}
 .banner-fnb .fnb-banner-txt .fnb-btns .custom-btn-2 {
     margin-left: 20px;
 }
@@ -3408,6 +3405,44 @@ section.service-banner .banner-content h4 {
 }
 .fnb #chipbot-app, .fnb #chipbot-app-styles {
     display: none;
+}
+.ssl-block img {
+    width: 150px;
+}
+.ssl-block ul {
+    padding: 0;
+    margin: 0;
+}
+.ssl-block ul li img {
+    width: 20px;
+}
+.ssl-block ul li {
+    list-style: none;
+    color: #4dbb48;
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 5px 0;
+}
+.ssl-block {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+.fnb-submit {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.fnb-submit button.custom-btn {
+    height: 50px;
+    padding: 0 50px;
+}
+.fnb-submit .ssl-block {
+    margin: 0;
 }
 
 

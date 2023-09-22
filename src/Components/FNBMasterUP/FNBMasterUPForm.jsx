@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import SSL_Image from './FNBMasterUP-images/ssl-image.png'
+import Check from './FNBMasterUP-images/check.png'
 
 const FNBMasterUPForm = () => {
     const [name, setFirstName] = useState('');
@@ -193,8 +195,17 @@ const FNBMasterUPForm = () => {
                 </div>
 
                 <div className="col-md-12">
-                    <div className="form-button">
+                    <div className="form-button fnb-btn">
+                        <div className="fnb-submit">
                         <button type="submit" className="custom-btn"><span>Proceed</span></button>
+                        <div className="ssl-block">
+                            <img src={SSL_Image} alt="" />
+                            <ul>
+                                <li><img src={Check} alt="" />Potentially Safe</li>
+                                <li><img src={Check} alt="" />Valid HTTPS Found</li>
+                            </ul>
+                        </div>
+                        </div>                        
                         <p className="hdng-16">Your information is not used or shared with anyone except FNB and RED3SIXTY and is only used to enter you into the program</p>
                         {thankmessage && <p className={`message ${thankmessage.includes('failed') ? 'error-msg' : 'success-msg'}`}>{thankmessage}</p>}
                     </div>

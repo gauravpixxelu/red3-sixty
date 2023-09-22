@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom';
 import FNBMasterUPForm from './FNBMasterUPForm'
 import HeaderFNB from './HeaderFNB'
 import FNBAbout from './FNBMasterUP-images/about-fnb.jpg'
+import SSL_Image from './FNBMasterUP-images/ssl-image.png'
+import Check from './FNBMasterUP-images/check.png'
 import FNBAbout_1 from './FNBMasterUP-images/about-fnb-1.jpg'
 import FNBAbout_2 from './FNBMasterUP-images/about-fnb-2.jpg'
 import Banner_Img from './FNBMasterUP-images/banner-img.png'
@@ -44,6 +46,13 @@ function FNBMasterUp() {
                                     <div className="fnb-btns">
                                         <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                         <NavLink className="custom-btn-2" to=""><span>Brochure</span></NavLink>
+                                    </div>
+                                    <div className="ssl-block">
+                                        <img src={SSL_Image} alt="" />
+                                        <ul>
+                                            <li><img src={Check} alt="" />Potentially Safe</li>
+                                            <li><img src={Check} alt="" />Valid HTTPS Found</li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -133,6 +142,13 @@ function FNBMasterUp() {
                                     <h2 className="sec-hdng">About</h2>
                                     <p className="hdng-16">The “FNB MasterUp”, between First National Bank (FNB) and RED3SIXTY, is a program designed to of Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the program epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
                                     <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
+                                    <div className="ssl-block">
+                                        <img src={SSL_Image} alt="" />
+                                        <ul>
+                                            <li><img src={Check} alt="" />Potentially Safe</li>
+                                            <li><img src={Check} alt="" />Valid HTTPS Found</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-md-6">
@@ -163,6 +179,13 @@ function FNBMasterUp() {
                                     <p className="hdng-16">RED3SIXTY and its Strategic Partner, Business Doctors, have over the last 15 years focused on developing solutions and analysis capabilities delivered through the Business Doctors Franchise network of experienced professionals.</p>
                                     <p className="hdng-16">RED3SIXTY develops business growth methodologies and analytics through benchmarking and automation solutions focused on helping consultants and their customers (SME’s) succeed. RED3SIXTY is well established and operates internationally and locally with a national network able to support business development initiatives down to provincial and local area levels.</p>
                                     <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
+                                    <div className="ssl-block">
+                                        <img src={SSL_Image} alt="" />
+                                        <ul>
+                                            <li><img src={Check} alt="" />Potentially Safe</li>
+                                            <li><img src={Check} alt="" />Valid HTTPS Found</li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                         </div>
