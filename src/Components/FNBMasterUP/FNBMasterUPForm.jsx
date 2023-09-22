@@ -107,32 +107,32 @@ const FNBMasterUPForm = () => {
 
                 <div className="col-md-6">
                     <div className="form-feild">
-                    <label className="fnb-label">Business Age (years)</label>
-                    <div className="radio-gd">
-                        <div><label><input type="radio" value="0-5" checked={business_age === '0-5'} onChange={(e) => setBusinessAge(e.target.value)}/>0-5</label></div>
-                        <div><label><input type="radio" value="5-10" checked={business_age === '5-10'} onChange={(e) => setBusinessAge(e.target.value)}/>5-10</label></div>
-                        <div><label><input type="radio" value="10-15" checked={business_age === '10-15'} onChange={(e) => setBusinessAge(e.target.value)}/>10-15</label></div>
-                        <div><label><input type="radio" value="15-20" checked={business_age === '15-20'} onChange={(e) => setBusinessAge(e.target.value)}/>15-20</label></div>
-                    </div>
+                        <label className="fnb-label">Business Age (years)</label>
+                        <div className="radio-gd">
+                            <div><label><input type="radio" value="0-5" checked={business_age === '0-5'} onChange={(e) => setBusinessAge(e.target.value)} />0-5</label></div>
+                            <div><label><input type="radio" value="5-10" checked={business_age === '5-10'} onChange={(e) => setBusinessAge(e.target.value)} />5-10</label></div>
+                            <div><label><input type="radio" value="10-15" checked={business_age === '10-15'} onChange={(e) => setBusinessAge(e.target.value)} />10-15</label></div>
+                            <div><label><input type="radio" value="15-20" checked={business_age === '15-20'} onChange={(e) => setBusinessAge(e.target.value)} />15-20</label></div>
+                        </div>
                     </div>
                 </div>
 
                 <div className="col-md-6">
                     <div className="form-feild">
-                    <label className="fnb-label">Number of Employees</label>
-                    <div className="radio-gd">
-                        <div><label><input type="radio" value="0-10" checked={number_of_employee === '0-10'} onChange={(e) => setEmployes(e.target.value)}/>0-10</label></div>
-                        <div><label><input type="radio" value="10-20" checked={number_of_employee === '10-20'} onChange={(e) => setEmployes(e.target.value)}/>10-20</label></div>
-                        <div><label><input type="radio" value="20-30" checked={number_of_employee === '20-30'} onChange={(e) => setEmployes(e.target.value)}/>20-30</label></div>
-                        <div><label><input type="radio" value="30-50" checked={number_of_employee === '30-50'} onChange={(e) => setEmployes(e.target.value)}/>30-50</label></div>
-                    </div>
+                        <label className="fnb-label">Number of Employees</label>
+                        <div className="radio-gd">
+                            <div><label><input type="radio" value="0-10" checked={number_of_employee === '0-10'} onChange={(e) => setEmployes(e.target.value)} />0-10</label></div>
+                            <div><label><input type="radio" value="10-20" checked={number_of_employee === '10-20'} onChange={(e) => setEmployes(e.target.value)} />10-20</label></div>
+                            <div><label><input type="radio" value="20-30" checked={number_of_employee === '20-30'} onChange={(e) => setEmployes(e.target.value)} />20-30</label></div>
+                            <div><label><input type="radio" value="30-50" checked={number_of_employee === '30-50'} onChange={(e) => setEmployes(e.target.value)} />30-50</label></div>
+                        </div>
                     </div>
                 </div>
 
                 <div className="col-md-6">
                     <div className="form-feild">
                         <label className="fnb-label">B-BBEE</label>
-                        <select value={b_bbee} onChange={e => setBBEE(e.target.value)}>
+                        <select value={b_bbee} onChange={e => setBBEE(e.target.value)} required>
                             <option value="">B-BBEE</option>
                             <option value="Level 1">Level 1</option>
                             <option value="Level 2">Level 2</option>
@@ -149,7 +149,7 @@ const FNBMasterUPForm = () => {
 
                 <div className="col-md-6">
                     <div className="form-feild">
-                    <label className="fnb-label">Role</label>
+                        <label className="fnb-label">Role</label>
                         <select value={role} onChange={e => setRole(e.target.value)}>
                             <option value="">Role</option>
                             <option value="Director">Director</option>
@@ -161,20 +161,20 @@ const FNBMasterUPForm = () => {
 
                 <div className="col-md-12">
                     <div className="form-feild">
-                    <label className="fnb-label">Annual Turnover</label>
-                    <div className="radio-gd">
-                        <div><label><input type="radio" value="0-R10m" checked={annual_turnover === '0-R10m'} onChange={(e) => setAnnualTurnover(e.target.value)}/>0-R10m</label></div>
-                        <div><label><input type="radio" value="R10m-R25m" checked={annual_turnover === 'R10m-R25m'} onChange={(e) => setAnnualTurnover(e.target.value)}/>R10m-R25m</label></div>
-                        <div><label><input type="radio" value="R25-R35m" checked={annual_turnover === 'R25-R35m'} onChange={(e) => setAnnualTurnover(e.target.value)}/>R25-R35m</label></div>
-                        <div><label><input type="radio" value="R35m-R50m" checked={annual_turnover === 'R35m-R50m'} onChange={(e) => setAnnualTurnover(e.target.value)}/>R35m-R50m</label></div>
-                    </div>
+                        <label className="fnb-label">Annual Turnover</label>
+                        <div className="radio-gd">
+                            <div><label><input type="radio" value="0-R10m" checked={annual_turnover === '0-R10m'} onChange={(e) => setAnnualTurnover(e.target.value)} />0-R10m</label></div>
+                            <div><label><input type="radio" value="R10m-R25m" checked={annual_turnover === 'R10m-R25m'} onChange={(e) => setAnnualTurnover(e.target.value)} />R10m-R25m</label></div>
+                            <div><label><input type="radio" value="R25-R35m" checked={annual_turnover === 'R25-R35m'} onChange={(e) => setAnnualTurnover(e.target.value)} />R25-R35m</label></div>
+                            <div><label><input type="radio" value="R35m-R50m" checked={annual_turnover === 'R35m-R50m'} onChange={(e) => setAnnualTurnover(e.target.value)} />R35m-R50m</label></div>
+                        </div>
                     </div>
                 </div>
 
                 <div className="col-md-12">
                     <div className="form-feild">
-                    <label className="fnb-label">Where did you hear about the programme</label>
-                        <select value={where_did_you} onChange={e => setProgramme(e.target.value)}>
+                        <label className="fnb-label">Where did you hear about the programme</label>
+                        <select value={where_did_you} onChange={e => setProgramme(e.target.value)} required>
                             <option value="FNB Twitter page">FNB Twitter page</option>
                             <option value="FNB Linkedin page">FNB Linkedin page</option>
                             <option value="Linkedin">Linkedin</option>
@@ -188,13 +188,14 @@ const FNBMasterUPForm = () => {
 
                 <div className="col-md-12">
                     <div className="form-feild">
-                        <input type="checkbox" value={is_accept} onChange={(e) => setAccept(e.target.value)}/>I accept <NavLink to="/term-conditions">Terms and Conditions</NavLink>
+                        <input type="checkbox" value={is_accept} onChange={(e) => setAccept(e.target.value)} required />I accept <NavLink to="/term-conditions">Terms and Conditions</NavLink>
                     </div>
                 </div>
 
                 <div className="col-md-12">
                     <div className="form-button">
                         <button type="submit" className="custom-btn"><span>Proceed</span></button>
+                        <p className="hdng-16">Your information is not used or shared with anyone except FNB and RED3SIXTY and is only used to enter you into the program</p>
                         {thankmessage && <p className={`message ${thankmessage.includes('failed') ? 'error-msg' : 'success-msg'}`}>{thankmessage}</p>}
                     </div>
                 </div>

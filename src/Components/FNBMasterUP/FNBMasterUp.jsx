@@ -264,9 +264,9 @@ function FNBMasterUp() {
                         <div className="accordion" id="accordionExample" data-aos="fade-up">
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingOne">
-                                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is the FNB MasterUp Program?</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">What is the FNB MasterUp Program?</button>
                                 </h2>
-                                <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
                                         <p className="hdng-16">The "FNB MasterUp" is a FNB enterprise development programme initiated in collaboration with RED3SIXTY focusing on providing platform-based business development support aimed at small to medium enterprises. The programme will be delivered by RED3SIXTY on an online platform with tailored business development modules and masterclasses. The programme key objectives are as follows:</p>
                                         <p className="hdng-16"><b>Ensure Funding Readiness:</b> entails supporting the enterprises to improve their investability and be able to unlock opportunities to enable scaling through effective business plans, financial projections, and pitch assets.</p>

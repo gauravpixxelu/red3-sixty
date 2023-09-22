@@ -981,7 +981,7 @@ div.banner-form .form-feild textarea {
     margin: 20px 0 20px;
 }
 .banner-fnb {
-    padding: 40px 0 0;
+    padding: 40px 0;
 }
 .about-inner-sec {
     padding: 10px;
@@ -1046,6 +1046,12 @@ div.banner-form .form-feild textarea {
 }
 .btn-fnb {
     display: none;
+}
+.fnb-banner-img {
+    display: none;
+}
+.fnb-banner-txt {
+    margin-top: 0;
 }
 
 }

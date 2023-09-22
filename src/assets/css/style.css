@@ -3210,7 +3210,14 @@ section.service-banner .banner-content h4 {
     font-size: 44px;
 }
 .fnb .from-bottom .form-button {
-    justify-content: flex-start;
+    display: block;
+}
+.form-button p.hdng-16 {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    color: #000;
+    font-weight: 600;
 }
 .fnb .accordion-item .accordion-button.collapsed {
     background: #fff;
