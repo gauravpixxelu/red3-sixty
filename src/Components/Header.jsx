@@ -10,22 +10,20 @@ const Header = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      setIsSticky(scrollTop > 0); // Update isSticky based on scroll position
+      setIsSticky(scrollTop > 0);
     };
 
-    window.addEventListener('scroll', handleScroll); // Add scroll event listener
+    window.addEventListener('scroll', handleScroll);
     return () => {
-      window.removeEventListener('scroll', handleScroll); // Clean up scroll event listener
+      window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   useEffect(() => {
-    // Close the mobile menu when navigating to a new page
     setIsMobileMenuOpen(false);
   }, [location]);
 
   useEffect(() => {
-    // Retrieve the mobile menu state from local storage on page load
     const storedMobileMenuState = localStorage.getItem('mobileMenuState');
     if (storedMobileMenuState) {
       setIsMobileMenuOpen(JSON.parse(storedMobileMenuState));
@@ -33,7 +31,6 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    // Store the mobile menu state in local storage
     localStorage.setItem('mobileMenuState', JSON.stringify(isMobileMenuOpen));
   }, [isMobileMenuOpen]);
 
@@ -87,7 +84,7 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/benefits">Benefits</NavLink>
-              </li> 
+              </li>
               <li className="nav-item dropdown">
                 <NavLink className="nav-link dropdown-toggle" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Features</NavLink>
                 <ul className="dropdown-menu">
