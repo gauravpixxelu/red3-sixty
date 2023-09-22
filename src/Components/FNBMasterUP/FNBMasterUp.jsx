@@ -43,7 +43,7 @@ function FNBMasterUp() {
                                     <p>Are you an ambitious entrepreneur or a visionary business leader of a Small to Medium Enterprise (SME) showing promising potential for growth and innovation? Does your business fall within the Qualifying Small Enterprise (QSE) category, with a turnover between R10m and R50m Is your business 51% black owned?</p>
                                     <div className="fnb-btns">
                                         <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
-                                        <a href="#" className="custom-btn-2"><span>Brochure</span></a>
+                                        <a className="custom-btn-2 gd-for"><span>Brochure</span></a>
                                     </div>
                                 </div>
                             </div>
