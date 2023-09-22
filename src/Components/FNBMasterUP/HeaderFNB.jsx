@@ -45,7 +45,7 @@ const Header = () => {
           <NavLink className="navbar-brand" to="/fnb">
             <img src={FNBLogo} alt="Logo" />
           </NavLink>
-          <a className="custom-btn desktop" to="#apply-now" aria-label="Apply Now"><span>Apply Now</span></a>
+          <a className="custom-btn desktop" href="#apply-now" aria-label="Apply Now"><span>Apply Now</span></a>
           <button
             className={`navbar-toggler ${isMobileMenuOpen ? 'collapsed' : ''}`}
             type="button"
