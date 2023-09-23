@@ -207,6 +207,7 @@ const FNBMasterUPForm = () => {
                         </div>
                         </div>                        
                         <p className="hdng-16">Your information is not used or shared with anyone except FNB and RED3SIXTY and is only used to enter you into the program</p>
+                        <NavLink to="https://www.scamvoid.net/check/red3-sixty.com/ " target="_blank">www.scamvoid.net</NavLink>
                         {thankmessage && <p className={`message ${thankmessage.includes('failed') ? 'error-msg' : 'success-msg'}`}>{thankmessage}</p>}
                     </div>
                 </div>
