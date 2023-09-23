@@ -89,7 +89,7 @@ function App() {
           <Route path="/a-coach" element={<ACoach />} />
           <Route path="/coaching-success" element={<UnlockYourCoachingSuccess />} />    
           <Route path="/services" element={<Services />} />  
-          <Route path="/fnb" element={<FNBMasterUp />} />  
+          <Route path="/fnb-masterup" element={<FNBMasterUp />} />  
           <Route path="/term-conditions" element={<TermCondition />} />           
           <Route path="/*" element={<NotFound />} />             
         </Routes>

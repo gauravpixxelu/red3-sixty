@@ -42,7 +42,7 @@ const Header = () => {
     <header className={`site-header ${isSticky ? 'sticky' : ''}`}>
       <div className="container">
         <nav className="navbar navbar-expand-lg" data-aos="fade-up">
-          <NavLink className="navbar-brand" to="/fnb">
+          <NavLink className="navbar-brand" to="/fnb-masterup">
             <img src={FNBLogo} alt="Logo" />
           </NavLink>
           <a className="custom-btn desktop" href="#apply-now" aria-label="Apply Now"><span>Apply Now</span></a>
@@ -64,7 +64,7 @@ const Header = () => {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-              <a className="nav-link" href="/fnb">Home</a>
+              <a className="nav-link" href="/fnb-masterup">Home</a>
               </li>          
               <li className="nav-item">
                 <a className="nav-link" href="#about" aria-label="About">About</a>
