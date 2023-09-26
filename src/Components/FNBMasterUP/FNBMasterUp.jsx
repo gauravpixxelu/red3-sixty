@@ -115,7 +115,7 @@ function FNBMasterUp() {
                             <div className="col-md-4">
                                 <div className="criteria-box">
                                     <h4>2</h4>
-                                    <p className="hdng-16">Focus selection on both funding readiness and potential. Business-to-business operating model. Must be tax-compliant</p>
+                                    <p className="hdng-16">Business-to-business operating model. Must be tax-compliant</p>
                                 </div>
                             </div>
 
