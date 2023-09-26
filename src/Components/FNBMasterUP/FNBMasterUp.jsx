@@ -102,7 +102,7 @@ function FNBMasterUp() {
                     <div className="container" data-aos="fade-up">
                         <div className="criteria-hdng">
                             <h2 className="sec-hdng">Selection criteria</h2>
-                            <p className="hdng-18">Ensure all entries receive access to platform for self development (No Cost). Target 20 Medium sized black owner businesses for blended approach</p>
+                            <p className="hdng-18">Ensure all entries receive access to platform for self development (No Cost). Target 60 Medium sized black owner businesses for blended approach</p>
                         </div>
                         <div className="row">
                             <div className="col-md-4">
