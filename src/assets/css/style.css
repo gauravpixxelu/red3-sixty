@@ -3450,7 +3450,13 @@ section.service-banner .banner-content h4 {
     margin-top: -10px;
     display: block;
 }
-
+p.message.success-msg {
+    background: #56bd47;
+    color: #fff;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 20px;
+}
 @keyframes marquee {
     0% {
         transform: translateX(0);
