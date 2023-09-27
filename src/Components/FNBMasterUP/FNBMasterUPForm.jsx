@@ -1,19 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; 
 import SSL_Image from './FNBMasterUP-images/ssl-image.png'
 import Check from './FNBMasterUP-images/check.png'
 
-const FNBMasterUPForm = () => {
+const FNBMasterUPForm= () =>{
     const [name, setFirstName] = useState('');
     const [surname_name, setLastName] = useState('');
     const [email, setEmail] = useState('');
     const [phone, setPhone] = useState('');
     const [business_name, setBusinessName] = useState('');
-    const [business_age, setBusinessAge] = useState('0-5');
-    const [number_of_employee, setEmployes] = useState('0-10');
+    const [business_age, setBusinessAge] = useState('');
+    const [number_of_employee, setEmployes] = useState('');
     const [b_bbee, setBBEE] = useState('');
     const [role, setRole] = useState('');
-    const [annual_turnover, setAnnualTurnover] = useState('0-R10m');
+    const [annual_turnover, setAnnualTurnover] = useState('');
     const [where_did_you, setProgramme] = useState('');
     const [is_accept, setAccept] = useState('');
     const [thankmessage, setThank] = useState('');
@@ -60,11 +60,11 @@ const FNBMasterUPForm = () => {
             setEmail('');
             setPhone('');
             setBusinessName('');
-            setBusinessAge('0-5');
-            setEmployes('0-10');
+            setBusinessAge('');
+            setEmployes('');
             setBBEE('');
             setRole('');
-            setAnnualTurnover('0-R10m');
+            setAnnualTurnover('');
             setProgramme('');
             setAccept('');
         } catch (error) {

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import FNBLogo from './FNBMasterUP-images/logo.png';
+import Logo from './FNBMasterUP-images/logo.svg';
 import { NavLink, useLocation } from 'react-router-dom';
 
 const Header = () => {
@@ -45,6 +46,9 @@ const Header = () => {
           <NavLink className="navbar-brand" to="/fnbmasterup">
             <img src={FNBLogo} alt="Logo" />
           </NavLink>
+          <NavLink className="navbar-brand red" to="/">
+            <img src={Logo} alt="Logo" />
+          </NavLink>
           <a className="custom-btn desktop" href="#apply-now" aria-label="Apply Now"><span>Apply Now</span></a>
           <button
             className={`navbar-toggler ${isMobileMenuOpen ? 'collapsed' : ''}`}
@@ -74,9 +78,6 @@ const Header = () => {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#faqs" aria-label="Faq's">Faq's</a>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link" to="/">Red3sxity</NavLink>
               </li>
             </ul>
             <div className="btn-fnb">

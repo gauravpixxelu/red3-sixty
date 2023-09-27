@@ -3182,16 +3182,21 @@ section.service-banner .banner-content h4 {
 .banner-fnb .fnb-banner-txt .fnb-btns .custom-btn-2 {
     margin-left: 20px;
 }
+.banner-fnb .fnb-banner-txt h4 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+}
 .fnb .custom-btn-2:hover {
-    color: #ff9c00;
+    color: #00acae;
 }
 .fnb .custom-btn-2:hover:after {
     background: #fff;
 }
 .fnb .custom-btn-2 {
     color: #fff;
-    background: #ff9c00;
-    border: 1px solid rgb(255 156 0);
+    background: #00acae;
+    border: 1px solid #00acae;
 }
 .fnb-faq .accordion-body {
     padding: 20px;
@@ -3365,13 +3370,13 @@ section.service-banner .banner-content h4 {
 .btn-fnb {
     margin-left: 25px;
 }
-.fnb .custom-btn {
+/* .fnb .custom-btn {
     background: rgb(0 172 174);
     border: 1px solid rgb(0 172 174);
 }
 .fnb .custom-btn:hover {
     color: rgb(0 172 174);
-}
+} */
 .custom-btn.desktop {
     display: none;
 }
@@ -3457,6 +3462,16 @@ p.message.success-msg {
     display: inline-block;
     margin-top: 20px;
 }
+.site-header .navbar a.navbar-brand.red {
+    margin-left: 35px;
+}
+.site-header .navbar a.navbar-brand.red img {
+    width: 220px;
+}
+
+
+
+
 @keyframes marquee {
     0% {
         transform: translateX(0);

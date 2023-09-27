@@ -8,6 +8,8 @@ import Check from './FNBMasterUP-images/check.png'
 import FNBAbout_1 from './FNBMasterUP-images/about-fnb-1.jpg'
 import FNBAbout_2 from './FNBMasterUP-images/about-fnb-2.jpg'
 import Banner_Img from './FNBMasterUP-images/banner-img.png'
+import Brochure from './FNBPDF/brochure.pdf'
+
 
 
 function FNBMasterUp() {
@@ -41,11 +43,12 @@ function FNBMasterUp() {
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-7">
                                 <div className="fnb-banner-txt">
-                                    <h1>We are looking for business owners like you!</h1>
+                                    <h1>FNB MasterUp Programme 2023</h1>
+                                    <h4>We are looking for Business owners like you!</h4>
                                     <p>Are you an ambitious entrepreneur or a visionary business leader of a Small to Medium Enterprise (SME) showing promising potential for growth and innovation? Does your business fall within the Qualifying Small Enterprise (QSE) category, with a turnover between R10m and R50m Is your business 51% black owned?</p>
                                     <div className="fnb-btns">
                                         <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
-                                        <NavLink className="custom-btn-2" to=""><span>Brochure</span></NavLink>
+                                        <a href={Brochure} className="custom-btn-2" download><span>Brochure</span></a>
                                     </div>
                                     <div className="ssl-block">
                                         <img src={SSL_Image} alt="" />
