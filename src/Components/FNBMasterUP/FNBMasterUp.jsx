@@ -143,7 +143,7 @@ function FNBMasterUp() {
                             <div className="col-md-6">
                                 <div className="about-fnb-service-txt">
                                     <h2 className="sec-hdng">About</h2>
-                                    <p className="hdng-16">The “FNB MasterUp”, between First National Bank (FNB) and RED3SIXTY, Is a partnership its a program designed for Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the program epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
+                                    <p className="hdng-16">The "FNB MasterUp" program is a partnership between FNB and RED3SIXTY designed for Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the program epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
                                     <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                     <div className="ssl-block">
                                         <img src={SSL_Image} alt="" />
