@@ -67,6 +67,9 @@ const FNBMasterUPForm= () =>{
             setAnnualTurnover('');
             setProgramme('');
             setAccept('');
+            setTimeout(() => {
+                window.open('https://red-project.com/pages/view-form/Zm9ybV9pZD01', '_blank');
+            }, 1000); 
         } catch (error) {
             console.log(error);
             setThank('Message failed to send. Please try again later.');
