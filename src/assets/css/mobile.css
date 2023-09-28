@@ -973,8 +973,12 @@ div.banner-form .form-feild textarea {
 
 /* ----- FNB MasterUp ----- */
 .banner-fnb .fnb-banner-txt h1 {
-    font-size: 36px;    
+    font-size: 36px;
     line-height: 44px;
+    flex-wrap: wrap;
+}
+.banner-fnb .fnb-banner-txt h1 img {
+    height: 100px;
 }
 .banner-fnb .fnb-banner-txt p {
     font-size: 18px;
@@ -1041,9 +1045,9 @@ div.banner-form .form-feild textarea {
 .fnb-form-block .form-feild {
     margin-top: 10px;
 }
-.custom-btn.desktop {
-    display: inline-block;
-    margin-top: 10px;
+.banner-fnb .fnb-banner-txt h4 {
+    font-size: 24px;
+    margin-top: 20px;
 }
 .btn-fnb {
     display: none;

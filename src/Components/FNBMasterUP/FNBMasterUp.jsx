@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
+import FNBLogo from './FNBMasterUP-images/logo.png';
 import FNBMasterUPForm from './FNBMasterUPForm'
 import HeaderFNB from './HeaderFNB'
 import FNBAbout from './FNBMasterUP-images/about-fnb.jpg'
@@ -43,7 +44,7 @@ function FNBMasterUp() {
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-7">
                                 <div className="fnb-banner-txt">
-                                    <h1>FNB MasterUp Programme 2023</h1>
+                                    <h1><img src={FNBLogo} alt="Logo" />FNB MasterUp Programme 2023</h1>
                                     <h4>We are looking for Business owners like you!</h4>
                                     <p>Are you an ambitious entrepreneur or a visionary business leader of a Small to Medium Enterprise (SME) showing promising potential for growth and innovation? Does your business fall within the Qualifying Small Enterprise (QSE) category, with a turnover between R10m and R50m Is your business 51% black owned?</p>
                                     <div className="fnb-btns">
@@ -179,7 +180,7 @@ function FNBMasterUp() {
                             <div className="col-md-6">
                                 <div className="about-fnb-service-txt">
                                     <h2 className="sec-hdng">About RED3SIXTY</h2>
-                                    <p className="hdng-16">RED3SIXTY have over the last 15 years focused in developing solutions and analysis capabilities delivered through þhe RED3SIXTY network of experienced professionals.</p>
+                                    <p className="hdng-16">RED3SIXTY have over the last 15 years focused in developing solutions and analysis capabilities delivered through the RED3SIXTY network of experienced professionals.</p>
                                     <p className="hdng-16">RED3SIXTY develops business growth methodologies and analytics through benchmarking and automation solutions focused on helping consultants and their customers (SME’s) succeed. RED3SIXTY is well established and operates internationally and locally with a national network able to support business development initiatives down to provincial and local area levels.</p>
                                     <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                     <div className="ssl-block">

@@ -3170,10 +3170,16 @@ section.service-banner .banner-content h4 {
     background-position: center center;
     padding: 100px 0 0;
 }
+.banner-fnb .fnb-banner-txt h1 img {
+    height: 150px;
+    width: auto;
+}
 .banner-fnb .fnb-banner-txt h1 {
-    font-size: 72px;
+    font-size: 64px;
     font-weight: 700;
-    line-height: 80px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }
 .banner-fnb .fnb-banner-txt p {
     font-size: 22px;
@@ -3364,9 +3370,6 @@ section.service-banner .banner-content h4 {
 .fnb .fnbmasterup-page .site-header {
     display: block;
 }
-.fnb .fnbmasterup-page .site-header a.navbar-brand img {
-    width: 75px;
-}
 .btn-fnb {
     margin-left: 25px;
 }
@@ -3462,12 +3465,7 @@ p.message.success-msg {
     display: inline-block;
     margin-top: 20px;
 }
-.site-header .navbar a.navbar-brand.red {
-    margin-left: 35px;
-}
-.site-header .navbar a.navbar-brand.red img {
-    width: 220px;
-}
+
 
 
 
