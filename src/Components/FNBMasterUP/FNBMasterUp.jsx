@@ -179,7 +179,7 @@ function FNBMasterUp() {
                             <div className="col-md-6">
                                 <div className="about-fnb-service-txt">
                                     <h2 className="sec-hdng">About RED3SIXTY</h2>
-                                    <p className="hdng-16">RED3SIXTY and its Strategic Partner, Business Doctors, have over the last 15 years focused on developing solutions and analysis capabilities delivered through the Business Doctors Franchise network of experienced professionals.</p>
+                                    <p className="hdng-16">RED3SIXTY have over the last 15 years focused in developing solutions and analysis capabilities delivered through þhe RED3SIXTY network of experienced professionals.</p>
                                     <p className="hdng-16">RED3SIXTY develops business growth methodologies and analytics through benchmarking and automation solutions focused on helping consultants and their customers (SME’s) succeed. RED3SIXTY is well established and operates internationally and locally with a national network able to support business development initiatives down to provincial and local area levels.</p>
                                     <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                     <div className="ssl-block">
@@ -258,7 +258,7 @@ function FNBMasterUp() {
                                         <h5>Step 5</h5>
                                     </div>
                                     <div className="application-box-txt">
-                                        <h4>Site Visit and Audit</h4>
+                                        <h4>Site Audit</h4>
                                         <p className="hdng-16">If you successfully impress our panel with your business presentation, we will conduct a site visit and audit as part of the selection process. This involves visiting your business premises, meeting your team, reviewing your operations, and conducting a detailed audit of your business processes and financial health.</p>
                                     </div>
                                 </div>
@@ -271,7 +271,7 @@ function FNBMasterUp() {
                                     </div>
                                     <div className="application-box-txt">
                                         <h4>Acceptance into the Program</h4>
-                                        <p className="hdng-16">If the site visit and audit are successful, congratulations! You will receive an acceptance letter inviting you to join the FNB MasterUp. At this point, we will provide you with more information about what to expect as part of the program, as well as the next steps to kickstart your growth journey with us.</p>
+                                        <p className="hdng-16">If the site audits are successful, congratulations! You will receive an acceptance letter inviting you to join the FNB MasterUp. At this point, we will provide you with more information about what to expect as part of the program, as well as the next steps to kickstart your growth journey with us.</p>
                                     </div>
                                 </div>
                             </div>
