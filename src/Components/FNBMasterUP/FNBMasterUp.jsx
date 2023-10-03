@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import FNBLogo from './FNBMasterUP-images/logo.png';
 import FNBMasterUPForm from './FNBMasterUPForm'
+import RedLogo from './FNBMasterUP-images/logo.svg';
+import Logo from './FNBMasterUP-images/logo.png';
 import HeaderFNB from './HeaderFNB'
 import FNBAbout from './FNBMasterUP-images/about-fnb.jpg'
 import SSL_Image from './FNBMasterUP-images/ssl-image.png'
@@ -44,9 +45,10 @@ function FNBMasterUp() {
                         <div className="row" data-aos="fade-up">
                             <div className="col-md-7">
                                 <div className="fnb-banner-txt">
-                                    <h1><img src={FNBLogo} alt="Logo" />FNB MasterUp Programme 2023</h1>
+                                    {/* <h1><img src={FNBLogo} alt="Logo" />FNB MasterUp Programme 2023</h1> */}
+                                    <h1>FNB MasterUp Programme 2023</h1>
                                     <h4>We are looking for Business owners like you!</h4>
-                                    <p>Are you an ambitious entrepreneur or a visionary business leader of a Small to Medium Enterprise (SME) showing promising potential for growth and innovation? Does your business fall within the Qualifying Small Enterprise (QSE) category, with a turnover between R10m and R50m Is your business 51% black owned?</p>
+                                    <p>Are you an ambitious entrepreneur or a visionary business leader of a Small to Medium Enterprise (SME) showing promising potential for growth and innovation? Does your business fall within the Qualifying Small Enterprise (QSE) category, with a turnover between R10m and R50m? Is your business 51% black owned?</p>
                                     <div className="fnb-btns">
                                         <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                         <a href={Brochure} className="custom-btn-2" download><span>Brochure</span></a>
@@ -86,10 +88,10 @@ function FNBMasterUp() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="about-txt">
-                                        <p className="hdng-16">If you are passionate about taking your business to the next level and are open to leveraging cutting-edge technology and innovative growth strategies, you might be the ideal candidate for the “FNB MasterUp”.</p>
-                                        <p className="hdng-16">Despite the challenges of your business environment, if you are resilient, forward-thinking, and committed to learning and personal growth, the “FNB MasterUp” might be the perfect platform for your business’s acceleration.</p>
+                                        <p className="hdng-16">If you are passionate about taking your business to the next level and are open to leveraging cutting-edge technology and innovative growth strategies, you might be the ideal candidate for the “FNB MasterUp” Programme.</p>
+                                        <p className="hdng-16">Despite the challenges of your business environment, if you are resilient, forward-thinking, and committed to learning and personal growth, the “FNB MasterUp” Programme might be the perfect platform for your business’s acceleration.</p>
                                         <p className="hdng-16">If you are prepared to engage in an intensive 10-month Blended Development Program, working alongside expert mentors, consultants, and possibly a part-time CFO, to drive your business success, you could be the candidate we are looking for.</p>
-                                        <p className="hdng-16">In summary, if you are a dynamic, dedicated, and visionary SME leader ready to fast-track your business growth and make a significant impact on the national economy, the “FNB MasterUp” awaits your application.</p>
+                                        <p className="hdng-16">In summary, if you are a dynamic, dedicated, and visionary SME leader ready to fast-track your business growth and make a significant impact on the national economy, the “FNB MasterUp” Programme awaits your application.</p>
                                     </div>
                                 </div>
                             </div>
@@ -100,13 +102,76 @@ function FNBMasterUp() {
                 {/*----- About FNB -----*/}
 
 
-                {/*----- Criteria FNB -----*/}
+                {/*----- About FNB Service -----*/}
 
-                <section className="criteria-fnb">
+                <section id="about" className="about-fnb-service red-service">
+                    <div className="container" data-aos="fade-up">
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div className="about-fnb-service-txt">
+                                    <h2 className="sec-hdng">About the FNB MasterUp Programme</h2>
+                                    <p className="hdng-16">The "FNB MasterUp" programme is a partnership between FNB and RED3SIXTY designed for Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the programme epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
+                                    <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
+                                    <div className="ssl-block">
+                                        <img src={SSL_Image} alt="" />
+                                        <ul>
+                                            <li><img src={Check} alt="" />Potentially Safe</li>
+                                            <li><img src={Check} alt="" />Valid HTTPS Found</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="about-fnb-service-img">
+                                    <img src={FNBAbout_1} alt="FNBAbout" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/*----- About FNB Service -----*/}
+
+
+                {/*----- About Red3Sixty Service -----*/}
+
+                <section className="about-fnb-service ">
+                    <div className="container" data-aos="fade-up">
+                        <div className="row">
+                            <div className="col-md-6">
+                                <div className="about-fnb-service-img">
+                                    <img src={FNBAbout_2} alt="FNBAbout" />
+                                </div>
+                            </div>
+                            <div className="col-md-6">
+                                <div className="about-fnb-service-txt">
+                                    <h2 className="sec-hdng">About RED3SIXTY</h2>
+                                    <p className="hdng-16">RED3SIXTY has over the last 15 years, focused on developing solutions and analysis capabilities delivered through the RED3SIXTY network of experienced professionals.</p>
+                                    <p className="hdng-16">RED3SIXTY develops business growth methodologies and analytics through benchmarking and automation solutions focused on helping consultants and their customers (SME’s) succeed. RED3SIXTY is well established and operates internationally and locally with a national network able to support business development initiatives down to provincial and local area levels.</p>
+                                    <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
+                                    <div className="ssl-block">
+                                        <img src={SSL_Image} alt="" />
+                                        <ul>
+                                            <li><img src={Check} alt="" />Potentially Safe</li>
+                                            <li><img src={Check} alt="" />Valid HTTPS Found</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                {/*----- About Red3Sixty Service -----*/}
+
+
+{/*----- Criteria FNB -----*/}
+
+<section className="criteria-fnb">
                     <div className="container" data-aos="fade-up">
                         <div className="criteria-hdng">
                             <h2 className="sec-hdng">Selection criteria</h2>
-                            <p className="hdng-18">Ensure all entries receive access to platform for self development (No Cost). Target 60 Medium sized black owner businesses for blended approach</p>
+                            <p className="hdng-18">Ensure all entries receive access to platform for self development (No Cost) Target 60 Medium sized black owned businesses for blended approach</p>
                         </div>
                         <div className="row">
                             <div className="col-md-4">
@@ -135,68 +200,6 @@ function FNBMasterUp() {
 
                 {/*----- Criteria FNB -----*/}
 
-
-                {/*----- About FNB Service -----*/}
-
-                <section id="about" className="about-fnb-service">
-                    <div className="container" data-aos="fade-up">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <div className="about-fnb-service-txt">
-                                    <h2 className="sec-hdng">About</h2>
-                                    <p className="hdng-16">The "FNB MasterUp" program is a partnership between FNB and RED3SIXTY designed for Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the program epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
-                                    <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
-                                    <div className="ssl-block">
-                                        <img src={SSL_Image} alt="" />
-                                        <ul>
-                                            <li><img src={Check} alt="" />Potentially Safe</li>
-                                            <li><img src={Check} alt="" />Valid HTTPS Found</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="about-fnb-service-img">
-                                    <img src={FNBAbout_1} alt="FNBAbout" />
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/*----- About FNB Service -----*/}
-
-
-                {/*----- About Red3Sixty Service -----*/}
-
-                <section className="about-fnb-service red-service">
-                    <div className="container" data-aos="fade-up">
-                        <div className="row">
-                            <div className="col-md-6">
-                                <div className="about-fnb-service-img">
-                                    <img src={FNBAbout_2} alt="FNBAbout" />
-                                </div>
-                            </div>
-                            <div className="col-md-6">
-                                <div className="about-fnb-service-txt">
-                                    <h2 className="sec-hdng">About RED3SIXTY</h2>
-                                    <p className="hdng-16">RED3SIXTY have over the last 15 years focused in developing solutions and analysis capabilities delivered through the RED3SIXTY network of experienced professionals.</p>
-                                    <p className="hdng-16">RED3SIXTY develops business growth methodologies and analytics through benchmarking and automation solutions focused on helping consultants and their customers (SME’s) succeed. RED3SIXTY is well established and operates internationally and locally with a national network able to support business development initiatives down to provincial and local area levels.</p>
-                                    <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
-                                    <div className="ssl-block">
-                                        <img src={SSL_Image} alt="" />
-                                        <ul>
-                                            <li><img src={Check} alt="" />Potentially Safe</li>
-                                            <li><img src={Check} alt="" />Valid HTTPS Found</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
-                {/*----- About Red3Sixty Service -----*/}
 
 
                 {/*----- Application Process -----*/}
@@ -271,8 +274,8 @@ function FNBMasterUp() {
                                         <h5>Step 6</h5>
                                     </div>
                                     <div className="application-box-txt">
-                                        <h4>Acceptance into the Program</h4>
-                                        <p className="hdng-16">If the site audits are successful, congratulations! You will receive an acceptance letter inviting you to join the FNB MasterUp. At this point, we will provide you with more information about what to expect as part of the program, as well as the next steps to kickstart your growth journey with us.</p>
+                                        <h4>Acceptance into the Programme</h4>
+                                        <p className="hdng-16">If the site audits are successful, congratulations! You will receive an acceptance letter inviting you to join the FNB MasterUp Programme. At this point, we will provide you with more information about what to expect as part of the programme, as well as the next steps to kickstart your growth journey with us.</p>
                                     </div>
                                 </div>
                             </div>
@@ -318,11 +321,11 @@ function FNBMasterUp() {
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingThree">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Who can apply for this program?</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Who can apply for this programme?</button>
                                 </h2>
                                 <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <p className="hdng-16">This program targets Small to Medium Enterprises (SMEs), Qualifying Small Enterprises (QSEs) with at least 51% black ownership as determined in the broad-based black economic empowerment definitions, with a turnover between R10m and R50m. Ambitious entrepreneurs or visionary business leaders of a <b>Small to Medium Enterprise (SME) </b>showing promising potential for growth and innovation. Entrepreneurs passionate about taking their business to the next level and are open to leveraging cutting-edge technology and innovative growth strategies.</p>
+                                        <p className="hdng-16">This programme targets Small to Medium Enterprises (SMEs), Qualifying Small Enterprises (QSEs) with at least 51% black ownership as determined in the broad-based black economic empowerment definitions, with a turnover between R10m and R50m. Ambitious entrepreneurs or visionary business leaders of a <b>Small to Medium Enterprise (SME) </b>showing promising potential for growth and innovation. Entrepreneurs passionate about taking their business to the next level and are open to leveraging cutting-edge technology and innovative growth strategies.</p>
                                     </div>
                                 </div>
                             </div>
@@ -333,7 +336,7 @@ function FNBMasterUp() {
                                 </h2>
                                 <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <p className="hdng-16">Simply complete the application and business diagnostic to be entered and considered for entry into the program. You can find all the details and steps at <NavLink to="https://fnbmasterup.co.za/" target="_blank">www.fnbmasterup.co.za</NavLink> FNB Master UP</p>
+                                        <p className="hdng-16">Simply complete the application and business diagnostic to be entered and considered for entry into the programme. You can find all the details and steps at <NavLink to="https://fnbmasterup.co.za/" target="_blank">www.fnbmasterup.co.za</NavLink> FNB Master UP</p>
                                     </div>
                                 </div>
                             </div>
@@ -362,7 +365,7 @@ function FNBMasterUp() {
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingSeven">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">When will I know if I have been successful in the programme?</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">When will I know if I have been accepted into the programme?</button>
                                 </h2>
                                 <div id="collapseSeven" className="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
@@ -373,14 +376,14 @@ function FNBMasterUp() {
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingEight">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">What is the selection criteria for the program?</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">What is the selection criteria for the programme?</button>
                                 </h2>
                                 <div id="collapseEight" className="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <p className="hdng-16"><b>1.</b> Turnover from R10m to R50</p>
-                                        <p className="hdng-16"><b>2.</b> At least 51% black ownership in accordance with broad based black economic empowerment definitions,</p>
-                                        <p className="hdng-16"><b>3.</b> Business to business operating model,</p>
-                                        <p className="hdng-16"><b>4.</b> Across various sectors,</p>
+                                        <p className="hdng-16"><b>1.</b> Turnover from R10m to R50m</p>
+                                        <p className="hdng-16"><b>2.</b> At least 51% black ownership in accordance with broad based black economic empowerment definitions</p>
+                                        <p className="hdng-16"><b>3.</b> Business to business operating model</p>
+                                        <p className="hdng-16"><b>4.</b> Across various sectors</p>
                                         <p className="hdng-16"><b>5.</b> High growth potential score as assessed during the programme</p>
 
                                     </div>
@@ -411,7 +414,7 @@ function FNBMasterUp() {
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingEleven">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">When is the programme scheduled to begin and what is the duration of the program?</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">When is the programme scheduled to begin and what is it's duration?</button>
                                 </h2>
                                 <div id="collapseEleven" className="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
@@ -422,18 +425,18 @@ function FNBMasterUp() {
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingTwelve">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">Where will the programme be held.</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">Where will the programme be held?</button>
                                 </h2>
                                 <div id="collapseTwelve" className="accordion-collapse collapse" aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
-                                        <p className="hdng-16">The programme will be an online programme undertaken on a technology platform ran by RED3Sixty. The programme will have a blended approach which will include learning on the platform and virtual masterclasses.</p>
+                                        <p className="hdng-16">The programme will be online, undertaken on a technology platform run by RED3Sixty. The programme will have a blended approach which will include learning on the platform and virtual masterclasses.</p>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingThirteen">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">How often will I be required to be online on the platform</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">How often will I be required to be on the platform?</button>
                                 </h2>
                                 <div id="collapseThirteen" className="accordion-collapse collapse" aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
@@ -455,7 +458,7 @@ function FNBMasterUp() {
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingFifteen">
-                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">How does the program help in funding readiness?</button>
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">How does the programme help in funding readiness?</button>
                                 </h2>
                                 <div id="collapseFifteen" className="accordion-collapse collapse" aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
                                     <div className="accordion-body">
@@ -487,6 +490,10 @@ function FNBMasterUp() {
                         <h2 className="sec-hdng">Apply Now</h2>
                         <div className="fnb-form-block">
                             <FNBMasterUPForm />
+                            <ul className="OG">
+                                <li><img src={Logo} alt="Logo" /></li>
+                                <li><img src={RedLogo} alt="RedLogo" /></li>
+                            </ul>
                         </div>
                     </div>
                 </section>

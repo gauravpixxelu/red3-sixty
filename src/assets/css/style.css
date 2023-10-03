@@ -3194,15 +3194,15 @@ section.service-banner .banner-content h4 {
     margin-top: 25px;
 }
 .fnb .custom-btn-2:hover {
-    color: #00acae;
+    color: #888888;
 }
 .fnb .custom-btn-2:hover:after {
     background: #fff;
 }
 .fnb .custom-btn-2 {
     color: #fff;
-    background: #00acae;
-    border: 1px solid #00acae;
+    background: #888888;
+    border: 1px solid #888888;
 }
 .fnb-faq .accordion-body {
     padding: 20px;
@@ -3226,12 +3226,6 @@ section.service-banner .banner-content h4 {
     margin-top: 15px;
     color: #000;
     font-weight: 600;
-}
-.fnb .accordion-item .accordion-button.collapsed {
-    background: #fff;
-}
-.fnb .accordion-item .accordion-button {
-    background: #ff9c00;
 }
 .fnb-form {
     padding: 60px 0;
@@ -3309,7 +3303,7 @@ section.service-banner .banner-content h4 {
     margin: 0;
 }
 .criteria-fnb .criteria-box h4 {
-    background: #00acae;
+    background: #ed1b24;
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -3346,7 +3340,7 @@ section.service-banner .banner-content h4 {
     margin-bottom: 15px;
 }
 .application-box-icon h5 {
-    background: #00acae;
+    background: #e91b23;
     padding: 10px 30px;
     border-radius: 20px;
     margin: 0;
@@ -3360,9 +3354,6 @@ section.service-banner .banner-content h4 {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-}
-.process-fnb .col-md-4:nth-child(even) .application-box .application-box-icon h5 {
-    background: #ff9c00;
 }
 .fnb .site-header {
     display: none;
@@ -3389,7 +3380,7 @@ section.service-banner .banner-content h4 {
 }
 .fnb-form-block .form-feild a {
     font-weight: 600;
-    color: #ff9c00;
+    color: #ed1b24;
     text-decoration: none;
 }
 .terms-banner {
@@ -3453,7 +3444,7 @@ section.service-banner .banner-content h4 {
     margin: 0;
 }
 .form-button.fnb-btn a {
-    color: #00acae;
+    color: #ed1b24;
     text-decoration: none;
     margin-top: -10px;
     display: block;
@@ -3465,7 +3456,24 @@ p.message.success-msg {
     display: inline-block;
     margin-top: 20px;
 }
-
+.fnb-form-block .OG {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.fnb-form-block .OG li {
+    list-style: none;
+}
+.fnb-form-block .OG li img {
+    height: 65px;
+}
+.fnb-form-block .OG li:last-child {
+    border-left: 1px solid #000;
+    padding-left: 20px;
+}
 
 
 
