@@ -206,7 +206,7 @@ const FNBMasterUPForm = () => {
 
                 <div className="col-md-12">
                     <div className="form-feild">
-                        <input type="checkbox" value={is_accept} onChange={(e) => setAccept(e.target.value)} required />I accept <NavLink to="/term-conditions">Terms and Conditions</NavLink>
+                        <input type="checkbox" value={is_accept} onChange={(e) => setAccept(e.target.value)} required />I accept <NavLink to="/term-conditions" target="_blank">Terms and Conditions</NavLink>
                     </div>
                 </div>
 
@@ -222,7 +222,7 @@ const FNBMasterUPForm = () => {
                                 </ul>
                             </div>
                         </div>
-                        <p className="hdng-16">Your information is not used or shared with anyone except FNB and RED3SIXTY and is only used to enter you into the program</p>
+                        <p className="hdng-16">Your information is not used or shared with anyone except FNB and RED3SIXTY and is only used to enter you into the programme</p>
                         <NavLink to="https://www.scamvoid.net/check/red3-sixty.com/ " target="_blank">www.scamvoid.net</NavLink>
                         {thankmessage && <p className={`message ${thankmessage.includes('failed') ? 'error-msg' : 'success-msg'}`}>{thankmessage}</p>}
                     </div>

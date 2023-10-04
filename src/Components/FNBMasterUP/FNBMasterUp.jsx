@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
 import FNBMasterUPForm from './FNBMasterUPForm'
 import RedLogo from './FNBMasterUP-images/logo.svg';
 import Logo from './FNBMasterUP-images/logo.png';
@@ -90,7 +89,7 @@ function FNBMasterUp() {
                                     <div className="about-txt">
                                         <p className="hdng-16">If you are passionate about taking your business to the next level and are open to leveraging cutting-edge technology and innovative growth strategies, you might be the ideal candidate for the “FNB MasterUp” Programme.</p>
                                         <p className="hdng-16">Despite the challenges of your business environment, if you are resilient, forward-thinking, and committed to learning and personal growth, the “FNB MasterUp” Programme might be the perfect platform for your business’s acceleration.</p>
-                                        <p className="hdng-16">If you are prepared to engage in an intensive 10-month Blended Development Program, working alongside expert mentors, consultants, and possibly a part-time CFO, to drive your business success, you could be the candidate we are looking for.</p>
+                                        <p className="hdng-16">If you are prepared to engage in an intensive 10-month Blended Development Programme, working alongside expert mentors, consultants, and possibly a part-time CFO, to drive your business success, you could be the candidate we are looking for.</p>
                                         <p className="hdng-16">In summary, if you are a dynamic, dedicated, and visionary SME leader ready to fast-track your business growth and make a significant impact on the national economy, the “FNB MasterUp” Programme awaits your application.</p>
                                     </div>
                                 </div>
@@ -110,7 +109,7 @@ function FNBMasterUp() {
                             <div className="col-md-6">
                                 <div className="about-fnb-service-txt">
                                     <h2 className="sec-hdng">About the FNB MasterUp Programme</h2>
-                                    <p className="hdng-16">The "FNB MasterUp" programme is a partnership between FNB and RED3SIXTY designed for Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the programme epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
+                                    <p className="hdng-16">The "FNB MasterUp" programme is a collaboration between FNB and RED3SIXTY designed for Small and Medium Enterprises (SMEs). The initiative is set to bridge the gap between acceleration and funding requirements for SMEs, utilizing a sophisticated technology-assisted platform to support growth and investment. Committed to fostering a new generation of innovative, resilient, and successful SMEs, the programme epitomizes the synergy of finance and technology in promoting sustainable economic development.</p>
                                     <a href="#apply-now" className="custom-btn" aria-label="Apply Now"><span>Apply Now</span></a>
                                     <div className="ssl-block">
                                         <img src={SSL_Image} alt="" />
@@ -165,9 +164,9 @@ function FNBMasterUp() {
                 {/*----- About Red3Sixty Service -----*/}
 
 
-{/*----- Criteria FNB -----*/}
+                {/*----- Criteria FNB -----*/}
 
-<section className="criteria-fnb">
+                <section className="criteria-fnb">
                     <div className="container" data-aos="fade-up">
                         <div className="criteria-hdng">
                             <h2 className="sec-hdng">Selection criteria</h2>
@@ -330,7 +329,7 @@ function FNBMasterUp() {
                                 </div>
                             </div>
 
-                            <div className="accordion-item">
+                            {/* <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingFour">
                                     <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">How do I apply for the programme?</button>
                                 </h2>
@@ -339,7 +338,7 @@ function FNBMasterUp() {
                                         <p className="hdng-16">Simply complete the application and business diagnostic to be entered and considered for entry into the programme. You can find all the details and steps at <NavLink to="https://fnbmasterup.co.za/" target="_blank">www.fnbmasterup.co.za</NavLink> FNB Master UP</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
                             <div className="accordion-item">
                                 <h2 className="accordion-header" id="headingFive">

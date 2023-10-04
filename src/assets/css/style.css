@@ -3384,7 +3384,7 @@ section.service-banner .banner-content h4 {
     text-decoration: none;
 }
 .terms-banner {
-    background: rgb(0 172 174);
+    background: #888;
     padding: 50px 0;
     text-align: center;
 }
@@ -3392,6 +3392,12 @@ section.service-banner .banner-content h4 {
     font-size: 44px;
     color: #fff;
     font-weight: 600;
+}
+.terms-data .terms-box p.hdng-16 b {
+    color: #000;
+}
+.terms-data .terms-box p.hdng-16.inner {
+    margin-left: 20px;
 }
 .terms-data {
     padding: 60px 0;
@@ -3401,6 +3407,9 @@ section.service-banner .banner-content h4 {
 }
 .terms-data .terms-box {
     margin-bottom: 30px;
+}
+.terms-data .terms-box p.hdng-16.inner-2 {
+    margin-left: 40px;
 }
 .fnb #chipbot-app, .fnb #chipbot-app-styles {
     display: none;
