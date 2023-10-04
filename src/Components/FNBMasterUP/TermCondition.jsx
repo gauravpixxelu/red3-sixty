@@ -1,6 +1,14 @@
 import React, { useEffect } from "react";
 
 function TermCondition() {
+
+    useEffect(() => {
+        document.body.classList.add('terms')
+        return () => {
+            document.body.classList.remove('terms')
+        }
+    }, [])
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);

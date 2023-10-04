@@ -3411,7 +3411,7 @@ section.service-banner .banner-content h4 {
 .terms-data .terms-box p.hdng-16.inner-2 {
     margin-left: 40px;
 }
-.fnb #chipbot-app, .fnb #chipbot-app-styles {
+.fnb #chipbot-app, .fnb #chipbot-app-styles, .terms #chipbot-app, .terms #chipbot-app-styles {
     display: none;
 }
 .ssl-block img {
