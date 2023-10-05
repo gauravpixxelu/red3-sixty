@@ -7,7 +7,6 @@ import FNBAbout from './FNBMasterUP-images/about-fnb.jpg'
 import SSL_Image from './FNBMasterUP-images/ssl-image.png'
 import Check from './FNBMasterUP-images/check.png'
 import FNBAbout_1 from './FNBMasterUP-images/about-fnb-1.jpg'
-import FNBAbout_2 from './FNBMasterUP-images/about-fnb-2.jpg'
 import Banner_Img from './FNBMasterUP-images/banner-img.png'
 import Brochure from './FNBPDF/brochure.pdf'
 
