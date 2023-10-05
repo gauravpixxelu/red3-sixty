@@ -3479,10 +3479,10 @@ p.message.success-msg {
 .fnb-form-block .OG li img {
     height: 65px;
 }
-.fnb-form-block .OG li:last-child {
+/* .fnb-form-block .OG li:last-child {
     border-left: 1px solid #000;
     padding-left: 20px;
-}
+} */
 
 
 
