@@ -103,7 +103,7 @@ function FNBMasterUp() {
 
                 {/*----- About FNB Service -----*/}
 
-                <section id="about" className="about-fnb-service red-service">
+                <section id="about" className="about-fnb-service">
                     <div className="container" data-aos="fade-up">
                         <div className="row">
                             <div className="col-md-6">
@@ -134,7 +134,7 @@ function FNBMasterUp() {
 
                 {/*----- About Red3Sixty Service -----*/}
 
-                <section className="about-fnb-service ">
+                {/* <section className="about-fnb-service ">
                     <div className="container" data-aos="fade-up">
                         <div className="row">
                             <div className="col-md-6">
@@ -159,7 +159,7 @@ function FNBMasterUp() {
                             </div>
                         </div>
                     </div>
-                </section>
+                </section> */}
 
                 {/*----- About Red3Sixty Service -----*/}
 

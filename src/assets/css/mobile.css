@@ -1011,7 +1011,7 @@ div.banner-form .form-feild textarea {
     padding: 30px 0;
 }
 .about-fnb-service .row {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
 }
 .about-fnb-service-img {
     margin-bottom: 20px;
