@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import FNBMasterUPForm from './FNBMasterUPForm'
-import RedLogo from './FNBMasterUP-images/logo.svg';
-import Logo from './FNBMasterUP-images/logo.png';
 import HeaderFNB from './HeaderFNB'
 import FNBAbout from './FNBMasterUP-images/about-fnb.jpg'
 import SSL_Image from './FNBMasterUP-images/ssl-image.png'
@@ -488,10 +486,10 @@ function FNBMasterUp() {
                         <h2 className="sec-hdng">Apply Now</h2>
                         <div className="fnb-form-block">
                             <FNBMasterUPForm />
-                            <ul className="OG">
+                            {/* <ul className="OG">
                                 <li><img src={Logo} alt="Logo" /></li>
                                 <li><img src={RedLogo} alt="RedLogo" /></li>
-                            </ul>
+                            </ul> */}
                         </div>
                     </div>
                 </section>
