@@ -3444,6 +3444,19 @@ section.service-banner .banner-content h4 {
     display: flex;
     gap: 50px;
     align-items: center;
+    position: relative;
+}
+.logo-block {
+    position: absolute;
+    right: 0;
+    width: 100px;
+}
+.fnb .custom-btn {
+    background: #5a5a5a;
+    border: 1px solid #5a5a5a;
+}
+.fnb .custom-btn:hover {
+    color: #5a5a5a;
 }
 .fnb-submit button.custom-btn {
     height: 50px;

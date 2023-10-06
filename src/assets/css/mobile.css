@@ -1069,7 +1069,9 @@ div.banner-form .form-feild textarea {
     gap: 20px;
     flex-wrap: wrap;
 }
-
+.logo-block {
+    position: relative;
+}
 
 
 }

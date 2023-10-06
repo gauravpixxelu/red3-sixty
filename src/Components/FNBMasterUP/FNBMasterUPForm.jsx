@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Logo from './FNBMasterUP-images/logo.png';
 import SSL_Image from './FNBMasterUP-images/ssl-image.png';
 import Check from './FNBMasterUP-images/check.png';
 
@@ -220,6 +221,9 @@ const FNBMasterUPForm = () => {
                                     <li><img src={Check} alt="" />Potentially Safe</li>
                                     <li><img src={Check} alt="" />Valid HTTPS Found</li>
                                 </ul>
+                            </div>
+                            <div className="logo-block">
+                                <img src={Logo} alt="Logo" />
                             </div>
                         </div>
                         <p className="hdng-16">Your information is not used or shared with anyone except FNB and RED3SIXTY and is only used to enter you into the programme</p>
