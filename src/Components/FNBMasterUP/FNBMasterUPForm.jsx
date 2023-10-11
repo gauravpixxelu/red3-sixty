@@ -181,7 +181,8 @@ const FNBMasterUPForm = () => {
                     <div className="form-feild">
                         <label className="fnb-label">Annual Turnover</label>
                         <div className="radio-gd">
-                            <div><label><input type="radio" value="0-R10m" checked={annual_turnover === '0-R10m'} onChange={(e) => { setAnnualTurnover(e.target.value); setAnnualTurnoverSelected(true); }} required />0-R10m</label></div>
+                            <div><label><input type="radio" value="0-R5m" checked={annual_turnover === '0-R5m'} onChange={(e) => { setAnnualTurnover(e.target.value); setAnnualTurnoverSelected(true); }} required />0-R5m</label></div>
+                            <div><label><input type="radio" value="R6m-R10m" checked={annual_turnover === 'R6m-R10m'} onChange={(e) => { setAnnualTurnover(e.target.value); setAnnualTurnoverSelected(true); }} required />R6m-R10m</label></div>
                             <div><label><input type="radio" value="R10m-R25m" checked={annual_turnover === 'R10m-R25m'} onChange={(e) => { setAnnualTurnover(e.target.value); setAnnualTurnoverSelected(true); }} required />R10m-R25m</label></div>
                             <div><label><input type="radio" value="R25-R35m" checked={annual_turnover === 'R25-R35m'} onChange={(e) => { setAnnualTurnover(e.target.value); setAnnualTurnoverSelected(true); }} required />R25-R35m</label></div>
                             <div><label><input type="radio" value="R35m-R50m" checked={annual_turnover === 'R35m-R50m'} onChange={(e) => { setAnnualTurnover(e.target.value); setAnnualTurnoverSelected(true); }} required />R35m-R50m</label></div>
