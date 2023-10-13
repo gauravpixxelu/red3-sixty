@@ -258,8 +258,8 @@ function FNBMasterUp() {
                                         <h5>Step 5</h5>
                                     </div>
                                     <div className="application-box-txt">
-                                        <h4>Site Audit</h4>
-                                        <p className="hdng-16">If you successfully impress our panel with your business presentation, we will conduct a site visit and audit as part of the selection process. This involves visiting your business premises, meeting your team, reviewing your operations, and conducting a detailed audit of your business processes and financial health.</p>
+                                        <h4>Business Audit</h4>
+                                        <p className="hdng-16">If you successfully impress our panel with your business presentation, we will conduct a business audit as part of the selection process. This involves meeting your team, reviewing your operations, and conducting a detailed audit of your business processes and financial health.</p>
                                     </div>
                                 </div>
                             </div>
