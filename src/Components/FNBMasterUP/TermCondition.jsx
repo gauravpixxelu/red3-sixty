@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from 'react-helmet';
 
 function TermCondition() {
 
@@ -18,6 +19,10 @@ function TermCondition() {
 
             <div className="termscondition-page">
 
+            <Helmet>
+                <title>Business Development Consulting   | Business Growth Consultant | RED3SIXTY</title>
+                <meta name="description" content="RED3SIXTY has over the last 14 years focused on developing supplier solutions and analysis capabilities delivered through our network of experienced professionals." />
+            </Helmet>
 
                 <section className="terms-banner">
                     <div className="container">

@@ -15,7 +15,7 @@ import About6 from '../assets/images/about-6.png';
 function About() {
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, []);
+    }, []);          
     return (
         <div className="about-page">
 
