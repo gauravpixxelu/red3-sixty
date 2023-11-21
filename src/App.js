@@ -31,8 +31,6 @@ import UnlockYourConsultingSuccess from './Components/UnlockYourConsultingSucces
 import ACoach from './Components/ACoach';
 import UnlockYourCoachingSuccess from './Components/UnlockYourCoachingSuccess';
 import Services from './Components/ServicesElements/services';
-import FNBMasterUp from './Components/FNBMasterUP/FNBMasterUp';
-import TermCondition from './Components/FNBMasterUP/TermCondition';
 import NotFound from './Components/NotFound';
 
 
@@ -88,9 +86,7 @@ function App() {
           <Route path="/consulting-success" element={<UnlockYourConsultingSuccess />} />          
           <Route path="/a-coach" element={<ACoach />} />
           <Route path="/coaching-success" element={<UnlockYourCoachingSuccess />} />    
-          <Route path="/services" element={<Services />} />  
-          <Route path="/fnbmasterup" element={<FNBMasterUp />} />  
-          <Route path="/term-conditions" element={<TermCondition />} />           
+          <Route path="/services" element={<Services />} />           
           <Route path="/*" element={<NotFound />} />             
         </Routes>
         <Footer />

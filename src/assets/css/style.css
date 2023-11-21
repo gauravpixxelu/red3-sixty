@@ -3164,12 +3164,12 @@ section.service-banner .banner-content h4 {
 
 /* ----- FNB MasterUp ----- */
 
-.banner-fnb {
+/* .banner-fnb {
     background: url(/src/Components/FNBMasterUP/FNBMasterUP-images/banner-bg.png) no-repeat;
     background-size: cover;
     background-position: center center;
     padding: 100px 0 0;
-}
+} */
 .banner-fnb .fnb-banner-txt h1 img {
     height: 150px;
     width: auto;
