@@ -65,8 +65,8 @@ function Home() {
         <div className="home-page">
 
             <Helmet>
-                <title>Business Consulting Services | Business Diagnostic Platform | RED3SIXTY</title>
-                <meta name="description" content="RED3SIXTY is the largest business consulting platform. Our experts help you address your business challenges, optimize processes, and implement growth strategies." />
+                <title>Business Consulting Services | RED3SIXTY</title>
+                <meta name="description" content="RED3SIXTY is the largest business consulting platform. Our experts help you address your business challenges, optimize processes, and implement." />
             </Helmet>
 
             {/* Banner Section Starts */}
